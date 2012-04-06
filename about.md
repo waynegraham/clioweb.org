@@ -2,6 +2,7 @@
 layout: default
 title: About
 ---
+# About
 
 I am the Design Architect at [Scholars’ Lab][scholars-lab], at the [University of Virginia Library][uva-library].
 
