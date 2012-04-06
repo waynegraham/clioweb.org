@@ -1,0 +1,13 @@
+---
+date: '2005-10-18 18:03:34'
+layout: post
+slug: wikablog
+status: publish
+title: Wikablog
+wordpress_id: '204'
+
+tags:
+- Asides
+---
+
+[Wikablog](http://www.wikablog.com/Main/HomePage) is a wiki about weblogs. Via [Sharon](http://www.earlymodernweb.org.uk/emn/index.php/archives/2005/10/wikablog/).

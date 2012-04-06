@@ -1,0 +1,12 @@
+---
+date: '2007-03-04 22:09:01'
+layout: post
+slug: upgraded-2
+status: publish
+title: Upgraded
+wordpress_id: '520'
+tags:
+- Asides
+---
+
+The move over to WordPress 2.1.2 went fairly well. I have a few wrinkles to iron out, specifically with regard to some new template functions. Have to get used to that "Blogroll" tab instead of the "Links" tab in the admin panel, too. _Update_: Some way, some how, the upgrade messed up my links. That'll take a while to clean up. I've also switched to the default WordPress theme until I get the theme stuff worked out as well.

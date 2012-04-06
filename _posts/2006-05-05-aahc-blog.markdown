@@ -1,0 +1,12 @@
+---
+date: '2006-05-05 12:23:55'
+layout: post
+slug: aahc-blog
+status: publish
+title: AAHC Blog
+wordpress_id: '366'
+tags:
+- Asides
+---
+
+In an effort to reach out to a broader public and to continue conversations from April's online conference, the American Association for History and Computing now has a [blog](http://theaahc.blogspot.com/).

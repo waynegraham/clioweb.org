@@ -1,0 +1,12 @@
+---
+date: '2006-08-22 21:26:41'
+layout: post
+slug: '393'
+status: publish
+title: Katrina's Jewish Voices
+wordpress_id: '393'
+
+---
+
+Just coming up for air. It's been one heck of a summer. I'm very pleased to announce that [Katrina's Jewish Voices](http://katrina.jwa.org) has launched. Katrina's Jewish Voices is an online collection project that CHNM built for the [Jewish Women's Archive](http://jwa.org).
+  *[CHNM]: Center for History and New Media

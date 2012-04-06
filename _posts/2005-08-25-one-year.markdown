@@ -1,0 +1,15 @@
+---
+date: '2005-08-25 21:55:53'
+layout: post
+slug: one-year
+status: publish
+title: One Year
+wordpress_id: '162'
+---
+
+I've been a little busy lately, so I forgot that ClioWeb turned a year old on August 17.  It all started with this [inspiring post](http://www.clioweb.org/archive/2004/08/17/new-design/).
+
+
+
+
+Don't forget: ClioWeb is hosting the 15th History Carnival, so keep sending in your submissions.

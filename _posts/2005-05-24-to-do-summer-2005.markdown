@@ -1,0 +1,52 @@
+---
+date: '2005-05-24 17:52:36'
+layout: post
+slug: to-do-summer-2005
+status: publish
+title: 'To Do: Summer 2005'
+wordpress_id: '104'
+---
+
+The spring semester has finally passed, and now I'm moving on to things to come and things that I should have done previously. I'm sure I'll have to add to this, but this is what I have on my plate for this summer so far, in order of importance:
+
+
+
+
+
+
+  1. Six different projects for [CHNM](http://chnm.gmu.edu) (more on that later).
+
+
+  2. My minor field statement for my History and New Media minor.
+
+
+  3. My field statment for my U.S. cultural history minor.
+
+
+  4. Preliminary dissertation research -- mostly secondary source reviews and some initial primary source searching.
+
+
+  5. Study for my major field exam with my [partners in crime](http://jameshalabuk.net/wordpress/).
+
+
+  6. Finish review of Michelle Mitchell's _Righteous Propagation_ for the _North Carolina Historical Review_.
+
+
+  7. Finish review of Lisa Lindquist Dorr's _White Women, Rape, and the Power of Race in Virginia, 1900-1960_ for the [H-Net](http://h-net.org) list [H-SAWH](http://www.h-net.org/~sawh/) (Women's and Gender history in the U.S. South).
+
+
+  8. Site redesign (more streamlining than anything). The code underneath this site is a real mess. And the CSS. Oh boy. I shudder to think how bloated it is.
+
+
+  9. Learn more PHP/MySQL.
+
+
+  10. Work on my history e-journal database. Have to learn more PHP first (see previous).
+
+
+  11. Submission for the [CSS ZenGarden](http://csszengarden.com).
+
+
+
+
+Not too much, but I'll certainly be busy.

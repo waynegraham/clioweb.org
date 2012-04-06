@@ -1,0 +1,32 @@
+---
+date: '2005-07-20 15:33:54'
+layout: post
+slug: 20-july-1069
+status: publish
+title: 20 July 1969
+wordpress_id: '151'
+
+---
+
+![The Apollo 11 patch.](/i/apollo11.jpg)On this date in 1969, Neil Armstrong and Buzz Aldrin became the first human beings to walk on the moon. As a small celebration, here are a few nice links about the astronauts and the mission:
+
+
+
+
+
+
+  * [The Apollo 11 Lunar Surface Journal](http://history.nasa.gov/alsj/a11/a11j.html) is a NASA history site. It includes transcripts of communication between the astronauts and NASA officials are available, as well as RealAudio, MPEG, and other movies from the mission. For those of us who missed the first step when it was broadcast, you can see it in the [One Small Step](http://history.nasa.gov/alsj/a11/a11.step.html) section of the journal.
+
+
+  * The NASA Goddard Space Flight Center also has a site (rather generically) entitled [Apollo 11](http://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11info.html), which includes photos from the mission.
+
+
+  * The National Air and Space Museum online exhibit on [Apollo 11](http://www.nasm.si.edu/collections/imagery/apollo/AS11/a11.html).
+
+
+  * The [Wikipedia entry on Apollo 11](http://en.wikipedia.org/wiki/Apollo_11) seems like a solid resource for information on the mission, as is the [Encyclopedia Aeronautica entry](http://www.astronautix.com/flights/apollo11.htm).
+
+
+  * And last, but certainly not least, Google has created [Google Moon](http://moon.google.com) in honor of the first manned moon landing. Uses the Google Maps technology. If you zoom in close enough, you can see what the moon is really made of too!
+
+

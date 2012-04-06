@@ -1,0 +1,13 @@
+---
+date: '2006-04-27 23:46:04'
+layout: post
+slug: '351'
+status: publish
+title: Historians Protest Smithsonian's Deals
+wordpress_id: '351'
+
+tags:
+- Asides
+---
+
+["Historians Protest Smithsonian's Deals.,"](http://www.washingtonpost.com/wp-dyn/content/article/2006/04/25/AR2006042502231.html) in the _Washington Post_

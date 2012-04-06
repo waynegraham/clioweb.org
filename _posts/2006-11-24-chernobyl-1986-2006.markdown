@@ -1,0 +1,12 @@
+---
+date: '2006-11-24 10:30:25'
+layout: post
+slug: chernobyl-1986-2006
+status: publish
+title: Chernobyl, 1986-2006
+wordpress_id: '465'
+tags:
+- Asides
+---
+
+[1986-2006](http://26-04-1986.com/) -- An artistic project commemorating the Chernobyl nuclear accident in 1986.

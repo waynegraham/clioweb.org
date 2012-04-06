@@ -1,0 +1,13 @@
+---
+date: '2005-12-09 11:06:43'
+layout: post
+slug: get-firefox-15
+status: publish
+title: Get Firefox 1.5
+wordpress_id: '257'
+
+tags:
+- Asides
+---
+
+Firefox 1.5 was [released a few weeks ago](http://www.mozilla.com/firefox/).

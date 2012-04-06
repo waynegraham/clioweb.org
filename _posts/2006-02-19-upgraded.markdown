@@ -1,0 +1,12 @@
+---
+date: '2006-02-19 11:57:53'
+layout: post
+slug: upgraded
+status: publish
+title: Upgraded...
+wordpress_id: '315'
+tags:
+- Asides
+---
+
+...to [Wordpress 2.0.1](http://wordpress.org/download/). This upgrade went **much** smoother than my attempt to upgrade to 2.0 a while back.

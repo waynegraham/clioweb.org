@@ -1,0 +1,13 @@
+---
+date: '2005-10-20 20:31:33'
+layout: post
+slug: 9000-year-old-brew
+status: publish
+title: 9000-Year-Old Brew
+wordpress_id: '209'
+
+tags:
+- Asides
+---
+
+Discover.com reports on [Stone Age Beer](http://www.discover.com/issues/nov-05/features/stone-age-beer/). Via [Alcohol and Drugs History Society](http://historyofalcoholanddrugs.typepad.com/alcohol_and_drugs_history/)

@@ -1,0 +1,12 @@
+---
+date: '2007-05-13 13:40:50'
+layout: post
+slug: mhc-2
+status: publish
+title: 'MHC #2'
+wordpress_id: '563'
+tags:
+- Asides
+---
+
+Gary at [Victoria's Cross?](http://victoriacross.wordpress.com) has posted an excellent [second edition of the Military History Carnival](http://victoriacross.wordpress.com/2007/05/13/military-history-carnival-2/). Check it out!

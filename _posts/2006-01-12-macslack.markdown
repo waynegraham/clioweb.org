@@ -1,0 +1,13 @@
+---
+date: '2006-01-12 14:12:34'
+layout: post
+slug: macslack
+status: publish
+title: Macslack
+wordpress_id: '280'
+
+tags:
+- Asides
+---
+
+For you Mac lovers out there, there's [Macslack](http://www.macslack.com/).

@@ -1,0 +1,39 @@
+$total-cols: 10;
+$col-width: 6%;
+$gutter-width: 2%;
+$side-gutter-width: 0;
+
+body {
+  @include container;
+  @include susy-grid-background;
+  max-width: 860px;
+  padding-top: 6em;
+}
+
+header {
+  text-align:left;
+}
+
+header[role="banner"] {
+  margin-bottom: 6em;
+
+  h1 {
+    margin-left: -60px;
+    float:left;
+    
+    a {
+
+      img {
+        display:inline;
+        margin:0 20px 0 0;
+        width: 40px;
+        height: 40px;
+        padding:0;
+      }
+
+    }
+  }
+  nav {
+    text-align:right;
+  }
+}

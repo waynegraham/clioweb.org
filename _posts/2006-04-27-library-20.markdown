@@ -1,0 +1,13 @@
+---
+date: '2006-04-27 20:43:32'
+layout: post
+slug: library-20
+status: publish
+title: Library 2.0
+wordpress_id: '349'
+
+tags:
+- Asides
+---
+
+Paul Miller's ["Coming Together around Library 2.0: A Focus for Discussion and a Call to Arms."](http://www.dlib.org/dlib/april06/miller/04miller.html)

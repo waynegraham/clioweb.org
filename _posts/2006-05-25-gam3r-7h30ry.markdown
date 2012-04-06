@@ -1,0 +1,12 @@
+---
+date: '2006-05-25 13:02:26'
+layout: post
+slug: gam3r-7h30ry
+status: publish
+title: GAM3R 7H30RY
+wordpress_id: '384'
+tags:
+- Asides
+---
+
+[GAM3R 7H30RY](http://www.futureofthebook.org/gamertheory/) is a digital book-in-progress that explore critical theories of games and their correlations to the real world. (Hat Tip: [Open Access News](http://www.earlham.edu/~peters/fos/2006_05_21_fosblogarchive.html#114839474804173937).)

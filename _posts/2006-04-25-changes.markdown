@@ -1,0 +1,16 @@
+---
+date: '2006-04-25 16:57:50'
+layout: post
+slug: changes
+status: publish
+title: Changes
+wordpress_id: '347'
+---
+
+The past few months I've contemplated moving ClioWeb from a commercial host to CHNM's server, and some downtime last week and this week on my server has made the choice even easier. So, if you visit clioweb.org, you'll get redirected to my staff directory on CHNM's server. Hopefully I can get my nameserver stuff straightened out soon. Eventually, things will be back to normal, at least on the surface. Because I'm changing servers, my clioweb.org mail may not work during the rest of this week, so send any mail to me at jboggs AT gmu DOT edu.
+
+
+
+
+Right now I've got a hacked version of my Minimology theme decorating the site, but I still have a new stylesheet waiting to let loose when the May 1 CSS Reboot comes to town.
+  *[CHNM]: Center for History and New Media

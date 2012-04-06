@@ -1,0 +1,21 @@
+---
+date: '2008-02-02 09:05:49'
+layout: post
+slug: thatcamp
+status: publish
+title: THATCamp
+wordpress_id: '585'
+tags:
+- CHNM
+- Digital Humanities
+- events
+- GMU
+- THATCamp
+- THATPodcast
+- unconference
+---
+
+Playing off the "THAT" acronym, [CHNM](http://chnm.gmu.edu), [Digital Campus](http://digitalcampus.tv), and [THATPodcast](http://thatpodcast.org) are sponsoring [THATCamp](http://thatcamp.org). Taking place May 31-June 1, THATCamp is an "unconference" for digital humanities. The event is hosted by the Center for History and New Media, George Mason University. If you have a strong interest in the future of digital humanities and want to participate in something other than a traditional conference, send an email to [thatcamp.info@gmail.com](http://thatcamp.info@gmail.com) stating who you are, what you want to talk about, and what you'd like to get out of the camp. The sign-up deadline for THATCamp is March 15.
+  *[June 1]: 20080602
+  *[CHNM]: Center for History and New Media
+  *[May 31]: 20080531

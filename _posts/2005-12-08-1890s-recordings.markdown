@@ -1,0 +1,12 @@
+---
+date: '2005-12-08 09:47:51'
+layout: post
+slug: 1890s-recordings
+status: publish
+title: 1890s Recordings
+wordpress_id: '253'
+tags:
+- Asides
+---
+
+[Recordings from the 1890s](http://www.rfwilmut.clara.net/19thcent/19th.html) has four songs in mp3 and RealAudio formats.

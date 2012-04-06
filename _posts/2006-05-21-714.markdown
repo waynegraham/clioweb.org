@@ -1,0 +1,12 @@
+---
+date: '2006-05-21 12:12:36'
+layout: post
+slug: '714'
+status: publish
+title: '714'
+wordpress_id: '378'
+tags:
+- Asides
+---
+
+Barry ties the Babe with his [714th homerun](http://sports.yahoo.com/mlb/news;_ylt=Aiyf3_bFuI88kso1AX7XkTE5nYcB?slug=ap-bonds-714&prov=ap&type=lgns) yesterday against the Oakland Athletics.

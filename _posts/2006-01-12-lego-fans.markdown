@@ -1,0 +1,13 @@
+---
+date: '2006-01-12 07:11:06'
+layout: post
+slug: lego-fans
+status: publish
+title: Lego Fans
+wordpress_id: '277'
+
+tags:
+- Asides
+---
+
+[Lego turns to its fans to improve its latest product, Mindstorm kits.](http://www.wired.com/news/culture/0,69946-0.html?tw=wn_tophead_1)

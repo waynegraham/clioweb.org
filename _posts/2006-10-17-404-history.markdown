@@ -1,0 +1,12 @@
+---
+date: '2006-10-17 15:21:07'
+layout: post
+slug: 404-history
+status: publish
+title: 404 History
+wordpress_id: '438'
+tags:
+- Asides
+---
+
+[History of 404](http://www.plinko.net/404/history.asp) -- A brief history of the 404 page.

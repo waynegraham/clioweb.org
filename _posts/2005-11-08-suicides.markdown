@@ -1,0 +1,12 @@
+---
+date: '2005-11-08 15:34:15'
+layout: post
+slug: suicides
+status: publish
+title: 'Suicides '
+wordpress_id: '228'
+tags:
+- Asides
+---
+
+[The Sad Tally](http://sfgate.com/cgi-bin/object/article?f=/c/a/2005/10/30/MNG2NFF7KI1.DTL&o=2), a map of suicides on of the Golden Gate Bridge since 1937. Via [Kottke](http://kottke.org).

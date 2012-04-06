@@ -1,0 +1,14 @@
+---
+date: '2006-02-16 09:01:36'
+layout: post
+slug: aha-guide
+status: publish
+title: AHA Guide
+wordpress_id: '307'
+
+tags:
+- Asides
+---
+
+The AHA has a new publication by John McClymer, [The AHA Guide to Teaching and Learning with New Media](http://www.historians.org/pubs/free/mcclymer/index.cfm), available online and in a [print version.](http://www.historians.org/pubs/new.htm) (Thanks, [Rob](http://mason.gmu.edu/~rtownsen/)).
+  *[AHA]: American Historical Association

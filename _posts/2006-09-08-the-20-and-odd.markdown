@@ -1,0 +1,12 @@
+---
+date: '2006-09-08 10:57:28'
+layout: post
+slug: the-20-and-odd
+status: publish
+title: The “20 and Odd”
+wordpress_id: '396'
+tags:
+- Asides
+---
+
+"[Mystery of Virginia's First Slaves Is Unlocked 400 Years Later](http://www.washingtonpost.com/wp-dyn/content/article/2006/09/02/AR2006090201097.html)" -- from the _[Washington Post](http://washingtonpost.com)_.

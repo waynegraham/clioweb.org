@@ -1,0 +1,23 @@
+---
+date: '2006-01-11 14:41:11'
+layout: post
+slug: bar-codes
+status: publish
+title: Bar Codes
+wordpress_id: '274'
+tags:
+- Asides
+---
+
+When I arrived at the AHA meeting and received my name badge, I wondered why it had a bar code. No one at the registration booth had any idea, which was a little disconcerting. Now, thanks to the detective work of Rick Shenkman, [we have our answer](http://hnn.us/articles/20191.html):
+
+
+
+
+> 
+
+> 
+> About those badges we now have a little more information, though details remain murky. Readers will recall (yesterday's report, above) that the badges this year include a grocery store bar code. The puzzle was that no one seemed to be asking us to show our bar codes. It turns out that they are apparently useless little strips of black ink that signify ... nothing. But behind them lies a story that says a lot about modern America. It seems that the new company the AHA hired to distribute the badges dreamed up the idea of using the bar codes to help book exhibitors find out information about the members making purchases. The code was supposed to tell the book sellers who we are, where we work, etc. But when the plan was presented to the AHA officials rejected it. Why the bar code nonetheless remained firmly in place on the badges no one could say.
+> 
+> 
+

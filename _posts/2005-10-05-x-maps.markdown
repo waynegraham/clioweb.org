@@ -1,0 +1,11 @@
+---
+date: '2005-10-05 09:57:04'
+layout: post
+slug: x-maps
+status: publish
+title: X-Maps
+wordpress_id: '201'
+
+---
+
+[X-Maps](http://www.x-maps.com/) has some interesting GoogleMaps, include ones that [indicated facilities in the U.S. that released more than 100,000 tons of carbon dioxide and sulfur dioxide in 2004](http://www.mapglobalwarming.com/energy-management.php).

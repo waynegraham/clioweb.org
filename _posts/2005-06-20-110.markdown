@@ -1,0 +1,26 @@
+---
+date: '2005-06-20 08:53:30'
+layout: post
+slug: '110'
+status: publish
+title: June 20 Links
+wordpress_id: '110'
+
+---
+
+[Abandoned](http://www.abandoned.ru/) -- A photo gallery of abandoned buildings, industrial sites, and equipment in Russia. Reminds me of the abandoned coal mines and equipment, and old houses and barns in eastern Kentucky and southwest Virginia.
+
+
+
+
+[Counterspace](http://counterspace.motivo.com/) -- A website dedicated to typography and its history. Nice shockwave timeline of the history of mark making and its development as a form of communication.
+
+
+
+
+![Thumbnail screenshot of the Historic Cities homepage](/i/historicmaps_screen.jpg)[Historic Cities: Maps & Documents](http://historic-cities.huji.ac.il/historic_cities.html) -- Contains maps of cities in the Mediterranean region from the 1480s to the 1800s. The site is browsable by year, city, country, or by the person who made the maps.
+
+
+
+
+[Ephemera Now](http://www.ephemeranow.com/main.htm) -- Nicely designed site with old ads and other epherera from the 1930s-1950s. Some really great images.

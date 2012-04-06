@@ -1,0 +1,10 @@
+---
+date: '2006-05-25 12:58:05'
+layout: post
+slug: good-news
+status: publish
+title: Good News
+wordpress_id: '383'
+---
+
+After three (or more!) months, over 100 books, and countless instant messenger coversations with colleagues, I'm relieved to announce that I passed my major field comprehensive exams yesterday!

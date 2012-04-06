@@ -1,0 +1,26 @@
+---
+date: '2005-05-09 15:52:27'
+layout: post
+slug: may-9-links
+status: publish
+title: May 9 Links
+wordpress_id: '94'
+
+---
+
+[San Francisco/History/Time/Place](http://baseportal.com/cgi-bin/baseportal.pl?htx=/zpub2000/sfentries) -- An open index of topics related to the history of San Francisco. Somewhat similar to a Wiki, but not exactly.
+
+
+
+
+Speaking of wikis, check out the [Wikibooks](http://en.wikibooks.org/wiki/Main_Page), "a collection of open-content textbooks that anyone can edit." On the [History bookshelf](http://en.wikibooks.org/wiki/History), there are texts on Global Human histories, National histories, and Specialized histories, among others. Not sure if any professors will be assigning these textbooks for classes instead of print texts, but it seems like an interesting read nonetheless.
+
+
+
+
+[Virtual Vaudeville](http://www.virtualvaudeville.com/index.htm) -- Featured in the inagural issue of the journal [Vectors](http://vectors.iml.annenberg.edu/), Virtual Vaudeville takes you through a recreated vaudeville performance in 1895. The site looks sharp, but you need [Shockwave](http://www.macromedia.com/support/shockwave/) to view the multimedia features of the site. I'm not sure about the historical utility of the site yet.
+
+
+
+
+[A History of the Graphic User Interface (GUI)](http://arstechnica.com/articles/paedia/gui.ars/1) -- "Like many developments in the history of computing, some of the ideas for a GUI computer were thought of long before the technology was even available to build such a machine. One of the first people to express these ideas was Vannevar Bush. In the early 1930s he first wrote of a device he called the "Memex," which he envisioned as looking like a desk with two touch screen graphical displays, a keyboard, and a scanner attached to it."

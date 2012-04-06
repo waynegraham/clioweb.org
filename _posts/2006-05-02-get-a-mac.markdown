@@ -1,0 +1,12 @@
+---
+date: '2006-05-02 00:13:21'
+layout: post
+slug: get-a-mac
+status: publish
+title: Get a Mac
+wordpress_id: '362'
+tags:
+- Asides
+---
+
+[Watch the TV Ads.](http://www.apple.com/getamac/ads/) The "Network" is really funny.

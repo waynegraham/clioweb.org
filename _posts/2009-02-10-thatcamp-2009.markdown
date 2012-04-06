@@ -1,0 +1,29 @@
+---
+date: '2009-02-10 18:21:40'
+layout: post
+slug: thatcamp-2009
+status: publish
+title: THATCamp 2009
+wordpress_id: '664'
+
+tags:
+- CHNM
+- Digital Humanities
+- THATCamp
+- unconference
+---
+
+[THATCamp](http://thatcamp.org), the immensely fun and popular digital humanities [unconference](http://en.wikipedia.org/wiki/Unconference) hosted by [CHNM](http://chnm.gmu.edu) is back June 27–28, 2009. Because of the popularity of THATCamp last year, we've acquired a bit more space this year and opened up the number of attendees we accept to be somewhere between 70 and 100. And, judging by the number of applications on the first day, we're gonna get twice as many applications as we have spots. The [buzz on Twitter](http://search.twitter.com/search?q=thatcamp) has been exciting, and lots of new folks have signed up in addition to a few campers from last year. We may let [Dan](http://dancohen.org) and [Tom](http://foundhistory.org) in, if they promise to let me and [Dave](http://davelester.org) organize it again next year!
+
+
+
+
+[![THATCamp 09: The Humanities and Technology Camp](/i/thatcamp-logo.png)](http://thatcamp.org)
+
+
+
+
+[Last year's camp](http://thatcamp.org/2008/) was without a doubt the most productive, enjoyable, and rewarding academic conference I've ever attended. Calling it just a conference is a injustice. Its a conference/workshop/tutorial/networking/tinkering/playing-around kind of gathering, perfect for folks interested in a variety of aspects in digital humanities who want to expand their skills and knowledge. Its a true working weekend, where people show things their working on, get feedback, toss around ideas, and connect with others equally excited about the possibilities of digital humanities. We don't read papers, and don't sit around while others read to us. We brainstorm for ideas. We talk about problems. We come up with solutions.
+
+If THATCamp sounds like you're kind of event, check out the [website](http://thatcamp.org), and fill out the [application form](http://thatcamp.org/wp-register.php) to see if you can get a spot! If you have questions, send us a note by email to [info@thatcamp.org](mailto:info@thatcamp.org) or a message by Twitter to [@thatcamp](http://twitter.com/thatcamp).
+  *[CHNM]: Center for History and New Media

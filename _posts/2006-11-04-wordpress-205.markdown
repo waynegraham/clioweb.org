@@ -1,0 +1,12 @@
+---
+date: '2006-11-04 22:33:41'
+layout: post
+slug: wordpress-205
+status: publish
+title: WordPress 2.0.5
+wordpress_id: '451'
+tags:
+- Asides
+---
+
+The [latest release of WordPress](http://wordpress.org/development/2006/10/205-ronan/) (version 2.0.5, "Ronan") is out for your downloading pleasure.

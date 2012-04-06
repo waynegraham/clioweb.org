@@ -1,0 +1,12 @@
+---
+date: '2007-05-11 13:13:43'
+layout: post
+slug: not-junk
+status: publish
+title: Not Junk
+wordpress_id: '553'
+tags:
+- Asides
+---
+
+[Retro Junk](http://www.retrojunk.com/) is "your memory machine" and source for some great retro culture, including cartoons like [Super Mario Brothers](http://www.retrojunk.com/details_articles/726/), [Voltron: Defender of the Universe](http://www.retrojunk.com/details_tvshows/133-voltron-defender-of-the-universe/), and [Thundercats](http://www.retrojunk.com/details_tvshows/8-thundercats/). Most of Retro Junk's archive covers the 70s, 80s, and early 90s.

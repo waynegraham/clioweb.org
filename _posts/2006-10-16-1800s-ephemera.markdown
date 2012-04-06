@@ -1,0 +1,12 @@
+---
+date: '2006-10-16 00:10:46'
+layout: post
+slug: 1800s-ephemera
+status: publish
+title: 1800s Ephemera
+wordpress_id: '435'
+tags:
+- Asides
+---
+
+[1800s Ephemera](http://home.att.net/~mforder/) -- Nice images of [bank notes](http://home.att.net/~mforder/#Bank%20Notes), [theater items](http://home.att.net/~mforder/#Theater) and [old baseball items](http://home.att.net/~mforder/#Baseball).
