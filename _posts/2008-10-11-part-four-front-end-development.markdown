@@ -44,14 +44,11 @@ To facilitate faster development of HTML mockups, I've created a "starter kit" t
     	/i/
     		...any necessary images for the design. Background
                     images, logos, etc.
-    	</code>
-</pre>
 ```
 
 My HTML and CSS files also have a basic structure I usually follow. My starter HTML file looks like this:
 
 ```
-    <code>
     <body>
     	<div id="skiplink" class="hide"><a href="#content">Skip to Content</a></div>
     	<div id="wrap">
@@ -73,8 +70,6 @@ My HTML and CSS files also have a basic structure I usually follow. My starter H
     			<p>Footer Info</p>
     		</div>
     	</div>
-    </body>
-    </code>
 ```
 
 This is a good point for the front-end developer to come up with (and stick to!) naming conventions for various ids and classes used throughout the site. I've found that using #primary, #secondary, #tertiary, and so on, gets me thinking less about the presentation of that content, and more about its relative importance. Its not a perfect solution, and sometimes I have to ditch this convention in favor of others, but the point is that you have a convention, and you follow it throughout your site.
@@ -130,7 +125,6 @@ My CSS file starts with generic styling of basic elements, followed by any globa
     
     /* == Footer == */
     #footer {}
-
 ```
 
 As you can see, I start out with some things already filled in (typography--font sizes, line-heights, margins), but some things I leave blank and fill in as I go. This is a personal preference, and I change things around from project to project. But this gets me started.
