@@ -11,7 +11,7 @@ wordpress_id: '45'
 Among the other things I've been doing is the redesign of the [Western Civilization Webography](http://chnm.gmu.edu/webography/index.htm) project. While it will be a little while longer before the new site goes live, here's a little sneak-preview of what's to come.
 
 
-![Cropped screenshot of the redesigned Western Civilization Webography project.](http://www.clioweb.org/i/webography1.jpg)
+{% img /i/webography1.jpg Cropped screenshot of the redesigned Western Civilization Webography project. %}
 
 
 **Update:** For some reason the rest of this didn't get published with my original post. My install of [Wordpress](http://wordpress.org) has been acting a little funky lately.

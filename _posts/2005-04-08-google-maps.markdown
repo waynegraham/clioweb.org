@@ -16,13 +16,13 @@ wordpress_id: '82'
 Now, look at [where I currently live](http://maps.google.com/maps?q=22033&t=k&hl=en):
 
 
-![](http://clioweb.org/i/fairfax1.jpg) 
+{% img /i/fairfax1.jpg  %} 
 
 
 Now, look at [where I grew up](http://maps.google.com/maps?q=24279&t=k&hl=en).
 
 
-![](http://clioweb.org/i/pound1.jpg)
+{% img /i/pound1.jpg  %}
 
 
 ### Update

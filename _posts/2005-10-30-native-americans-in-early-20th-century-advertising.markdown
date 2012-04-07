@@ -31,7 +31,7 @@ One thing that interests me about early 20th-century advertising in the U.S. is 
 
 
 
-[![Advertisement for Seneca Cameras, April 10, 1915, featuring a Seneca Indian Chief named Wytenac and Boy Scout using a Seneca camera.](/i/seneca-small.jpg)](http://clioweb.org/i/seneca.jpg)
+[![Advertisement for Seneca Cameras, April 10, 1915, featuring a Seneca Indian Chief named Wytenac and Boy Scout using a Seneca camera.](/i/seneca-small.jpg)](/i/seneca.jpg)
 
 
 Click image to enlarge.

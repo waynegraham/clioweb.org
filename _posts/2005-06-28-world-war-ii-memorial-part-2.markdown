@@ -7,7 +7,7 @@ title: World War II Memorial, Part 2
 wordpress_id: '124'
 ---
 
-![Sculptures depicting various scenes from the second World War, located at the World War 2 Memorial in Washington](/i/memorial2.jpg)
+{% img /i/memorial2.jpg Sculptures depicting various scenes from the second World War, located at the World War 2 Memorial in Washington %}
 
 
 One of many sculpted scenes that decorated the walls of the World War II memorial.

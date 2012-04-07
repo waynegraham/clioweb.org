@@ -48,11 +48,7 @@ After launch, its good to provide some means for direct user feedback. Despite a
 
 
   1. How much feedback you expect
-
-
   2. How much time/how many people you have to deal with user feedback
-
-
   3. How public you want feedback to be.
 
 

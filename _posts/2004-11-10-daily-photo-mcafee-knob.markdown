@@ -8,7 +8,7 @@ wordpress_id: '38'
 
 ---
 
-![View of McAfee Knob, near Roanoke, Virginia, in early spring.](http://www.clioweb.org/i/dailyphoto/mcafee1.jpg)
+{% img /i/mcafee1.jpg View of McAfee Knob, near Roanoke, Virginia, in early spring. %}
 
 
 A view from McAfee Knob, near Roanoke, Virginia in early spring. It was cloudy day, and it actually rained on the hike back down, so this was one of those rare times when Jill and I were the only ones at McAfee Knob.

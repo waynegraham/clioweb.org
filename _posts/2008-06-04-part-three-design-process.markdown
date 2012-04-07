@@ -54,7 +54,7 @@ I keep an Idea Box in my office, and put things that I think are designed really
 
 
 
-	![Screenshot of Gulag: Many Days, Many Lives header. http://gulaghistory.org](/images/process3/gulag-screen.png)
+	{% img /i/process3/gulag-screen.png Screenshot of Gulag: Many Days, Many Lives header. http://gulaghistory.org %}
 	
 
 Screenshot of [Gulag: Many Days, Many Lives](http://gulaghistory.org).
@@ -103,7 +103,7 @@ For Gulag, my concept was simple: a cold, snowy camp, isolated and desolate. I t
 
 
 
-	![Logo for Omeka](/images/process3/omeka-logo.jpg)
+	{% img /i/process3/omeka-logo.jpg Logo for Omeka %}
 	
 
 Logo for [Omeka](http://omeka.org).
@@ -145,7 +145,7 @@ As a personal rule, I always start with the most "inside-page" first, or the con
 
 
 
-	![Screenshot of photoshop mockup for Western History Association.](/images/process3/wha-ps-screen.png)
+	{% img /i/process3/wha-ps-screen.png Screenshot of photoshop mockup for Western History Association. %}
 	
 
 Screenshot of photoshop mockup I created for a redesign of the Western History Association website that illustrates use of guides for grid layout and typography.

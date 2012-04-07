@@ -13,11 +13,9 @@ The latest addition to my growing list of online journals is [Flow](http://idg.c
 
 
 
-> [![Screenshot of the website Flow, highlighting the black and blue television set used as a logo.](/i/flow_screen.jpg)](http://idg.communication.utexas.edu/flow/)Flow is an online journal of television and media studies launched in October 2004. Flow's mission is to provide a space where researchers, teachers, students, and the public can read about and discuss the changing landscape of contemporary media at the speed that media moves.
-> 
-> 
+[{% img /i/flow_screen.jpg Screenshot of the website Flow, highlighting the black and blue television set used as a logo.%}](http://idg.communication.utexas.edu/flow/)
 
-> 
+>Flow is an online journal of television and media studies launched in October 2004. Flow's mission is to provide a space where researchers, teachers, students, and the public can read about and discuss the changing landscape of contemporary media at the speed that media moves. 
 > Flow is coordinated and edited by graduate students in the Department of Radio-Television-Film.
 
 

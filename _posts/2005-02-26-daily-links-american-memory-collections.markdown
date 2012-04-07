@@ -8,7 +8,7 @@ wordpress_id: '61'
 
 ---
 
-![Cropped screenshot of the American Memory homepage, at http://memory.loc.gov](http://www.clioweb.org/i/ammem1.jpg)
+{% img /i/ammem1.jpg Cropped screenshot of the American Memory homepage, at http://memory.loc.gov %}
 
 
 I'm going to try something a little different today. The links below are to various collections in the new [American Memory](http://memory.loc.gov) site at the Library of Congress. American Memory has always provided good access to a variety of historical resources, but the switch to a better design has made the experience with American Memory easier and more enjoyable. They still have lots of work to do to integrate all the collections into the new design, which you'll see if you click on a few of the links below. To that end, here are a few of my favorite collections in American Memory.

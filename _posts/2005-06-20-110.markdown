@@ -18,7 +18,7 @@ wordpress_id: '110'
 
 
 
-![Thumbnail screenshot of the Historic Cities homepage](/i/historicmaps_screen.jpg)[Historic Cities: Maps & Documents](http://historic-cities.huji.ac.il/historic_cities.html) -- Contains maps of cities in the Mediterranean region from the 1480s to the 1800s. The site is browsable by year, city, country, or by the person who made the maps.
+{% img /i/historicmaps_screen.jpg Thumbnail screenshot of the Historic Cities homepage %}[Historic Cities: Maps & Documents](http://historic-cities.huji.ac.il/historic_cities.html) -- Contains maps of cities in the Mediterranean region from the 1480s to the 1800s. The site is browsable by year, city, country, or by the person who made the maps.
 
 
 

@@ -10,7 +10,4 @@ wordpress_id: '1078'
 
 The greys on this page are quite boring…need more colors…any suggestions?
 
-
-
-
 Update 08/18/04: I also need a catchy masthead.

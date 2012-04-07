@@ -8,7 +8,7 @@ wordpress_id: '151'
 
 ---
 
-![The Apollo 11 patch.](/i/apollo11.jpg)On this date in 1969, Neil Armstrong and Buzz Aldrin became the first human beings to walk on the moon. As a small celebration, here are a few nice links about the astronauts and the mission:
+{% img /i/apollo11.jpg The Apollo 11 patch. %}On this date in 1969, Neil Armstrong and Buzz Aldrin became the first human beings to walk on the moon. As a small celebration, here are a few nice links about the astronauts and the mission:
 
 
 

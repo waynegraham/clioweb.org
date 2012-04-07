@@ -47,7 +47,7 @@ The research process is, more or less, the same kind of research process you'd e
 
 Probably the trickiest part of the assignment is showing students how to write for Wikipedia, particularly the way Wikipedia articles are formatted. We take one class period and review "How to Edit a Wikipedia Article," particularly the [formatting](http://en.wikipedia.org/wiki/Wikipedia:How_to_edit_a_page#Wiki_markup) section. There's a great [tutorial](http://en.wikipedia.org/wiki/Wikipedia:Tutorial) and sandbox where students can practice formatting before working on their articles. I demonstrate on-screen how to do different kinds of formatting: footnotes, headings, unordred lists, ordered lists, internal and external links, and inserting an image. There is a useful [cheatsheet](http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet) that details formatting methods for specific content elements.
 
-[![](http://clioweb.org/notebook/wp-content/uploads/2009/04/wikipedia-cheatsheet1.jpg)](http://clioweb.org/2009/04/05/assigning-wikipedia-in-a-us-history-survey/wikipedia-cheatsheet1/)
+[![](/i/wikipedia-cheatsheet1.jpg)]
 
 
 ### Publishing and Participating
@@ -64,7 +64,7 @@ Like I said earlier, the assignment doesn't end once the article is published. A
   * [Talk page](http://en.wikipedia.org/wiki/Wikipedia:Talk_page) - This is where community members talk about the article in question, offering suggestions for improvement or declaring reasons that the article is irrelevant and show be deleted. Its here that students have to defend their articles, or learn from other Wikipedians about how to improve their articles.
 
 
-[![](http://clioweb.org/notebook/wp-content/uploads/2009/04/wikipedia-revision.jpg)](http://clioweb.org/2009/04/05/assigning-wikipedia-in-a-us-history-survey/wikipedia-revision/)
+[![](/i/wikipedia-revision.jpg)]
 
 Not infrequently, someone's article will be recommended for deletion, or their changes reverted. In these cases I show students how to interact with Wikipedia admins, review their [deletion policy](http://en.wikipedia.org/wiki/Wikipedia:Deletion_policy) and the process by which they do [deletion review](http://en.wikipedia.org/wiki/Wikipedia:Deletion_review). I've had several students' articles get recommended for deletion, and the students justified their articles well enough to save them.
 

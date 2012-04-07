@@ -7,7 +7,7 @@ title: RSS Versus Design
 wordpress_id: '103'
 ---
 
-![](/i/images/emn_screen.jpg)A [recent discussion](http://9rules.com/whitespace/the_monday_rip.php#comments) over at [Whitespace](http://9rules.com/whitespace/) has me thinking a little more about an inherent tension I see in web design weblogs: RSS feeds versus pleasing graphic design on sites. One one hand, the technology allows us to create beautiful, pleasing sites that integrate graphics and information. On the other hand, it seems that people, more often than not, choose not to visit a site and instead "read" the weblog through RSS feeds such as NetNewsWire, Firefox's Sage plugin (which I use) or some other reader. Is there a way to balance the two? Is it worth the effort to create a visually appealing website when visitors will more than likely read the content through an RSS feed?
+![](/i/emn_screen.jpg)A [recent discussion](http://9rules.com/whitespace/the_monday_rip.php#comments) over at [Whitespace](http://9rules.com/whitespace/) has me thinking a little more about an inherent tension I see in web design weblogs: RSS feeds versus pleasing graphic design on sites. One one hand, the technology allows us to create beautiful, pleasing sites that integrate graphics and information. On the other hand, it seems that people, more often than not, choose not to visit a site and instead "read" the weblog through RSS feeds such as NetNewsWire, Firefox's Sage plugin (which I use) or some other reader. Is there a way to balance the two? Is it worth the effort to create a visually appealing website when visitors will more than likely read the content through an RSS feed?
 
 
 
@@ -17,7 +17,7 @@ This reminds me somewhat of how historians write. There's always a tension betwe
 
 
 
-![](/i/images/sb_screen.jpg)It ultimately depends on the goals of the reader, and the writer/designer. Do I want to simply get the information quickly (RSS feeds), or do I want to enjoy the "literary" and the art of a quality web design? Likewise, do I want to get the information quickly in a journal article or book (read the intro and conclusion, skim the chapter intros, et cetera), or do I want to enjoy the "literary" aspects of a quality history book (read cover to cover, pages in sequence, et cetera)? Is it possible to have both? I think so, but it seems to occur rarely. It's a tension I've been dealing with in my work as a web designer and as a historian, and I'm sure it's not going away any time soon.
+![](/i/sb_screen.jpg)It ultimately depends on the goals of the reader, and the writer/designer. Do I want to simply get the information quickly (RSS feeds), or do I want to enjoy the "literary" and the art of a quality web design? Likewise, do I want to get the information quickly in a journal article or book (read the intro and conclusion, skim the chapter intros, et cetera), or do I want to enjoy the "literary" aspects of a quality history book (read cover to cover, pages in sequence, et cetera)? Is it possible to have both? I think so, but it seems to occur rarely. It's a tension I've been dealing with in my work as a web designer and as a historian, and I'm sure it's not going away any time soon.
 
 
 

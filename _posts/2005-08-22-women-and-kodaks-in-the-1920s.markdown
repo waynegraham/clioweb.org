@@ -20,7 +20,7 @@ On the same subject, Duke University Libraries has a nice database, called Emerg
 
 
 
-![Kodak ad from 1920 featuring a silhouette tinkering with a camera.](/i/kodak1.jpg)
+{% img /i/kodak1.jpg Kodak ad from 1920 featuring a silhouette tinkering with a camera. %}
 
 
 

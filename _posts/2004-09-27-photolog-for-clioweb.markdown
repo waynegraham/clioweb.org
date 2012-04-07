@@ -16,7 +16,7 @@ I've been working on a few different photolog systems, and I think I've found a 
 What's really nice about this script is that I can simply put new images in the individual album's folder and it will automatically add a link to that new image. Essentially, the directory for my photoalbums will look like this:
 
 
-![Directory of ClioWeb's photolog](http://www.clioweb.org/i/images/photodir.jpg)
+{% img /i/photodir.jpg Directory of ClioWeb's photolog %}
 
 
 In the `photolog` folder there is a folder titled `inc`, which stands for "includes". In the `inc` folder there is a file called `album.php`. This file contains the scripts for the albums. I then have an `index.php` page for each individual album, which I place in the respective album folders. I "include" the `album.php` using the `include()` PHP function. The `index.html` file is identical in each individual album, but it calls up the photos located alongside it in the album folder.

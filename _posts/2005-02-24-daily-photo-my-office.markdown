@@ -11,13 +11,13 @@ wordpress_id: '58'
 It's not much, but I like it. As you can see I'm a little messy.
 
 
-![Jeremy's desk and shelves upon entering his office.](http://clioweb.org/i/dailyphoto/office1.jpg)
+{% img /i/office1.jpg Jeremy's desk and shelves upon entering his office. %}
 
 
 And, on the shelf across from my desk is my primary bookshelf that contains the books to which I refer most often.
 
 
-![Jeremy's primary bookshelf.](http://clioweb.org/i/dailyphoto/office2.jpg)
+{% img /i/office2.jpg Jeremy's primary bookshelf. %}
 
 
 The rest of my books are in boxes in the closet.

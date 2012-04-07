@@ -60,6 +60,6 @@ Any code or files I use will be included with each article for download. I reall
 
 
 	
-  1. 1 Jesse James Garrett, _The Elements of User Experience: User-Centered Design for the Web_, New York: AIGA and New Riders, 2003, 27.
+  1. Jesse James Garrett, _The Elements of User Experience: User-Centered Design for the Web_, New York: AIGA and New Riders, 2003, 27.
 
 

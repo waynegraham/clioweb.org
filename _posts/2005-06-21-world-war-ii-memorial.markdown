@@ -7,7 +7,7 @@ title: World War II Memorial
 wordpress_id: '119'
 ---
 
-![Looking up through the Pacific tower](/i/ww2memorial_1.jpg)
+{% img /i/ww2memorial_1.jpg Looking up through the Pacific tower %}
 
 
 This is a shot looking up through the top of the Pacific tower.

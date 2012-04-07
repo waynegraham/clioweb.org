@@ -8,7 +8,7 @@ wordpress_id: '64'
 
 ---
 
-![Screenshot of P22 Type Foundry font 1722 Roman](http://www.clioweb.org/i/p22_scr.jpg)
+{% img /i/p22_scr.jpg Screenshot of P22 Type Foundry font 1722 Roman %}
 
 
 [P22 Type Foundry](http://www.p22.com) recently announced a new series of fonts, [Staunton Scripts](http://www.p22.com/sherwoodtype/StauntonScripts.html), part of the [Sherwood Type Collection](http://www.p22.com/sherwoodtype/fonts.html). P22 already has some great fonts ideal for history websites, and this collection adds a few more. Here are a few of my favorites:

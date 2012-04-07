@@ -12,7 +12,7 @@ The [HNN](http://hnn.us) redesign is slowly but surely getting the wrinkles iron
 
 
 
-![Jill made me a nice hamburger with 'I love you' written in mustard on the bun.](/i/iloveu.jpg)The last month I feel like I've had my eyes fixed on a computer screen constantly, so it's really nice to come home to a hot meal and a nice message. I can't say enough how thoughtful and caring Jill is to me. Today I came home to a nice dinner with a sweet message. Jill's really cool. I love her very much.
+{% img /i/iloveu.jpg Jill made me a nice hamburger with 'I love you' written in mustard on the bun. %}The last month I feel like I've had my eyes fixed on a computer screen constantly, so it's really nice to come home to a hot meal and a nice message. I can't say enough how thoughtful and caring Jill is to me. Today I came home to a nice dinner with a sweet message. Jill's really cool. I love her very much.
 
 
 

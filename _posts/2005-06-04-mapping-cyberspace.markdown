@@ -7,7 +7,7 @@ title: Mapping Cyberspace
 wordpress_id: '114'
 ---
 
-Design Observer had an interesting post last week on d[ifferent ways people have beem mapping cyberspace and computer use](http://www.designobserver.com/archives/003155.html). Design Observer observes:
+Design Observer had an interesting post last week on [different ways people have beem mapping cyberspace and computer use](http://www.designobserver.com/archives/003155.html). Design Observer observes:
 
 
 

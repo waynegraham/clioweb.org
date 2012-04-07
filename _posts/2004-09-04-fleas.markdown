@@ -9,8 +9,8 @@ wordpress_id: '13'
 ---
 
 ...have been in the Pohick Module for a while, but they will meet their demise this weekend. The folks getting rid of the fleas have wrapped up Pohick:
-[![Pohick Module, at George Mason University, covered in blue tarp.](/i/images/pohick1.jpg)](/i/images/pohick1_big.jpg)
-[![Pohick Module, at George Mason University, covered in blue tarp.](/i/images/pohick2.jpg)](/i/images/pohick2_big.jpg)
+{% img /i/pohick1_big.jpg Pohick Module, at George Mason University, covered in blue tarp. %}
+{% img /i/pohick2_big.jpg Pohick Module, at George Mason University, covered in blue tarp. %}
 
 
 These pictures were taken by Mike O'Malley.

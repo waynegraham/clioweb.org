@@ -15,42 +15,16 @@ tags:
 
 Before you even write a line of code or color a pixel, the project team should define the information architecture of a site. A lot of people fail to realize that the organization of content greatly affects the design and development of a site. Adding a new section of content months after the design has been finalized can throw a wrench in the design, and developers need some idea as to what content will be used by site visitors before coding. I don't think this content has to exist in its entirety at this stage, but it useful to have a solid sense of what you plan to create. Of course, things come up, and new content may have to be added or the information architecture needs to be changed. This is fine, so long as everyone understands that this adds time to the completing of a project, may require designers and developers on the project to revisit their work, and may require reworking the site architecture.
 
-
-
-
-
 ## Initial Steps
 
-
-
-
-
-	
   1. Determine genre
-
-	
   2. Content inventory/audit
-
-	
   3. Site Maps
-
-	
   4. Page wireframes
-
-
-
-
 
 ## Genres
 
-
-
-
-
 ### Collecting Sites/Online Archives
-
-
-
 
 Online archives and online collecting sites provide an interesting challenge to defining site architecture. On one hand, they are challenging because the much of the content itself is continuously updated, and never finished. On the other, it can be easier to narrow down the scope of the _kinds_ of content you want to collect and archive. Thus, collecting sites and online archives need to blend
 
@@ -121,7 +95,7 @@ I generally start thinking about site architecture with site maps, first sketche
 
 
 
-![Example site map](http://clioweb.org/images/site-map1.png)
+{% img /i/site-map1.png Example site map %}
 
 
 Example site map using Garrett IA stencils in Omnigraffle.
@@ -142,14 +116,8 @@ When creating a site map you should strive to:
 
 	
   * Represent the virtual structure of a site with some simplicity.
-
-	
   * Represent _relationships_ among sections/pages of a site
-
-	
   * Begin conversation for naming pages and sections (not concrete at this point)
-
-	
   * Explain _why_ you think those relationships work for the site and for your audience
 
 
@@ -180,7 +148,7 @@ Spreadsheets can be a quick and easy way to list information architecture. Using
 
 
 
-![Example content inventory](http://clioweb.org/images/content-inventory1.png)
+{% img /i/content-inventory.png Example content inventory %}
 
 
 Example of a content inventory from the online exhibit of [Gulag: Soviet Forced Labor Camps and the Struggle for Freedom](http://gulaghistory.org/nps/).
@@ -200,17 +168,9 @@ I used a content inventory when creating the [NPS exhibit for Gulag](http://gula
 
 	
   1. Section - The section title
-
-	
   2. Page - the title of the page
-
-	
   3. Location - The URL of the page
-
-	
   4. Description - A brief description of the page, how it fits with the section.
-
-	
   5. Contents - Number of paragraphs, word count, figures, images, video, audio, with specific file names to make finding easier.
 
 
@@ -270,74 +230,38 @@ All the planning for information architecture will pretty much go to waste if th
 	
 		
 
-
-			Name
-			URL
-			Due Date
-			Provider
-			Received?
-		
-	
-	
-		
-
-
-			
-Homepage
-
-			
-example.com
-
-			
-05.04.08
-
-			
-John Hawking, jhawking@example.com
-
-			
-X
-
-		
-		
-
-
-			
-About
-
-			
-example.com/about/
-
-			
-05.12.08
-
-			
-Mary Bailey, mbailey@example.com
-
-			
-
-		
-		
-
-
-			
-Exhibit One
-
-			
-example.com/exhibit1/
-
-			
-05.22.08
-
-			
-Larry Stevens, lstevens@example.com
-
-                        
-
-		
-	
-
-
-
+<table>
+	<thead>
+	    <tr>
+	        <th>Name</th>
+			<th>URL</th>
+			<th>Due Date</th>
+			<th>Provider</th>
+			<th>Received?</th>
+		</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td>Homepage</td>
+            <td>example.com</td>
+            <td>05.04.08</td>
+            <td>John Hawking, jhawking@example.com</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>About</td>
+            <td>example.com/about/</td>
+            <td>05.12.08</td>
+            <td>Mary Bailey, mbailey@example.com</td>
+        </tr>
+        <tr>
+            <td>Exhibit One</td>
+            <td>example.com/exhibit1/</td>
+            <td>05.22.08</td>
+            <td>Larry Stevens, lstevens@example.com</td>
+        </tr>
+    </tbody>
+</table>
 
 You could just as easily use a spreadsheet, Google Calendar, milestones in Basecamp, or a wiki page, but the end goals are the same: have deadlines for content delivery and know who should be delivering content.
 
@@ -358,17 +282,9 @@ Here are a few concluding points/summaries about why content management and info
 
 
   * Thinking about content organization gets you thinking more about what kind of site you want to build, who you want to use this site, and how you can best cater to that audience
-
-
   * Genres of sites impact information architecture.
-
-
   * Scope creep with content--involving both _removing_ content and _adding_ new content--affects decisions in future design/development phases.
-
-
   * Begin thinking more abstractly about site architecture (site maps) and end with more concrete thoughts (page wireframes)
-
-
   * Be sure that all the steps you take in developing site architecture coincide with the project requirements you set at the very beginning. All work in this phase must ensure the requirements are met.
 
 

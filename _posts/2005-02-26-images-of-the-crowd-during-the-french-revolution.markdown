@@ -8,7 +8,7 @@ wordpress_id: '62'
 
 ---
 
-![Cropped screenshop of Imaging the French Revolution, online at http://chnm.gmu.edu/revolution/imaging/](http://www.clioweb.org/i/imaging_fr1.jpg)
+{% img /i/imaging_fr1.jpg Cropped screenshop of Imaging the French Revolution, online at http://chnm.gmu.edu/revolution/imaging/ %}
 
 
 The February 2005 issue of the _American Historical Review_ includes an article by Jack Censer and Lynn Hunt that discusses their latest online project, [Imaging the French Revolution](http://chnm.gmu.edu/revolution/imaging/). The project is a collaboration of several historians who specialize in the French Revolution and visual culture 

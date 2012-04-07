@@ -8,7 +8,7 @@ wordpress_id: '59'
 
 ---
 
-[![Cropped screenshot of the website Online Classical, available at http://www.onlineclassical.org](http://clioweb.org/i/onlineclass_scr.jpg)](http://www.onlineclassical.org)
+[{% img /i/onlineclass_scr.jpg Cropped screenshot of the website Online Classical %}](http://www.onlineclassical.org)
 
 
 [The History Channel: No Women Allowed](http://www.kottke.org/05/02/history-channel-no-women) -- Jason Kottke on the lack of women narrators on the History Channel.
