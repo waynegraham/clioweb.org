@@ -1,4 +1,9 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /
+RewriteRule ^feed/atom/? http://clioweb.org/atom.xml
+RewriteRule ^feed/? http://clioweb.org/rss.xml
+
 BrowserMatch MSIE ie
 Header set X-UA-Compatible "IE=Edge,chrome=1" env=ie
-
 
