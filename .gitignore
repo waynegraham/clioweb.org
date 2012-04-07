@@ -2,5 +2,6 @@
 log/
 _cache/
 _site
+.pygments-cache
 .sass-cache
 c
