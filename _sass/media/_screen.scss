@@ -21,8 +21,13 @@ header {
   text-align:center;
 }
 
-h1,h2,h3 {
+#{headings()} {
   font-family: "museo-slab-1","museo-slab-2", sans-serif;
+  margin: 2em 0 0;
+
+  a {
+    text-decoration:none;
+  }
 }
 
 h1 {
@@ -36,15 +41,34 @@ a {
   &:active { color: #333;}
 }
 
-h1 a,
-h2 a,
-h3 a {
-  text-decoration:none;
-}
-
 blockquote {
   color: rgba(0,0,0,0.5);
   font-size: 1.25em;
+}
+
+table {
+  thead {
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    th{
+      font-weight: 700;
+      text-align:left;
+      font-size: 0.8em;
+    }
+  }
+
+  tbody tr {
+    border-bottom: 1px dotted rgba(0,0,0,0.2);
+  }
+
+  th,td {
+    padding: 0.5em;
+  }
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 .kicker {
