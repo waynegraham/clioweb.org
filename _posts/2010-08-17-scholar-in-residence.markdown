@@ -26,7 +26,9 @@ As [Bethany Nowviskie](http://nowviskie.org) has already [announced](http://twit
 
 A little background: From about 1910 to 1929, both the city of Richmond and the state of Virginia passed and amended several ordinances that established racially-segregated residential areas. These ordinances basically determined whether a street was a "white" or "colored" street, and hence restricted residence based on those designations.
 
-[gallery link="file" columns="2"]
+{% img /i/richmond-race.jpg Portion of a map of Richmond indicating the location of black population (highlighted in Red). 1923 %}
+
+{% img /i/petition-august3.jpg Petition from August 3 protesting the sale of Immanuel Baptist Church %}
 
 My interest in this topic was sparked by a controversy I stumbled upon while doing research for my Master's thesis. In July 1914, the congregation of Emanuel Baptist Church in Richmond sought to sell its church property to a black congregation from Leigh Street Methodist Church. Emanuel Baptist sat on the northeast corner of 5th St. and Leigh St (a corner that no longer exists, thanks to the convention center in Richmond). According to Richmond's 1910 residential segregation ordinance, the block of Leigh Street where Emanuel Church stood was a white block, while the block of 5th Street was black. Because the address and front door of Emanuel Church was on Leigh Street, the parties involved decided that, to circumvent the segregation ordinance, they would move the front door and address to 5th Street, and thus still adhere to spirit of the ordinance.
 
