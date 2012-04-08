@@ -15,7 +15,7 @@ bodyclass: 'home'
 <article>
 
 <header>
-    <p class="kicker">Writing</p>
+    <p class="kicker">Latest Post</p>
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <p><time pubdate datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%B %d, %Y' }}</time> · <a href="{{ post.url }}" rel="bookmark">Permalink</a></p>
   </header>
@@ -27,6 +27,7 @@ bodyclass: 'home'
 </article>
 
 {% endfor %}
+<p class="kicker">Previous Posts</p>
 <ul class="posts">
 {% for post in site.posts offset: 1 limit: 5 %}
 {% include postli.html %}
