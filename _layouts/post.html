@@ -2,10 +2,10 @@
 layout: default
 bodyclass: archive post
 ---
-<article> 
+<article>
 
   <header>
-    <p class="kicker">Writing</p>
+    <p class="kicker">Blog</p>
     <h1>{{ page.title }}</h1>
     <p class="byline">
       <time pubdate datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %d, %Y' }}</time>
@@ -19,4 +19,24 @@ bodyclass: archive post
 
   </div>
 
-</article>
+  </article>
+
+  <nav id="post-navigation">
+  <ul>
+  {% if page.previous.url %}
+  <li class="previous">
+    <p class="kicker">Previous Post</p>
+      <a href="{{page.previous.url}}" title="Previous Post:
+        {{page.previous.title}}">{{page.previous.title}}</a>
+    </li>
+  {% endif %}
+  {% if page.next.url %}
+  <li class="next">
+    <p class="kicker">Next Post</p>
+
+    <a href="{{page.next.url}}" title="next Post:
+      {{page.next.title}}">{{page.next.title}}</a>
+    </li>
+  {% endif %}
+  </ul>
+  </nav>
