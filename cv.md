@@ -8,41 +8,30 @@ bodyclass: cv
 
 ## Education
 
-### ABD, History, George Mason University
-
-### Master of Arts, History, Virginia Polytechnic Institute and State University
-
-### Bachelor of Arts, History and Political Science, The University of Virginia’s College at Wise
+* *ABD*, History, George Mason University
+* *Master of Arts*, History, Virginia Polytechnic Institute and State University
+  (2003)
+* *Bachelor of Arts*, History and Political Science, The University of Virginia’s College at Wise (2001)
 
 ## Experience
 
-### June 2011–present
+### Design Architect, Scholars' Lab, University of Virginia Library
+June 2011–present
 
-Design Architect, Scholars' Lab, University of Virginia Library
+### Associate Director of Research, Center for History and New Media
+October 2010–June 2011
 
-### October 2010–June 2011
+### Creative Lead, Center for History and New Media
+August 2006–October 2010
 
-Associate Director of Research, Center for History and New Media
+### Adjunct Lecturer, Department of History, American University
+May 2009–June 2010
 
-### August 2006–October 2010
+### Graduate Lecturer, Department of History and Art History, George Mason University
+August 2006–May 2009
 
-Creative Lead, Center for History and New Media
-
-###  May 2009–June 2010
-
-Adjunct Lecturer, Department of History, American University
-
-### August 2006–May 2009
-
-Graduate Lecturer, Department of History and Art History, George Mason University
-
-### December 2005–August 2006
-
-Web Developer, Center for History and New Media
-
-### August 2003–December 2005
-
-Graduate Research Assistant, Department of History and Art History, George Mason University
+### Web Developer, Center for History and New Media
+December 2005–August 2006
 
 ## Publications
     

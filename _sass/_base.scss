@@ -2,13 +2,14 @@
 @import "normalize";
 @import "compass";
 @import "susy";
+@import "mixins";
 
 // Settings ------------------------------------------------------------------
 
 $legacy-support-for-ie6         : false;
-$legacy-support-for-ie7         : false !default;
-$legacy-support-for-ie8         : false !default;
-$ie                             : false !default;
+$legacy-support-for-ie7         : true;
+$legacy-support-for-ie8         : true;
+$ie                             : true;
 
 $show-column-grid-backgrounds   : false;
 $show-baseline-grid-backgrounds : false;

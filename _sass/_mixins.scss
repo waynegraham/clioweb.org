@@ -1,0 +1,35 @@
+@mixin horizontalnav {
+  li {
+    display:inline;
+
+    &:not(:first-child):before {
+      content: " / ";
+      color: rgba(0,0,0,0.2);
+      padding: 0 0.25em;
+    }
+
+  }
+}
+
+@mixin verticalnav {
+  li {
+    display:block;
+
+    a {
+      display:block;
+    }
+
+    &:not(:first-child):before {
+      content: "";
+      padding:0;
+    }
+  }
+}
+
+@mixin kicker {
+  font-weight: 700;
+  font-size: 0.8em;
+  color: rgba(0,0,0,0.35);
+  margin:0;
+  font-family: "museo-slab-1", "museo-slab-2", sans-serif;
+} 

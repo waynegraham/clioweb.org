@@ -1,13 +1,11 @@
-$total-cols: 10;
-$col-width: 6%;
-$gutter-width: 2%;
-$side-gutter-width: 0;
+$total-cols: 4;
+$col-width: 160px;
+$gutter-width: 40px;
+$side-gutter-width: 0px;
 
 body {
+  padding-top: 4em;
   @include container;
-  @include susy-grid-background;
-  max-width: 860px;
-  padding-top: 6em;
 }
 
 header {
@@ -35,5 +33,25 @@ header[role="banner"] {
   }
   nav {
     text-align:right;
+  }
+}
+
+footer[role="contentinfo"] {
+  @include clearfix;
+  div {
+    @include columns(1, 4);
+
+    &:first-child {
+      @include alpha;
+    }
+
+    &:last-child {
+      @include omega;
+    }
+
+  }
+
+  ul {
+    @include verticalnav;
   }
 }

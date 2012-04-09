@@ -29,9 +29,9 @@ bodyclass: 'home'
 {% endfor %}
 <p class="kicker">Previous Posts</p>
 <ul class="posts">
-{% for post in site.posts offset: 1 limit: 5 %}
+{% for post in site.posts offset: 1 limit: 3 %}
 {% include postli.html %}
 {% endfor %}
 </ul>
-<p>Read more in the <a href="/archive.html">archive</a></p>
+<p>Read more in the <a href="/archive.html">archive</a>.</p>
 </div>

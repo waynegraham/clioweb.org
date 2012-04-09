@@ -44,17 +44,12 @@
 </head>
 
 <body class="{{ page.bodyclass }}">
-
   <header role="banner">
 
   <h1><a href="/"><img src="/i/watermark.png">ClioWeb</a></h1>
 
   <nav>
-    <ul>
-      <li class="nav-about"><a href="/about.html">About</a></li>
-      <li class="nav-designing"><a href="/archive.html">Blog</a></li>
-      <li class="nav-cv"><a href="/cv.html">CV</a></li>
-    </ul>
+  {% include mainnavlist.html %}
   </nav>
   </header>
 
@@ -65,7 +60,39 @@
   </div>
   
   <footer role="contentinfo">
+  <div class="info">
+    <h2>Info</h2>
+    <p>ClioWeb is written and maintained by Jeremy Boggs, since 2004. Content
+  licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">CC-BY</a>.</p>
+  </div>
+  <div class="contact">
+  <h2>Contact</h2>
+    <ul>
+      <li><a href="mailto:jeremy@clioweb.org">Email</a></li>
+      <li><a href="aim:goim?screename=jboggs22">AIM</a></li>
+      <li><a href="gtalk:chat?jid=jeremy@clioweb.org">Google Chat</a></li>
+    </ul>
+  </div>
+  <div class="elsewhere">
+    <h2>Elsewhere</h2>
+    <ul> 
+      <li><a href="http://flickr.com/photos/clioweb" class="flickr">Flickr</a></li>
+      <li><a href="http://github.com/clioweb" class="github">Github</a></li>
+      <li><a href="http://twitter.com/clioweb" class="twitter">Twitter</a></li>
+      <li><a href="http://vimeo.com/clioweb" class="vimeo">Vimeo</a></li>
+      <li><a href="http://zotero.org/clioweb" class="zotero">Zotero</a></li>
+    </ul>
+  </div>
 
+  <div class="feeds">
+    <h2>Feeds</h2>
+    <ul>
+      <li><a href="/atom.xml" class="atom">Atom</a></li>
+      <li><a href="/rss.xml" class="atom">RSS</a></li>
+    </ul>
+  </div>
+  
   </footer>
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->

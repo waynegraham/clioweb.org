@@ -8,7 +8,7 @@ body {
 }
 
 header[role="banner"] {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   h1 a img {
     width: 40px;
     height: 40px;
@@ -16,15 +16,14 @@ header[role="banner"] {
 }
 
 #intro {
-  margin-bottom: 4em;
-  padding-bottom: 4em;
+  margin-bottom: 3em;
+  padding-bottom: 3em;
 }
 
 nav#post-navigation {
   border-top: 1px dotted rgba(0,0,0,0.2);
   padding-top: 1em;
   @include clearfix;
-  @include container;
 
   li {
     @include columns(1);
@@ -38,4 +37,13 @@ nav#post-navigation {
 
   }
 
+}
+
+footer[role="contentinfo"] {
+  margin-top:3em;
+  padding-top:1em;
+
+  p,ul {
+    font-size:0.8em;
+  }    
 }

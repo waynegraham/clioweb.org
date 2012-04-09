@@ -1,20 +1,12 @@
-$total-cols: 1;
-$col-width: 96%;
-$gutter-width: 0;
-$side-gutter-width: 0;
-
 html{
   border:10px solid rgba(0,0,0,0.725);
   border-width: 10px 0 0;
 }
 body {
-  @include container;  
   font-family: "museo-sans-1","museo-sans-2", sans-serif;
   color: #333;
-  color: rgba(0,0,0,0.725);
-  background: #fcfcfc;
+  color: rgba(0,0,0,0.75);
   padding: 3em 20px;
-  
 }
 
 header {
@@ -23,15 +15,26 @@ header {
 
 #{headings()} {
   font-family: "museo-slab-1","museo-slab-2", sans-serif;
-  margin: 2em 0 0;
 
   a {
     text-decoration:none;
+  }
+
+  & + * {
+    margin-top:0;
   }
 }
 
 h1 {
   font-weight: 500;
+}
+
+h2 {
+  margin-top:2em;
+}
+
+article #{headings(3,6)} {
+  margin-bottom:0;
 }
 
 a {
@@ -72,11 +75,7 @@ img {
 }
 
 .kicker {
-  font-weight: 500;
-  font-size: 0.8em;
-  color: rgba(0,0,0,0.35);
-  margin:0;
-  font-family: "museo-slab-1", "museo-slab-2", sans-serif;
+  @include kicker;
 }
 
 header[role="banner"] {
@@ -89,6 +88,7 @@ header[role="banner"] {
     margin:0;
     padding:0;
     line-height: 60px;
+
     a {
       text-decoration:none;
       color: #777;
@@ -112,6 +112,13 @@ header[role="banner"] {
 
     li {
       display:inline;
+    
+      &:not(:first-child):before {
+        content: " / ";
+        color: rgba(0,0,0,0.2);
+        padding: 0 0.25em;
+      }
+
     }
 
     a {
@@ -120,11 +127,6 @@ header[role="banner"] {
 
   }
 
-  nav li:not(:first-child):before {
-    content: " / ";
-    color: rgba(0,0,0,0.2);
-    padding: 0 0.25em;
-  }
 }
 
 #intro {
@@ -144,9 +146,9 @@ header[role="banner"] {
 }
 
 ul.posts {
-  list-style:none;
+  list-style:none;;
   padding-left:0;
-  
+
   li {
     margin-bottom: 1em;
   }
@@ -167,4 +169,21 @@ time[pubdate] {
   font-size: 0.9em;
   font-weight: 100;
   color: rgba(0,0,0,0.5);
+}
+
+footer[role="contentinfo"] {
+  border-top: 1px dotted rgba(0,0,0,0.25);
+  margin-top:2em;
+  padding-top:2em;
+
+  h2 {
+    @include kicker;
+    color: rgba(0,0,0,0.75);
+  }
+  ul {
+    list-style:none;
+    padding-left:0;
+
+    @include horizontalnav; 
+  }
 }
