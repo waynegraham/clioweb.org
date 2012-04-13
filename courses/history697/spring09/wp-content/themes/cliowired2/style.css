@@ -1,0 +1,55 @@
+/*  
+Theme Name: Clio Wired 2
+Theme URI: http://wordpress.org/
+Description: A simple, no frills theme to use for new designs.
+Author: Jeremy Boggs
+Author URI: http://clioweb.org/
+*/
+
+/* == Reset == */
+@import url("/ui/c/reset.css");
+@import url("/ui/c/grid.css");
+@import url("/ui/c/typography.css");
+
+body {background: #efefe8; color: #333;}
+
+a:link {color:#c54f26;}
+a:visited {color: #777;}
+a:hover {color: #c60;}
+a:active {color: #333;}
+
+h2 {color: #999;}
+#wrap {position:relative; overflow:auto;background: #fff;padding: 0 36px 36px;border:1px solid #cfcfc8;width: 828px; margin: 36px auto;}
+	#courseinfo {display:none;}
+
+#header {background:#fff url("images/whiteboard.jpg") bottom left no-repeat;padding-bottom:0; margin:0 -36px;  padding: 36px 0 100px; border-bottom:1px solid #cfcfc8;}
+#header h1 {margin:0 36px 36px;}
+
+#header h1 a {color: #333 !important;}
+#navigation { list-style:none; background: #fff; padding:0 36px;border:1px solid #cfcfc8; border-width: 1px 0;overflow:hidden; zoom:1; margin-bottom:0;}
+	#navigation li {display:inline;}
+	#navigation a {display:block;border-bottom:9px solid #fff;float:left; width: 108px; padding: 18px 18px 9px 0;text-decoration:none; color: #555;}
+	#navigation a:hover {border-bottom-color: #cfcfc8;}
+	#navigation li.current_page_item a {border-bottom-color: #333; color: #333;font-weight:bold;}
+
+#content {overflow:hidden; zoom:1;padding:0 -36px;}
+#content h1 { font-size:24px; padding: 36px 36px 0; margin: 0 -36px 36px;}
+
+/* -- Home -- */
+
+#course-introduction {float:left;padding-top: 36px;}
+#course-links {float:right; background: #f0f0f0; margin-top: 36px;}
+#course-links h2, #course-links ul, #course-links p {margin:18px;}
+#course-links ul p {display:none;}
+#course-links h2 {font-size: 18px; color: #333;}
+/* -- Students -- */
+
+#primary #student-list {float:left; width: 180px; padding-left:0; list-style:none;}
+	#primary #student-list ul {padding-left:0; list-style:none;}
+	#student-list li {padding-left:0;}
+	#student-list a {display:block;}
+#student-posts {float:right; width: 612px;}
+
+/* == Footer == */
+#footer {clear:both; border-top: 1px solid #ccc; padding: 18px 36px 0; margin: 18px -36px 0;}
+	

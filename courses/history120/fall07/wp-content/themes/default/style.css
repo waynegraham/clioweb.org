@@ -1,0 +1,67 @@
+/*  
+Theme Name: WordPress Default
+Theme URI: http://clioweb.org
+Description: Course theme.
+Version: 1.0
+Author: Jeremy Boggs
+Author URI: http:/clioweb.org
+*/
+
+/* == Reset styles == */
+@import url("reset.css");
+
+/* == Global Styles == */
+
+body {font:62.5% Verdana,Helvetica, Arial, sans-serif; color: #444; background:#fff; border-top:5px solid #fff09e; padding-top:18px;}
+
+/* Headings */
+h1 {font-size:2.4em;}
+h2 {font-size:3.2em; line-height:1.5em; margin-bottom:0.5em;}
+h3 {font-size:2em; line-height:0.9em; margin-bottom:0.45em;}
+h4 {font-size:1.6em; line-height:1.2em; margin-bottom:1.2em; font-style:bold;}
+h5 {font-size:1.2em; line-height:1.5em; font-weight:bold;}
+h6 {font-size:1.2em; line-height:1.5em; font-style:italic;}
+
+h1,h2,h3,h4,h5,h6 {font-family:"Gill Sans", Verdana, sans-serif;}
+
+/* Links */
+a:link {color:#369;}
+a:visited {color:#369;}
+a:hover {color:#036;}
+a:active {color:#036;}
+
+h1 a, h2 a, h3 a {text-decoration:none;}
+
+/* Misc elements */
+p,ul,ol,dl {font-size:1.1em; line-height:1.63636em; margin-bottom:1.63636em;}
+strong {font-weight:bold;}
+em {font-style:italic;}
+
+/* == Wrap == */
+#wrap { margin:0 auto;width:774px; overflow:hidden;}
+
+/* == Header == */
+#header {float:left; width: 246px;}
+	#header a {text-decoration:none; color:#444; padding:18px 0;display:block;}
+	#header h1 {font-size:1.4em; font-family:"Gill Sans", sans-serif; font-weight:bold;}
+	#header a em {display:inline; font-style:normal;}
+#header .description {display:none;}
+
+#navigation {margin-bottom:0; text-align:right;float:right; width: 512px; font-size:1.5em;padding:1.2em 0; line-height:1.8em;font-size:1.3em; font-family:"Gill Sans", sans-serif; font-weight:normal;}
+#navigation li {display:inline;margin-left:12px;}
+#navigation a {text-decoration:none;}
+
+/* == Content == */
+#content {border-top:1px dotted #ccc; clear:both;}
+	#courseinfo {background:#fff url("images/mum.jpg") 264px 18px no-repeat; padding:18px 0 0;}
+		#courseinfo h2, #courseinfo p {display:none;}
+	
+	#primary {margin-left:264px; border-top:1px dotted #ccc; margin-top:18px; padding-top:17px;}
+		#spschedule .vevent {border:none;overflow:hidden; border-top:1px dotted #ccc;}
+		#spschedule .vevent .date {margin-top:18px;display:block; margin-right:0; margin-bottom:0.9em;}
+
+		#spschedule .assignment-title {font-size:1.1em; font-weight:bold; margin-bottom:1.63636em; line-height:1.63636em;display:block;}
+
+		#spprojects .project {border-top:1px dotted #ccc; padding-top:18px;}
+/* ==  Footer == */
+#footer {clear:both; overflow:hidden;background:#fff; border-top:1px solid #ccc; margin-left:264px; padding:18px 0 0; color:#999;}

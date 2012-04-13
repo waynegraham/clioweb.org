@@ -1,0 +1,45 @@
+body {
+   background: white;
+   font-size: 12pt;
+   }
+
+.hide {display: none;}
+
+p,dl,ul {line-height: 24pt;}
+ul {list-style: none;}
+dt {font-weight: bold;}
+dd {margin-left: 0;}
+#header-img, #footer {
+   display: none;
+   }
+
+#title h1, #title h2 {font-family: "Century Gothic", Futura, "Gill Sans",Verdana, sans-serif;}
+
+#title a {text-decoration: none; color:black;}
+#page {float: none;}
+#content, #header{
+   width: auto;
+   margin: 0 5%;
+   padding: 0;
+   border: 0;
+   float: none !important;
+   color: black;
+   background: transparent none;
+   }
+
+div#sidebar {display: none;}
+
+a:link, a:visited {
+   color: #520;
+   background: transparent;
+   font-weight: bold;
+   text-decoration: underline;
+   }
+#content a:link:after, #content a:visited:after {
+   content: " (" attr(href) ")";
+   font-size: 90%;
+   }
+#content a[href^="/"]:after {
+   content: " (http://clioweb.org/fall06/history120" attr(href) ")";
+   }
+

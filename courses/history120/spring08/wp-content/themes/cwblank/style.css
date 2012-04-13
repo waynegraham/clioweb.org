@@ -1,0 +1,120 @@
+/*  
+Theme Name: ClioWeb Blank
+Theme URI: http://wordpress.org/
+Description: A simple, no frills theme to use for new designs.
+Author: Jeremy Boggs
+Author URI: http://clioweb.org/
+*/
+/* 
+Grid: 774px wide, 12 columns at 48px each, 11 gutters at 18px each.
+1 = 48px
+2 = 114px
+3 = 180px
+4 = 246px
+5 = 312px
+6 = 378px
+7 = 444px
+8 = 510px
+9 = 576px
+10 = 642px
+11 = 708px
+12 = 774px
+*/
+/* == Reset styles == */
+@import url("reset.css");
+
+/* == Global Styles == */
+body {font:62.5% Helvetica, Arial, sans-serif; background:#fff;color: #333; padding: 18px;background:#e0e0e0;}
+
+	/* Headings */
+	h1 {font-size:3em; line-height:1.2em; margin-bottom:0.6em;}
+	h2 {font-size:2em; color:#666; line-height:1.5em; margin-bottom:0.5em;}
+	h3 {font-size:1.8em; line-height:1.5em; margin-bottom:0.5em;}
+	h4 {font-size:1.5em; line-height:1.2em; margin-bottom:1.2em;}
+	h5 {font-size:1.2em; line-height:1.5em; font-weight:bold;}
+	h6 {font-size:1.2em; line-height:1.5em; font-style:italic;}
+	
+	h1,h2,h3,h4,h5,h6 {font-family:"Gill Sans", Helvetica, Arial, sans-serif;}
+	
+	/* Links */
+	a:link {color:#555;}
+	a:visited {color:#666;}
+	a:hover {color:#666;}
+	a:active {color:#999;}
+
+	h1 a, h2 a, h3 a {text-decoration:none;}
+
+	/* Misc elements */
+	p,ul,ol,dl {font-size:1.2em; line-height:1.5em; margin-bottom:1.5em;}
+	label {font-size:1.2em; line-height:1.5em; margin-bottom:0.5em; font-weight:bold;}
+	ul {list-style:square; margin-left:0em;}
+	ol {list-style:decimal-leading-zero;}
+	ul,ol {list-style-position:outside; margin-left:24px;}
+	ul ul, ol ol, ul ol, ol ul {font-size:1em; margin-top:1.5em;}
+/* == Wrap == */
+#wrap { overflow:hidden; margin:0 auto; }
+
+/* == Header == */
+#header {margin-bottom:0; padding-bottom:1.8em; overflow:hidden; width:648px; margin:0 auto;}
+	#header h1 {float:left; width: 48%;font-size:1.6em;}
+		#header h1 a {color:#333;}
+	#header .description {font-size:1.1em;float:right; width:246px; text-align:left;}
+
+/* == Navigation == */
+#navigation ul {list-style:none; overflow:hidden; width: 648px; margin:0 auto;}
+	#navigation li {width:162px; display:block; float:left;}
+	#navigation a {display:block; float:left; text-decoration:none;background:#333; color:#fff;width: 100%; padding:1em 0 1.5em; text-indent:18px;}
+
+	#navigation a:link, #navigation a:visited {background:#393939;}
+	#navigation a:hover, #navigation a:active {background:#333;}
+	#navigation li.current_page_item a{background:#222;}
+/* == Content == */
+#content {margin:0 auto;overflow:hidden;margin-bottom:0;width:576px; padding:100px 36px 18px; background:#fff url("images/city1-774.jpg") -30px -60px no-repeat;border-top:6px solid #222;}
+	#downloads {float:right; width: 180px; margin-left:18px;margin-bottom:18px;margin-top:50px; background:#fff;}
+		#downloads ul {list-style:none; text-indent:0; margin:0; padding:0;}
+		#downloads a {display:block; text-decoration:none; padding:1em; margin-bottom:1px;background:#eee;}
+
+	#secondary {width:180px; display:none;float:right;}
+
+	#secondary h2 {color:#aaa;}
+	#secondary ul, #secondary ol {list-style:none;}
+	
+	.sidebarlinks {}
+	.sidebarlinks a {text-decoration:none; display:block; }
+
+	#posts {border-bottom:1px solid #ccc; padding-top:18px; overflow:hidden; margin-bottom:18px;}
+	/* Post styles */
+	.post {padding:0;}
+		.postmetadata li {}
+		.postmetadata li a {text-decoration:none; display:block;}
+		.postmetadata .dtpublished {font-weight:bold;}
+		
+	.post h1, .post h2 {margin-left:0;}
+	
+	#home .post {float:left; clear:left;}	
+	#home .postmetadata { font-size:1.2em; font-weight:bold; margin-bottom:1.5em;}
+		
+	#single .entry p:first-child:first-letter {display: inline;float: left;font-weight: bold;background: #666;color: #fff;font-size: 2.25em;text-transform:uppercase;margin: 0.1em 9px 0 -24px;padding: .4em .5em .3em;}
+	#single .entry img:first-child {display: block;float: left;font-weight: bold;}
+	
+	#single .post {margin-bottom:18px;}
+	#single .postmetadata {border-top:1px solid #cfcfcf; clear:both;padding-top:1.5em; margin-left:-24px; font-style:italic;}
+	
+	#single .post h2 {font-size:3em; margin-bottom:0.6em; line-height:2.4em;}
+	
+	/* Comments and Comment Form */
+	#commentform {}
+	#commentform label, #commentform input, #commentform textarea {display:block;}
+	#commentform textarea, #commentform .textinput {border:1px solid #cfcfcf;padding:3px; width:310px;}
+	
+	#comments {border-top:1px solid #cfcfcf;padding-top:1.8em;}
+	#commentlist {list-style-position:inside; list-style:none;}
+	#commentlist > li {margin-left:0; float:left; clear:left;border-bottom:1px solid #ccc; margin-bottom:1.5em;}
+		#commentlist li * {font-size:1em;}
+	
+		.comment-metadata {list-style:none; margin-left:0;float:left; width:114px;}
+			.comment-metadata a {text-decoration:none; font-weight:bold;}
+		.comment-text {float:left; width: 422px;}
+/* ==  Footer == */
+#footer {clear:both; overflow:hidden; padding-top:1.8em; border-top:6px solid #999;overflow:hidden; width:648px; margin:0 auto;}
+#footer p {margin-bottom:0;}
