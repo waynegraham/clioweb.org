@@ -1,12 +1,11 @@
 html{
-  border:10px solid rgba(0,0,0,0.725);
+  border:10px solid $dark-grey;
   border-width: 10px 0 0;
 }
 body {
-  font-family: "museo-sans-1","museo-sans-2", sans-serif;
-  color: #333;
-  color: rgba(0,0,0,0.75);
-  padding: 3em 20px;
+  @include serif;
+  color: $dark-grey;
+  padding: 1em;
 }
 
 header {
@@ -14,7 +13,8 @@ header {
 }
 
 #{headings()} {
-  font-family: "museo-slab-1","museo-slab-2", sans-serif;
+  font-weight: 600;
+  @include sans-serif;
 
   a {
     text-decoration:none;
@@ -26,7 +26,7 @@ header {
 }
 
 h1 {
-  font-weight: 500;
+  font-size: 2em;
 }
 
 h2 {
@@ -35,23 +35,26 @@ h2 {
 
 article #{headings(3,6)} {
   margin-bottom:0;
+  @include serif;
 }
 
 a {
-  &:link {color: rgb(200,200,0); color: #c92;}
-  &:visited {color: rgba(200, 200, 0, 0.8); color: #c92;}
-  &:hover, a:focus { color: #333; }
-  &:active { color: #333;}
+  &:link {color: $highlight;}
+  &:visited {color: $highlight;}
+  &:hover, a:focus { color: $dark-grey; }
+  &:active { color: $dark-grey;}
 }
 
 blockquote {
-  color: rgba(0,0,0,0.5);
+  color: $light-grey;
   font-size: 1.25em;
+  @include sans-serif;
+  border-left: 1em solid $highlight;
 }
 
 table {
   thead {
-    border-bottom: 2px solid rgba(0,0,0,0.2);
+    border-bottom: 2px solid $light-border-color;
     th{
       font-weight: 700;
       text-align:left;
@@ -60,7 +63,7 @@ table {
   }
 
   tbody tr {
-    border-bottom: 1px dotted rgba(0,0,0,0.2);
+    border-bottom: 1px dotted $light-border-color;
   }
 
   th,td {
@@ -78,8 +81,14 @@ img {
   @include kicker;
 }
 
+.byline {
+  @include byline;
+}
+
 header[role="banner"] {
-  margin-bottom: 3em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px dotted $light-border-color;
 
   h1 {
     text-transform:lowercase;
@@ -91,7 +100,7 @@ header[role="banner"] {
 
     a {
       text-decoration:none;
-      color: #777;
+      color: $dark-grey;
 
       img {
         display:block;
@@ -108,23 +117,8 @@ header[role="banner"] {
     font-weight: 300;
     line-height: 60px;
     text-transform: lowercase;
-    font-family: "museo-slab-1","museo-slab-2", sans-serif;
-
-    li {
-      display:inline;
-    
-      &:not(:first-child):before {
-        content: " / ";
-        color: rgba(0,0,0,0.2);
-        padding: 0 0.25em;
-      }
-
-    }
-
-    a {
-      text-decoration:none;
-    }
-
+    @include sans-serif;
+    @include horizontalnav;    
   }
 
 }
@@ -132,12 +126,12 @@ header[role="banner"] {
 #intro {
   margin-bottom: 2em;
   padding-bottom: 2em;
-  border-bottom: 1px dotted rgba(0,0,0,0.25);
+  border-bottom: 1px dotted $light-border-color;
   p {
     font-size: 1.5em;
     font-weight: 100;
-    color: rgba(0,0,0,0.5);
-    font-family: "museo-slab-1", "museo-slab-2", sans-serif;
+    color: $light-grey;
+    @include sans-serif;
     margin:0;
   }
   a {
@@ -165,20 +159,14 @@ header .kicker + h1 {
   margin-top: 0;
 }
 
-time[pubdate] {
-  font-size: 0.9em;
-  font-weight: 100;
-  color: rgba(0,0,0,0.5);
-}
-
 footer[role="contentinfo"] {
-  border-top: 1px dotted rgba(0,0,0,0.25);
+  border-top: 1px dotted $light-border-color;
   margin-top:2em;
   padding-top:2em;
 
   h2 {
     @include kicker;
-    color: rgba(0,0,0,0.75);
+    color: $dark-grey;
   }
   ul {
     list-style:none;
