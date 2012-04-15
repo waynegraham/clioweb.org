@@ -14,3 +14,12 @@ $ie                             : true;
 $show-column-grid-backgrounds   : false;
 $show-baseline-grid-backgrounds : false;
 $show-grid-backgrounds          : false;
+
+// Colors ---------------------------------------------------------------------
+$highlight        : rgb(230,100,0);
+$dark-grey        : rgba(0,0,0,0.7);
+$light-grey       : rgba(0,0,0,0.5);
+$lightest-grey    : rgba(0,0,0,0.2);
+
+$light-border-color: $lightest-grey;
+$highlight-border-color: $highlight;
