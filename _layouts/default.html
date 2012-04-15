@@ -13,14 +13,18 @@
   <meta name="description" content="{{ page.description }}">
   {% endif %}
   <meta name="author" content="{{ site.author }}">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <!-- OpenID -->
   <link rel="openid.server" href="http://openid.clioweb.org/">
   <link rel="openid.delegate" href="http://openid.clioweb.org/">
 
-  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- Feeds -->
+  <link rel="alternate" type="application/rss+xml" title="Atom" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
 
+  <!-- Style Sheets -->
   <link rel="stylesheet" href="/c/styles.css" type="text/css">
   {% for css in page.css %}
   <link rel="stylesheet" href="{{ css }}" type="text/css">
