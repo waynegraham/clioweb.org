@@ -3,12 +3,17 @@
     display:inline;
 
     &:not(:first-child):before {
-      content: " / ";
-      color: rgba(0,0,0,0.2);
+      content: " · ";
+      color: $light-grey;
       padding: 0 0.25em;
     }
 
   }
+  a {
+    display:inline;
+    text-decoration:none;
+  }
+
 }
 
 @mixin verticalnav {
@@ -17,6 +22,7 @@
 
     a {
       display:block;
+      text-decoration:none;
     }
 
     &:not(:first-child):before {
@@ -27,9 +33,24 @@
 }
 
 @mixin kicker {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.8em;
-  color: rgba(0,0,0,0.35);
+  color: $light-grey;
   margin:0;
-  font-family: "museo-slab-1", "museo-slab-2", sans-serif;
-} 
+  @include serif;
+}
+
+@mixin byline {
+  font-weight: 500;
+  font-weight:1em;
+  color: $light-grey;
+  @include sans-serif;
+}
+
+@mixin sans-serif {
+  font-family: "freight-sans-pro-1","freight-sans-pro-2", sans-serif;
+}
+
+@mixin serif {
+  font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", serif;
+}
