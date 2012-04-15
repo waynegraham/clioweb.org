@@ -1,5 +1,5 @@
-$total-cols: 4;
-$col-width: 160px;
+$total-cols: 5;
+$col-width: 120px;
 $gutter-width: 40px;
 $side-gutter-width: 0px;
 
@@ -39,10 +39,11 @@ header[role="banner"] {
 footer[role="contentinfo"] {
   @include clearfix;
   div {
-    @include columns(1, 4);
+    @include columns(1, 5);
 
     &:first-child {
       @include alpha;
+      @include columns(2,5);
     }
 
     &:last-child {
@@ -53,5 +54,10 @@ footer[role="contentinfo"] {
 
   ul {
     @include verticalnav;
+    a:before {
+      content: "·";
+      color: $light-grey;
+      padding-right: 0.25em;
+    }
   }
 }
