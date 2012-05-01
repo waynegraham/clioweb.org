@@ -13,8 +13,7 @@ header {
 }
 
 #{headings()} {
-  font-weight: 600;
-  @include sans-serif;
+  @include headings-sans-serif;
 
   a {
     text-decoration:none;
@@ -26,7 +25,7 @@ header {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 h2 {
@@ -36,13 +35,11 @@ h2 {
 article #{headings(3,6)} {
   margin-bottom:0;
   @include serif;
+  font-weight: 300;
 }
 
 a {
-  &:link {color: $highlight;}
-  &:visited {color: $highlight;}
-  &:hover, a:focus { color: $dark-grey; }
-  &:active { color: $dark-grey;}
+  @include link-colors($highlight, $dark-grey, $dark-grey, $highlight);
 }
 
 blockquote {
@@ -55,7 +52,7 @@ blockquote {
 table {
   thead {
     border-bottom: 2px solid $light-border-color;
-    th{
+    th {
       font-weight: 700;
       text-align:left;
       font-size: 0.8em;
@@ -100,8 +97,11 @@ header[role="banner"] {
 
     a {
       text-decoration:none;
-      color: $dark-grey;
-
+      &:link,
+      &:visited,
+      &:hover,
+      &:active {color: $dark-grey;}
+    
       img {
         display:block;
         margin: 0 auto;

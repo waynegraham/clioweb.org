@@ -48,9 +48,18 @@
 }
 
 @mixin sans-serif {
-  font-family: "freight-sans-pro-1","freight-sans-pro-2", sans-serif;
+  font-family: "freight-sans-pro-n6", "freight-sans-pro-1","freight-sans-pro-2", sans-serif;
+  font-weight:normal;
+  font-style:normal;
 }
 
 @mixin serif {
-  font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", serif;
+  font-family: "ff-meta-serif-web-pro-n3", "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+@mixin headings-sans-serif {
+  @include sans-serif;
+  font-weight: 600;
 }
