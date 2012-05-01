@@ -1,0 +1,11 @@
+source "http://rubygems.org"
+
+gem "jekyll"
+gem "compass"
+gem "compass-susy-plugin"
+gem "pygments.rb"
+gem "rdiscount"
+gem "guard"
+gem "guard-shell"
+gem "guard-compass"
+gem "guard-livereload"
