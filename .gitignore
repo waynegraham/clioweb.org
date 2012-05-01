@@ -1,7 +1,7 @@
-.DS_Store
 log/
 _cache/
 _site
 .pygments-cache
 .sass-cache
 c
+Gemfile.lock
