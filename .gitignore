@@ -4,4 +4,3 @@ _site
 .pygments-cache
 .sass-cache
 c
-Gemfile.lock
