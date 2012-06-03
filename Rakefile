@@ -19,23 +19,20 @@ task :server => :clean do
   jekyll('--server --auto')
 end
 
-desc "Begin a new post"
-task :new_post, :title do |t, args|
+desc "Draft a new post"
+task :draft, :title do |t, args|
   require './_plugins/titlecase.rb'
   args.with_defaults(:title => 'new-post')
-  title = args.title
-  filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}.md"
-  puts "Creating new post #{filename}"
 
-  open(filename, 'w') do |post|
-    system "mkdir -p _posts"
-    post.puts "---"
-    post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/&/,'&amp;').titlecase}\""
-    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-    post.puts "categories: "
-    post.puts "---"
-  end
+  title = args.title.gsub(/&/,'&amp;').titlecase
+  draft("#{title}")
+end
+
+desc "Publish a Draft"
+task :publish, :filename do |t, args|
+  args.with_defaults(:filename => nil)
+  filename = args.filename
+  publish(filename)
 end
 
 desc "Deploy it"
@@ -55,3 +52,32 @@ def compass(opts = '')
   sh 'compass compile -c config.rb --force ' + opts + ' && compass watch &'
 end
 
+def draft(title)
+  slug = title.downcase.gsub(/ +/,'-').gsub(/[^-\w]/,'').sub(/-+$/,'')
+  filename = slug + ".md"
+  mkdir_p "_drafts"
+  if File.exists?("_drafts/#{filename}")
+    puts "#{filename} already exists!"
+    return
+  end
+  File.open("_drafts/#{filename}","w+") do |f|
+    f.puts "---"
+    f.puts "layout: post"
+    f.puts "title: #{title}"
+    f.puts "---"
+  end
+  puts "Created _drafts/#{filename}"
+end
+
+def publish(file=nil)
+  unless file
+    puts "Choose file:"
+    @files = Dir["_drafts/*"]
+    @files.each_with_index { |f,i| puts "#{i+1}: #{f}" }
+    print "> "
+    num = STDIN.gets
+    file = @files[num.to_i - 1]
+  end
+  now = Time.now.strftime("%Y-%m-%d")
+  mv file, "_posts/#{now}-#{File.basename(file)}"
+end
