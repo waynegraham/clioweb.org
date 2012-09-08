@@ -55,7 +55,7 @@ end
 def draft(title)
   slug = title.downcase.gsub(/ +/,'-').gsub(/[^-\w]/,'').sub(/-+$/,'')
   filename = slug + ".md"
-  mkdir_p "_drafts"
+  FileUtils.mkdir_p "_drafts"
   if File.exists?("_drafts/#{filename}")
     puts "#{filename} already exists!"
     return
