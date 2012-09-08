@@ -11,25 +11,9 @@ bodyclass: 'home'
 </div>
 
 <div id="blog">
-{% for post in site.posts offset: 0 limit: 1 %}
-<article>
-
-<header>
-    <p class="kicker">Latest Post</p>
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="byline"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%B %d, %Y' }}</time> · <a href="{{ post.url }}" rel="bookmark">Permalink</a></p>
-  </header>
-
-  <div class="content">
-    {{ post.content }}
-  </div>
-    
-</article>
-
-{% endfor %}
-<p class="kicker">Previous Posts</p>
+<p class="kicker">Recent Posts</p>
 <ul class="posts">
-{% for post in site.posts offset: 1 limit: 3 %}
+{% for post in site.posts offset: 0 limit: 5 %}
 {% include postli.html %}
 {% endfor %}
 </ul>
