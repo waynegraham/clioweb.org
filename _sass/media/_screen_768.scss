@@ -1,7 +1,6 @@
-$total-cols: 5;
-$col-width: 120px;
+$total-columns: 5;
+$column-width: 120px;
 $gutter-width: 40px;
-$side-gutter-width: 0px;
 
 body {
   padding-top: 4em;
@@ -39,15 +38,14 @@ header[role="banner"] {
 footer[role="contentinfo"] {
   @include clearfix;
   div {
-    @include columns(1, 5);
+    @include span-columns(1, 5);
 
     &:first-child {
-      @include alpha;
-      @include columns(2,5);
+      @include span-columns(2,5);
     }
 
     &:last-child {
-      @include omega;
+      @include span-columns(1 omega, 5);
     }
 
   }

@@ -1,7 +1,7 @@
-$total-cols: 2;
-$col-width: 48%;
+$total-columns: 2;
+$column-width: 48%;
 $gutter-width: 4%;
-$side-gutter-width: 0;
+$gutter-padding: 0;
 
 body {
   font-size: 110%;
@@ -28,12 +28,10 @@ nav#post-navigation {
   @include clearfix;
 
   li {
-    @include columns(1);
-    @include alpha;
+    @include span-columns(1);
 
     &.next {
-      @include columns(1);
-      @include omega;
+      @include span-columns(1 omega);
       text-align:right;
     }
 
