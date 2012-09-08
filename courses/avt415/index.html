@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AVT 415: Web Design &amp; Usability</title>
+    
+    <link rel="stylesheet" href="all.css">
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script>
+
+ 
+    $(document).ready(function() {
+        $('h2:not(header h2, #instructor h2)').wrapInner('<em>');
+        
+        function moveFloatMenu() {
+    		var menuOffset = menuYloc.top + $(this).scrollTop() + "px";
+    		$('nav, #instructor').animate({top:menuOffset},{duration:1000,queue:false});
+    	}
+    	
+        menuYloc = $('nav, #instructor').offset();
+
+    	$(window).scroll(moveFloatMenu);
+
+    	moveFloatMenu();
+    	
+    	function filterPath(string) {
+          return string
+         .replace(/^\//,'')
+         .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+         .replace(/\/$/,'');
+          }
+          var locationPath = filterPath(location.pathname);
+          var scrollElem = scrollableElement('html', 'body');
+          $('a[href*=#]').each(function() {
+         var thisPath = filterPath(this.pathname) || locationPath;
+         if (  locationPath == thisPath
+         && (location.hostname == this.hostname || !this.hostname)
+         && this.hash.replace(/#/,'') ) {
+           var $target = $(this.hash), target = this.hash;
+           if (target) {
+          var targetOffset = $target.offset().top;
+          $(this).click(function(event) {
+            event.preventDefault();
+            $(scrollElem).animate({scrollTop: targetOffset}, 1000, function() {
+           location.hash = target;
+            });
+          });
+           }
+         }
+          });
+          // use the first element that is "scrollable"
+          function scrollableElement(els) {
+         for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+           var el = arguments[i],
+            $scrollElement = $(el);
+           if ($scrollElement.scrollTop()> 0) {
+          return el;
+           } else {
+          $scrollElement.scrollTop(1);
+          var isScrollable = $scrollElement.scrollTop()> 0;
+          $scrollElement.scrollTop(0);
+          if (isScrollable) {
+            return el;
+          }
+           }
+         }
+         return [];
+          }
+    });
+	</script>
+</head>
+<body id="top">
+    <header>
+        <hgroup>
+        <h1><em>Art and Visual Technology 415</em></h1>
+        <h2>Web Design <span class="amp">&amp;</span> Usability</h2>
+        <h3><em>Tu, Th 4:30&ndash;7:10 &middot; AB 1023 &middot; George Mason University</em></h3>
+        </hgroup>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#top">Description</a></li>
+            <li><a href="#projects">Projects &amp; Schedule</a></li>
+            <li><a href="#requirements">Requirements</a></li>
+            <li><a href="#policies">Policies</a></li>
+            <li><a href="boggs-avt415-fall10.pdf" class="pdf">Download Syllabus</a></li>
+        </ul>
+    </nav>
+    <div id="instructor">
+        <ul>
+            <li>Jeremy Boggs</li>
+            <li><a href="mailto:jboggs@gmu.edu">jboggs@gmu.edu</a></li>
+            <li>476 Research One</li>
+            <li>Hours: Tu,Th 2:00–4:00</li>
+            <li>703.596.0342</li>
+            <li>AIM: jboggs22</li>
+            <li>Yahoo: jeremyboggs</li>
+            <li>Skype: clioweb</li>
+            <li>Twitter: <a href="http://twitter.com">clioweb</a></li>
+        </ul>
+    </div>
+
+
+<p id="description"><strong>Web Design and Usability</strong> introduces students to best practices and techniques for standards-based web design and development. By the end of this course, student will be familiar with:</p>
+
+<ul>
+    <li>Current trends and issues in web design/development</li>
+    <li>HTML and CSS.</li>
+    <li>JavaScript and JavaScript frameworks</li>
+    <li>Using web servers, databases, and content management systems.</li>
+    <li>Basic project management, including steps and skills to conceive, design, develop, and implement a web site.</li>
+</ul>
+
+<h2 id="projects">Projects and Schedule</h2>
+
+
+<h3>Project #1 :: HTML, CSS, and JavaScript (Weeks 1&ndash;5)</h3>
+<p>Create one valid, hand-coded, well-designed HTML page that uses CSS for presentation and JavaScript for behavior. The pages should be accessible and usable on a desktop computer and on a mobile device. It should use at least one open-license font, provide at least one external link, use at least one image, and use jQuery and at least one jQuery plugin. </p>
+
+<h4>Reading</h4>
+
+<ul>
+    <li>Jeffrey Zeldman, <a href="http://www.alistapart.com/articles/understandingwebdesign/">&#8220;Understanding Web Design,&#8221;</a> A List Apart</li>
+    <li>Michael Cohen, <a href="http://www.alistapart.com/articles/separationdilemma/">&#8220;Separation: The Designer&#8217;s Dilemma,&#8221;</a> A List Apart</li>
+    <li><a href="http://www.w3schools.com/Xhtml/xhtml_intro.asp">XHTML Tutorial</a></li>
+    <li><a href="http://www.w3schools.com/css/css_intro.asp">CSS Tutorial</a></li>
+    <li>Ethan Marcotte, <a href="http://www.alistapart.com/articles/responsive-web-design/">&#8220;Responsive Web Design,&#8221;</a> A List Apart</li>
+    <li><a href="http://fontsquirrel.com">FontSquirrel</a></li>
+    <li><a href="http://theleagueofmoveabletype.com/">The League of Moveable Type</a></li>
+    <li><a href="http://jquery.com">jQuery</a></li>
+</ul>
+
+
+<h4>Schedule</h4>
+<ul>
+<li>08/31 - Introductions and Housekeeping.</li>
+<li>09/02 - Introduction to Web Design; HTML and CSS.</li>
+<li>09/07 - HTML and CSS</li>
+<li>09/09 - Intermediate CSS: layout, media queries, mobile design.</li>
+<li>09/14 - Advanced HTML and CSS</li>
+<li>09/16 - Advanced HTML and CSS</li>
+<li>09/21 - Introduction to jQuery</li>
+<li>09/23 - jQuery plugins</li>
+<li>09/28 - Quiz #1 (HTML and CSS); Open Lab</li>
+<li>09/30 - Project #1 Critique</li>
+</ul>
+
+<p><strong>Project #1 due October 5</strong></p>
+
+<h3>Project #2 :: WordPress theme (Weeks 6&ndash;9)</h3>
+<p><strong><a href="examples/mytheme.zip">Starting Example Theme</a></strong></p>
+<p>Create a unique, valid, and working WordPress theme. The artwork and styles for your theme must be your own, though you may use another theme as the basis for your work. It must include at least three configuration options, one of which must be a custom header image. It should be widget-ready, and should work with WordPress 3.0. At the end of the project, you'll have the option of putting your theme in the directory of available themes for OnMason.com.</p>
+
+<h4>Reading</h4>
+<ul>
+    <li><a href="http://wordpress.org/extend/themes/about/">About WordPress Themes</a></li>
+    <li><a href="http://codex.wordpress.org/Theme_Development_Checklist">Theme Development checklist</a></li>
+    <li><a href="http://codex.wordpress.org/Theme_Development">Theme Development, on WP codex</a></li>
+</ul>
+
+<h4>Schedule</h4>
+
+<ul>
+    <li>10/05 - Introduction to WordPress and theming</li>
+    <li>10/07 - Advanced WP themes - custom functions and template files.</li>
+    <li>10/12 - No Class</li>
+    <li>10/14 - Open Lab; Advanced WP themes - Adding theme configuration options</li>
+    <li>10/21 - Open Lab</li>
+    <li>10/28 - Testing WP themes.</li>
+    <li>11/02 - Open Lab</li>
+    <li>11/04 - Project #2 Critique</li>
+</ul>
+
+<p><strong>Project #2 due November 4</strong></p>
+
+<h3>Project #3 :: Portfolio/Promotional Web Site Design (Weeks 11&ndash;15)</h3>
+
+<p>Create a valid, function web site of your own choosing. You will create and discuss the strategy and scope of your site, notes on your target audience, a content inventory, information architecture and mockup documents, in addition to the final web site.</p>
+
+<h4>Reading</h4>
+
+<ul>
+    <li>Nate Bolt, <a href="http://www.alistapart.com/articles/quick-and-dirty-remote-user-testing/">&#8220;Quick and Dirty Remote User Testing,&#8221;</a> A List Apart</li>
+    <li>Mark Boulton, <a href="http://fivesimplesteps.com/books/practical-guide-designing-for-the-web">Practical Guide</a>.</li>
+    <li>Joshua Kaufman, <a href="http://www.digital-web.com/articles/getting_ia_done_part_ii/">&#8220;Getting IA Done, Part II.&#8221;</a> Digital Web Magazine</li>
+    <li>Daniel Ritzenthaler, <a href="http://www.alistapart.com/articles/taking-the-guesswork-out-of-design/">&#8220;Taking the Guesswork out of Design,&#8221;</a> A List Apart</li>
+    <li>Donna Spenser, <a href="http://www.uie.com/articles/creating_ia/">&#8220;How I Draw an Information Architecture,&#8221;</a> User Interface Engineering</li>
+    <li>Patrick Walsh, <a href="http://www.boxesandarrows.com/view/a-map-based-approach">&#8220;A Map-Based Approach to a Content Inventory,&#8221;</a> Boxes and Arrows</li>
+    <li>Luke Wroblewski, <a href="http://www.boxesandarrows.com/view/visible_narratives_understanding_visual_organization">&#8220;Visible Narratives,&#8221;</a> Boxes and Arrows</li>
+</ul>
+
+<h4>Schedule</h4>
+
+<ul>
+    <li>11/09 - Project management; Strategy and objectives; Scope, specifications, and content; Discuss potential sites to create.</li>
+    <li>11/11 - Interaction Design and Information Architecture</li>
+    <li>11/16 - Open Lab</li>
+    <li>11/18 - Visual Design</li>
+    <li>11/23 - Quiz #2 (Project status reports)</li>
+    <li>11/25 - No Class (Thanksgiving)</li>
+    <li>11/30 - Open Lab</li>
+    <li>12/02 - Open Lab</li>
+    <li>12/07 - Final Project critiques</li>
+    <li>12/09 - Final Project critiques (Last Class)</li>
+</ul>
+
+<p><strong>Project #3 due December 14</strong></p>
+
+<h2 id="requirements">Requirements</h2>
+
+<h3>Reading</h3>
+
+<p>The following text is required for the course: Mark Boulton, <em>A Practical Guile to Designing for the Web</em>. <a href="http://fivesimplesteps.com/books/practical-guide-designing-for-the-web">PDF available for purchase</a> at FiveSimpleSteps.com.</p>
+
+<p>We'll read articles, blog posts, and tutorials from web, specified for each project. In addition to the reading assigned for each project, you should regularly visit the following:</p>
+
+<ul>
+    <li><a href="http://alistapart.com">A List Apart</a></li>
+    <li><a href="http://boxesandarrows.com">Boxes and Arrows</a></li>
+</ul>
+
+<p>There are numerous web design showcase sites that feature good standards-based design, and sites that provide resources and tutorials. You should add these to your feed reader of choice. Some of these include:</p>
+
+<ul>
+    <li><a href="http://cssbeauty.com">CSS Beauty</a></li>
+    <li><a href="http://cssmania.com">CSS Mania</a></li>
+    <li><a href="http://designsnips.com">design|snips</a></li>
+    <li><a href="http://patterntap.com">Pattern Tap</a></li>
+    <li><a href="http://www.smashingmagazine.com">Smashing Magazine</a></li>
+    <li><a href="http://www.webdesignerdepot.com">Web Designer Depot</a></li>
+</ul>
+
+<h3>Software, Hardware, Hosting</h3>
+
+<p>Since this course uses computers and the Internet extensively, familiarity with both is essential. If you do not have internet service, please obtain it at the earliest available moment and become comfortable with the software and protocols. Although the university does not require the purchase of a computer, I would encourage you to consider the investment. You might find a laptop handy if you are accustomed to a particular OS and web editor. Because of the nature of the course, you cannot depend on the university&#8217;s public clusters or the availability of software for all assignments. Your enrollment in the course indicates your interest in computerish things, and your tool set should reflect that interest.</p>
+
+<p>Standards-based design is, on the whole, much more tractable than its predecessor, convoluted table-based design. Semantic HTML is much easier to write, but Internet browsers carry the baggage of the Browser Wars and, as result, render pages styled with CSS differently. As any experienced web design and developer can attest, you will need several browsers to test your web work. For Macintosh, you&#8217;ll need Firefox 3, Safari, Google Chrome, and Opera. For Windows, you will need to test on Firefox 3 and Internet Explorer versions 8 and 7.</p>
+
+<p>A good text editor is also a must. Adobe Dreamweaver is a good option (and is the one installed in the lab), but there are many text editor applications. Mac folks, for instance, can use Textmate, BBEdit, or Coda, among others. But remember: this class does not focus on a particular piece of software for web development; It focuses on how to write clean, semantic code. I can try my best to help troubleshoot software questions in and out of class, but you should rely primarily on the software&#8217;s documentation and company for support.</p>
+
+<p>This class also requires access to web hosting with PHP and MySQL. There are numerous free hosts Good web hosting is incredibly cheap. For example, <a href="http://oatbox.net">Oatbox</a> provides free hosting with a limited feature set, and additional features with paid accounts. Other web hosts include <a href="http://dreamhost.com">Dreamhost</a> and <a href="http://bluehost.com">Bluehost</a>. If you plan to continue web design and development work beyond this class, investment in good web hosting is a must.</p>
+
+<p>When signing up for hosting, your host will give you File Transfer Protocol (FTP) login information to connect to your server. Thus, a FTP program is also necessary to transfer files from your computer to your server. Mason&#8217;s <a href="http://itusupport.gmu.edu">ITU Support Center</a> provides a free download of Secure Shell for Windows. Free options for Macintosh include CyberDuck, Fetch, and Fugu. I prefer an inexpensive program called Transmit. Dreamweaver has a built-in FTP program, as do other text editors.</p>
+
+<h2 id="policies">Policies and Expectations</h2>
+
+<h3>Assignments and Grades</h3>
+<p>There are a total of 100 possible points on projects, assignments, and participation in this class, divided as follows:</p>
+<ul>
+<li>Project #1 - 20 points</li>
+<li>Project #2 - 20 points</li>
+<li>Project #3 - 20 points</li>
+<li>Quiz #1 - 10 points</li>
+<li>Quiz #2 - 10 points</li>
+<li>Class Participation - 20 points</li>
+</ul>
+<p>Grades for the course are assigned in the following manner:</p>
+<ul>
+<li>A—Outstanding work, complete mastery of the material presented, combined with some originality.</li>
+<li>B—A solid command of the material with some minor gaps or mistakes.</li>
+<li>C—Some knowledge of the material; Infrequent but significant confusions and errors present.</li>
+<li>D—An incomplete, minimal knowldge of the material; Frequent and/or major confusions and errors</li>
+<li>F—A complete lack of understanding of the course material.</li>
+<li>I—There are no incompletes given in this course except in cases of bona fide and documented instances in accordance with the regulations of the university.</li>
+<li>P—For a “pass” a “B” average is required.</li>
+</ul>
+<p>If you receive a grade or criticism from me with which you do not agree, feel free to discuss it with me during my office hours or by appointment. I am open to changing a grade if given sufficient reason, but be very prepared to make your case. I will not discuss grades by email, phone, or instant messenger; only in person, by appointment.</p>
+
+<h4>Late Assignments</h4>
+<p>In a class where collaboration and peer feedback are frequent, punctuality is absolutely necessary. Assignments not ready for presentation cannot beneﬁt from class feedback. Therefore, assignments are due on the date indicated on the syllabus;  Late assignments will be accepted up to a week after the due date; One-half letter grade, however, be deducted each day. After the grace period, late submissions will receive an “F” except in cases of documented and university sanctioned reasons.</p>
+
+<p><strong>A Word of Warning</strong>: I will not accept technology-related excuses for late or incomplete assignments. Computers, like many other things built by human beings, are imperfect. A computer or other technology-related problem can (and probably will) occur, so you should take steps to minimize these problems. Back up your work obsessively. Complete your assignments as early as possible. If your computer shorts out, your hard drive crashes, or the Internet goes down, make sure you have access to other computer resources. There are several computer labs for students on campus, which are free to use.</p>
+
+<h3>Contacting Me</h3>
+<p>I have provided numerous ways which which you can contact me. Feel free to use any, and do not hesitate to ask questions or get help if you need it. Please note, however, that I will not discuss grades by phone, email, or instant messenger. If you&#8217;d like to discuss your grade, please make an appointment to talk with me in person.</p>
+
+<p>All class announcements and any individual correspondence will go to your Mason email account. Mason uses electronic mail to provide official information to students. Examples include communications from course instructors, notices from the library, notices about academic standing, financial aid information, class materials, assignments, questions, and instructor feedback. Students are responsible for the content of university communication sent to their Mason e-mail account, and are required to activate that account and check it regularly. </p>
+
+<h3>Students with Disabilities and Learning Differences</h3>
+<p>If you have a diagnosed disability or learning difference and you need academic accommodations, please inform me at the beginning of the semester and contact the Disabilities Resource Center (SUB I room 234, 703-993-2474).  You must provide me with a faculty contact sheet from that office outlining the accommodations needed for your disability or learning difference. All academic accommodations must be arranged in advance through the DRC.</p>
+
+<h3>Attendance and Class Participation</h3>
+<p>Attendance, on-time and through the entire class period, is required and expected unless otherwise indicated by the instructor. Missing class, arriving late, or leaving early without a documented excuse impacts your participation in this class, and will this affect your grade. Attendance, however, is not enough. You must also attend prepared to participate in class, and actively contribute to class discussions.</p>
+
+<p>As a courtesy to others in the class, and in accordance with George Mason University policy, please turn off all beepers, cellular telephones and other wireless communication devices at the start of class. The instructor of the class will keep his/her cell phone active to assure receipt of any Mason Alerts in a timely fashion; or in the event that the instructor does not have a cell phone, he/she will designate one student to keep a cell phone active to receive such alerts.</p>
+
+<h3>Honor Code</h3>
+
+<p>While I encourage students to discuss assignments and critique others&#8217; work, the work you turn in must be your own. You may not copy the work of other students or copy work published elsewhere. You may not have other students complete the work for you. If you wish to cite published works, you must include an academic citation. If you have questions about whether the manner in which you complete your work will be an Honor Code violation, contact me before you turn in your assignment, not after.</p>
+
+<p>All Honor Code violations, not matter how small, will be forwarded to the Dean&#8217;s office with a recommendation for punishment.</p>
+
+<h3>Statement on Ethics in Teaching and Practicing Art and Design</h3>
+
+<p>As professionals responsible for the education of undergraduate and graduate art and design students, the faculty of the Department of Art and Visual Technology adheres to the ethical standards and practices incorporated in the professional Code of Ethics of our national accreditation organization, The National Association of Schools of Art and Design (NASAD).</p>
+
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Part Three: Design Process · ClioWeb</title>    
+  
+  <meta name="author" content="Jeremy Boggs">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/i/icon.png">
+  <!-- OpenID -->
+  <link rel="openid.server" href="http://openid.clioweb.org/">
+  <link rel="openid.delegate" href="http://openid.clioweb.org/">
+
+  <!-- Feeds -->
+  <link rel="alternate" type="application/rss+xml" title="Atom" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="/c/styles.css" type="text/css">
+  
+
+  <!-- Typekit -->
+  <script src="http://use.typekit.com/fsi3pmz.js"></script>
+  <script>try {Typekit.load();}catch(e){}</script>
+
+  <!-- Modernizr -->
+  <script src="/j/modernizr.min.js"></script>
+  <script>
+    Modernizr.load([
+      {
+        test: Modernizr.mq(),
+        nope: ['/j/respond.min.js',
+        '/j/selectivizr.min.js']
+      }
+    ]);
+  </script>
+</head>
+
+<body class="archive post">
+  <header role="banner">
+
+  <h1><a href="/"><img src="/i/watermark.png">ClioWeb</a></h1>
+
+  <nav>
+  <ul>
+  <li class="nav-about"><a href="/about.html">About</a></li>
+  <li class="nav-designing"><a href="/blog.html">Blog</a></li>
+  <li class="nav-cv"><a href="/cv.html">CV</a></li>
+</ul>
+
+  </nav>
+  </header>
+
+  <div id="content" role="main">
+    
+    <article>
+
+  <header>
+    <p class="kicker">
+      <time datetime="2008-06-04">June 04, 2008</time>
+    </p>
+    <h1>Part Three: Design Process</h1>
+
+  </header>
+
+  <div class="content">
+
+    <p>Now we get to the fun part: design. Unlike programming, design is one area that everyone on a project can (and usually does) have an opinion. It can be really fun to come up with new design ideas and get imaginative with a project, but it also possible to spend months on revisions and stymie a creative workflow if you're not careful. By following a process, and sticking to that process as much as possible, I've found that my design work is far more productive and fruitful than without a process.</p>
+
+<p>Generally, my design process follows this flow: <strong>Brainstorm &amp; Research</strong> -> <strong>Concept</strong> -> <strong>Mockups</strong>. Of course, the process <em>never</em> goes straight from one to the next, but meanders as ideas develop. That's OK, so long as you have a process to begin with, and have good, thought-out reasons for going back and forth during the process.</p>
+
+<h2>The Process</h2>
+
+<h3>Brainstorm and Research</h3>
+
+<p>The first part of the design process involves something humanists should be quite familiar with: research and brainstorming. Great design solutions take lots of research and lots of thought, and don't simply appear out of thin air. A significant investment in brainstorming and research during the design process helps produce great results far more often than without.</p>
+
+<p>When I begin a design project, I usually ask the project team or project lead what kind of mood or atmosphere we want the site to set for users. It is important to get feedback from the team at this point. I advise setting aside one or two meetings for this, just to come up with aesthetic concepts and sort through which ones are most useful, before touching Photoshop. When I asked this about <a href="http://gulaghistory.org">Gulag</a>, for instance, the responses were almost always "cold," "grey," "dreary," "worn," and "sad." Create mood boards, find other websites that contains elements you like, create color palates, whatever works for you and your team. The point is to get those creative juices flowing, to come up with ideas no matter how crazy. I've found that if you get stakeholders involved at this point it helps head off issues when discussing design mockups later on in the process.</p>
+
+<p>I keep an Idea Box in my office, and put things that I think are designed really well, or use design elements that I'd like to emulate in a future project. These things include magazine clippings, keychains, flyers, product boxes, coffee cup sleeves, anything that I think is designed well, has a strong concept, or implements interesting solutions. I also keep a library of website screenshots that I like using iPhoto. I regularly check out CSS showcase sites like <a href="http://cssmania.com">CSS Mania</a>, <a href="http://cssbeauty.com">CSS Beauty</a>, and <a href="http://stylegala.com">Stylegala</a>, to name a few. Sometimes I'll take shots of the entire screen, and sometimes I'll take clips of particular portions of a site I like, such as forms, headings, lists, or navigation. All of these serve to get ideas flowing in my head, figure out how others have solved design solutions, and learn from them.</p>
+
+<p><img src="/i/gulag-screen.png" title="Screenshot of Gulag: Many Days, Many Lives header" >
+Screenshot of <a href="http://gulaghistory.org">Gulag: Many Days, Many Lives</a>.</p>
+
+<p>Important for designers in general, but especially important for digital humanists, is researching the materials presented on the site. I look at materials not to engage them as an historian, but as a designer (though I can't help but look at them as an historian too). I look for the emotions the materials evoke, for ideas to draw from, for inspiration. For Gulag, there were lots of photos, drawings, letters, and posters on the history of the Soviet Gulag prison system that provided a wealth of design inspiration. I was drawn to a particular photo that depicted the remnants of a barren camp, and decided that would serve as the centerpiece for my design.</p>
+
+<p>The <a href="http://omeka.org">Omeka</a> logo had a somewhat similar development. From a design perspective, Omeka has been one of our more difficult projects to design and market, because we want to appeal to so many audiences: We want it to appeal to a general public, but also to have a professional, academic air to it. As it says on the Omeka website, the term "Omeka" is Swahili for "display goods, to unpack," so we wanted something that embodied that idea too. So, I researched potential sites that could be built with Omeka and looked at sites that our target audience created.</p>
+
+<p>At this stage, I use pencil and paper a lot. Before I touch Photoshop, I sketch ideas, usually thumbnail-sized boxes with layout, color, and graphics ideas. I like to keep a regular notebook for sketching ideas for various projects. I have a box full of crayons and colored pencils. I try out color combinations on paper and quickly draw logo ideas and layout ideas. These help me explore concepts quickly, without the investment of time and energy it takes to sketch ideas on the computer.</p>
+
+<h3>Concept</h3>
+
+<p>The whole goal of design, for the web or otherwise, is devising and implementing a concept or solution for a specific problem. If you do not have a concept--if you choose images, colors, fonts, et cetera with no reason--you're decorating, not designing. Designers should have a reason for almost every design decision: fonts, font size, font weight, leading and kerning, margins, padding, layout, colors, widths and heights, images. Design does not implement these things haphazardly.</p>
+
+<p>For Gulag, my concept was simple: a cold, snowy camp, isolated and desolate. I took the photo of the camp I had found and made a Photoshop brush of the building and fence, then created a white silhouette of the camp that blended into the white background of the content area of the site, giving the sense that the camp in the header held or contained the content below. The logo employs a font called P22 Johnston Underground which, besides being similar to the font used for the London Underground, is reminiscent of fonts also used in Soviet propaganda posters. Thus, my design for the site combined a rugged, worn, desolate camp with a bureaucratic, constructivist attitude.</p>
+
+<p><img src="/i/omeka-logo.jpg" title="Logo for Omeka" ></p>
+
+<p>Logo for <a href="http://omeka.org">Omeka</a>.</p>
+
+<p>For the <a href="http://omeka.org">Omeka</a> logo, my concept involved modifications to the "unrolling" or "unraveling" that we initially came up with as a team. I liked the idea of a spiral, but also felt that the spiral should have direction, and not seem like a spiral out of control. One of the strengths of Omeka is its structure and ability to frame and guide the creation of an archive or exhibit. So, instead of a random spiral, I used the Fibonacci spiral to indicate unrolling, but in a systematic, controlled, directed way. The path in the logo represents the seemingly endless and creative ways you can use Omeka, while the ratio of squares and rectangles represents the framework and guidance that Omeka provides.</p>
+
+<p>Humanist scholars should see the utility in having a purpose for doing something; we usually have a purpose all the time, whenever we write a paper, give a lecture, or contribute to a conference. We always have a thesis, an argument that always tries to solve a problem or get a concept across to an audience. Design is no different. Good design always has a problem to solve, a concept to get across to an audience. Choices about color, typography, and layout should be solutions to that problem.</p>
+
+<h3>Mockups</h3>
+
+<p>Once you have a solid concept in place, now you move to creating substantial color mockups in Photoshop or another graphics editing program of your choice. At <a href="http://chnm.gmu.edu">CHNM</a>, we generally develop 2-3 different mockups, each with 2-3 levels of page: homepage, a "browse" or secondary page (like browsing the results of a search), and a "content" or tertiary page. Sometimes each mockup has its own concept, and sometimes all are simple variations on a central concept. The wireframes created in the previous phase come into play here. Ideally, the design team has enough information about what content will go on a page and how much to do a quality mockup. If they don't have this, it is <em>extremely</em> difficult to do mockups. I almost always make a checklist of all the content elements that should appear on a page, and check them off when I have accounted for them. Adding new content elements can and usually does throw off the design.</p>
+
+<p>As a personal rule, I always start with the most "inside-page" first, or the content/tertiary page. The inside page is arguably the most important page on the site, the page that your users are trying to get to and will want to use. The homepage and the browse pages are important, but only in the sense that they're sole purpose is to help users find that last page of content, the one they're going to use, for research or educational purposes. Think of a website review, an archive page for a single item in your database, or a blog post with comments. Your approach may be different, depending on the information architecture of your site, or your own personal style.</p>
+
+<p><img src="/i/wha-ps-screen.png" title="Screenshot of photoshop mockup for Western History Association." ></p>
+
+<p>Screenshot of photoshop mockup I created for a redesign of the Western History Association website that illustrates use of guides for grid layout and typography.</p>
+
+<p>While creating mockups, its good to keep a running list of design specs that you'll need to translate into CSS when you begin front-end development. I pay particular attention to font sizes, margins, line-heights, and colors for various parts of text (paragraphs, headings 1-6, lists,etc.). I also think about the grid I'll use for the page design. I use a very handy Photoshop script called <a href="http://www.andrewingram.net/articles/introducing_gridmaker/">GridMaker</a>, that allows you to quickly create a grid of columns and gutters using values you input. I almost always design pages using a 12-column system, which allows for the most flexibility (2 divisions of 6 columns, 3 divisions of 4 columns, 4 divisions of 3 columns).</p>
+
+<h4>Photoshop Management</h4>
+
+<p>A few tips for doing mockups in Photoshop:</p>
+
+<ol>
+<li>When making color mockups in Photoshop, I usually set the resolution to 300dpi, so that they print nicer and can be used in grant applications (which CHNM does a lot). You can bump them down to 72 dpi to use directly on your website if needed.</li>
+<li><strong>Name your layers</strong>. Let me say that again. <strong><em>Name your layers</em></strong>. It is so much easier for someone else on a project team to open your photoshop file and find a particular element on the page if you name your layers meaningfully. Don't use a name like "layer 1" because, well, that's just not meaningful. I don't have solid naming conventions, but it might be good practice to implement some.</li>
+<li>Use layer groups. When I do a mockup, I generally have each page level I'm creating in its own folder, so I can work in one file and not three separate files. I also use folders for sections or groups of content.</li>
+</ol>
+
+
+<h2>Presenting and Discussing Design</h2>
+
+<p>A few quick tips/observations on some best approaches for presenting and discussing design:</p>
+
+<ul>
+<li><p>The design team should <strong>prepare a design brief</strong>, written or oral, to present to the project team on the design concept implemented for each mockup. Part of a designer's role is to sell her/his design, to explain why she made certain design decisions and how they successfully apply the overall concept of the site. This helps in a few ways: 1) It allows your thought process concerning design decisions to be more open and available to the project team, and 2) in most cases, it will help you counter unhelpful feedback like "I don't like orange." by showing someone giving that kind of feedback how to provide more constructive, nuanced reasons.</p></li>
+<li><p><strong>Stress that design isn't about using favorites:</strong> favorite color, font, images, whatever. Design is about finding the right solution for your project. For example, I hate purple. I can't stand it. But I've used in on several sites because I thought it provided the right solution for a concept we were considering. Similarly, Gill Sans is probably my favorite font, but I don't use it on every site I make (even my own blog) because its not always the best design solution for a particular project.</p></li>
+<li><p><strong>Resist design stenography.</strong> Design isn't about simply taking orders or requests from someone and implementing them. "Change this color to red" isn't design. This requires diligence and respect from all sides: especially the designers and the project managers. Compromises can easily be reached, with patience, respect, and intelligent discussion.</p></li>
+<li><p><strong>Avoid "mix-and-match" design,</strong> or taking elements from multiple design concepts and combining them. If you've done the design carefully, and implemented each concept consistently, mixing design elements from different concepts will be counter-productive.</p></li>
+<li><p><strong>Limit the number of feedback rounds and revisions, and avoid design-by-committee.</strong> A project can easily spend months on design revisions, and can end up including a dozen different people, each with her/his own opinions on a design. Its very easy for the project team to get bogged down in discussions of "I don't like this color" or "that font is too big," especially if this comes from way too many people. Too many cooks in the kitchen is an apt analogy. Set a specific round of revisions (I prefer to limit feedback to 2 rounds), and set the number</p></li>
+<li><p><strong>Don't be defensive</strong>. A designer on a team will invariably have to discuss design with people who aren't designers and who don't think and speak like designers. Getting defensive about design decisions will only create animosity among the team, and never leads to productive results. As a designer, part of my role is to demystifying the design process, to help non-designers understand how I approach a project as a designer.</p></li>
+<li><p><strong>Be positive and diplomatic with feedback, and help other better articulate their reasons for critique</strong> There are a few ways to react to feedback. One way to react to someone not liking a particular color or font is to explain why you made that design choice to begin with ("I wanted to make this stand out because in our wireframes we wanted this piece of content to seem more important than the rest.") and then ask whether they agree with my reasoning.  For instance, I chose a font for a logo for a CHNM project, and a few folks on the project team didn't like the font. I explained that I chose the font because I felt it conveyed a sense of what I called "professional playfulness" and that allowed others to better articulate why they didn't like the font, in this case because they didn't want the logo to exhibit playfulness. I was then better able to find out what idea they did want the logo to exhibit, and choose fonts accordingly.</p></li>
+</ul>
+
+
+<h2>Designer's Toolkit</h2>
+
+<p>Here are a few things I keep in my toolkit and highly recommend:</p>
+
+<ul>
+<li><p>Pencil, Pen, Paper!!! - Colored pencils, markers, crayons, lots of scratch paper. Use 'em, don't be afraid to draw something stupid. Get ideas on paper, as many as you can. Design concepts evolve with thought and experimentation, so don't be afraid to go crazy.</p></li>
+<li><p>Idea Box - Keep stuff you think is designed well, and think about why you think it is designed well.</p></li>
+<li><p>Photo album or collection - For screenshots and other images. I use iPhoto, but you could easily use Flickr or some other online service. I also have albums when doing research for a project, like Gulag. Half of the image catalog we have on the Gulag site is on my laptop, because I looked through them when doing research for the design.</p></li>
+<li><p>Photoshop and Illustrator, with a host of brushes, patterns, and plugins. Make brushes and patterns yourself, and export them so other members of your team can use them too.</p></li>
+</ul>
+
+
+
+  </div>
+
+  </article>
+
+  <nav id="post-navigation">
+  <ul>
+  
+  <li class="previous">
+    <p class="kicker">Previous Post</p>
+      <a href="/2008/04/27/part-two-information-architecture-and-organization/" title="Previous Post:
+        Part Two: Information Architecture and Organization">Part Two: Information Architecture and Organization</a>
+    </li>
+  
+  
+  <li class="next">
+    <p class="kicker">Next Post</p>
+
+    <a href="/2008/10/11/part-four-front-end-development/" title="next Post:
+      Part Four: Front-End Development">Part Four: Front-End Development</a>
+    </li>
+  
+  </ul>
+  </nav>
+
+  
+  </div>
+  
+  <footer role="contentinfo">
+  <div class="info">
+    <h2>Info</h2>
+    <p>ClioWeb is written and maintained by Jeremy Boggs, since 2004. Content
+  licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">CC-BY</a>.</p>
+  </div>
+  <div class="contact">
+  <h2>Contact</h2>
+    <ul>
+      <li><a href="mailto:jeremy@clioweb.org">Email</a></li>
+      <li><a href="aim:goim?screename=jboggs22">AIM</a></li>
+      <li><a href="gtalk:chat?jid=jeremy@clioweb.org">Google Chat</a></li>
+    </ul>
+  </div>
+  <div class="elsewhere">
+    <h2>Elsewhere</h2>
+    <ul> 
+      <li><a href="http://flickr.com/photos/clioweb" class="flickr">Flickr</a></li>
+      <li><a href="http://github.com/clioweb" class="github">Github</a></li>
+      <li><a href="http://twitter.com/clioweb" class="twitter">Twitter</a></li>
+      <li><a href="http://vimeo.com/clioweb" class="vimeo">Vimeo</a></li>
+      <li><a href="http://zotero.org/clioweb" class="zotero">Zotero</a></li>
+    </ul>
+  </div>
+
+  <div class="feeds">
+    <h2>Feeds</h2>
+    <ul>
+      <li><a href="/atom.xml" class="atom">Atom</a></li>
+      <li><a href="/rss.xml" class="atom">RSS</a></li>
+    </ul>
+  </div>
+  
+  </footer>
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/j/jquery.min.js"><\/script>')</script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-341377-1'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+</body>
+</html>
+

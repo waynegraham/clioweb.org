@@ -1,0 +1,381 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Part Four: Front-End Development · ClioWeb</title>    
+  
+  <meta name="author" content="Jeremy Boggs">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/i/icon.png">
+  <!-- OpenID -->
+  <link rel="openid.server" href="http://openid.clioweb.org/">
+  <link rel="openid.delegate" href="http://openid.clioweb.org/">
+
+  <!-- Feeds -->
+  <link rel="alternate" type="application/rss+xml" title="Atom" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="/c/styles.css" type="text/css">
+  
+
+  <!-- Typekit -->
+  <script src="http://use.typekit.com/fsi3pmz.js"></script>
+  <script>try {Typekit.load();}catch(e){}</script>
+
+  <!-- Modernizr -->
+  <script src="/j/modernizr.min.js"></script>
+  <script>
+    Modernizr.load([
+      {
+        test: Modernizr.mq(),
+        nope: ['/j/respond.min.js',
+        '/j/selectivizr.min.js']
+      }
+    ]);
+  </script>
+</head>
+
+<body class="archive post">
+  <header role="banner">
+
+  <h1><a href="/"><img src="/i/watermark.png">ClioWeb</a></h1>
+
+  <nav>
+  <ul>
+  <li class="nav-about"><a href="/about.html">About</a></li>
+  <li class="nav-designing"><a href="/blog.html">Blog</a></li>
+  <li class="nav-cv"><a href="/cv.html">CV</a></li>
+</ul>
+
+  </nav>
+  </header>
+
+  <div id="content" role="main">
+    
+    <article>
+
+  <header>
+    <p class="kicker">
+      <time datetime="2008-10-11">October 11, 2008</time>
+    </p>
+    <h1>Part Four: Front-End Development</h1>
+
+  </header>
+
+  <div class="content">
+
+    <p>Front-end development involves codes that deals with how things are displayed in a browser. This includes HTML, CSS, and JavaScript. Back-end development, in contrast, refers to the development on the code and technologies that the end-user hardly ever sees. This includes PHP, MySQL, XML, Perl, or any other languages that affects how a site works underneath. Back-end development usually involves database interaction and programming, installing and modifying any number of content management systems. The lines between front and back-end work can be very blurry. For the purposes of this article I'll be talking about front-end development only; Back-end develop is equally important, but also warrants more space for discussion--perhaps even another post series!</p>
+
+<p>Front-end development usually can't take place until decisions have been made about the front-end design (discussed in the last post). At <a href="http://chnm.gmu.edu">CHNM</a>, we've build projects where there was one designer, one front-end developer, and one back-end developer, all working in concert to build a project. And, we've built projects that had one person doing all three. Whatever your staffing situation, here's what goes on in this phase:</p>
+
+<ul>
+<li>Photoshop mockups are translated into working HTML/CSS mockups</li>
+<li>Naming conventions in code are set and documented.</li>
+<li>Design is tested in browsers.</li>
+<li>HTML templates are then used to build out the final version of the site (in CMS, or as static pages)</li>
+</ul>
+
+
+<h2>1) Create HTML Mockups</h2>
+
+<p>To facilitate faster development of HTML mockups, I've created a "starter kit" that is essentially a directory with a basic file structure and pre-coded files for HTML, CSS, and JavaScript. You can download my <a href="/downloads/starter.zip">example starter kit</a> and take a look at how I set it up. The file structure I generally follow is:</p>
+
+<p>```</p>
+
+<pre><code>/starter/
+    index.php
+    /c/
+        screen.css
+        print.css
+        ...any other &lt;abbr&gt;CSS&lt;/abbr&gt; files.
+
+    /j/
+        global.js
+        ...any other necessary javascript files or libraries.
+
+    /i/
+        ...any necessary images for the design. Background
+                images, logos, etc.
+</code></pre>
+
+<p>```</p>
+
+<p>My HTML and CSS files also have a basic structure I usually follow. My starter HTML file looks like this:</p>
+
+<p>```</p>
+
+<pre><code>&lt;body&gt;
+    &lt;div id="skiplink" class="hide"&gt;&lt;a href="#content"&gt;Skip to Content&lt;/a&gt;&lt;/div&gt;
+    &lt;div id="wrap"&gt;
+        &lt;div id="header"&gt;
+            &lt;h1 id="site-title"&gt;Site Title&lt;/h1&gt;
+            &lt;ul id="sitenav" class="navigation"&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Lorem&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Ipsum&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Dolor&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Amet&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div id="content"&gt;
+            &lt;div id="primary"&gt;&lt;/div&gt;
+            &lt;div id="secondary"&gt;&lt;/div&gt;
+            &lt;div id="tertiary"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;p&gt;Footer Info&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<p>```</p>
+
+<p>This is a good point for the front-end developer to come up with (and stick to!) naming conventions for various ids and classes used throughout the site. I've found that using #primary, #secondary, #tertiary, and so on, gets me thinking less about the presentation of that content, and more about its relative importance. Its not a perfect solution, and sometimes I have to ditch this convention in favor of others, but the point is that you have a convention, and you follow it throughout your site.</p>
+
+<p>My CSS file starts with generic styling of basic elements, followed by any global classes I use throughout the site, then moves on to each section of the page (wrap, header, content, footer). Here's an example:</p>
+
+<p>```</p>
+
+<pre><code>/* == Reset == */
+@import url("reset.css");
+
+/* == Generic styles ======== */
+body {font:62.5% "Helvetica Neue", Helvetica, Arial, sans-serif; color:#222;
+    background:#fff;}
+
+/* Headings */
+h1 {font-size:3.6em; line-height:1em; margin-bottom:1em;}
+h2 {font-size:3em; line-height:1em; margin-bottom:1em;}
+h3 {font-size:1.8em; line-height:1em; margin-bottom:1em; font-weight:bold;}
+h4 {font-size:1.5em; line-height:1.2em; margin-bottom:1.2em; font-weight:bold;}
+h5 {font-size:1.5em; line-height:1.2em; margin-bottom:1.2em; color: #999;}
+h6 {font-size:1.2em; line-height:1.5em; margin-bottom:1.5em; font-weight:bold;}
+
+/* Links */
+a:link {}
+a:visited {}
+a:focus {}
+a:hover {}
+a:active {}
+
+h1 a, h2 a, h3 a {text-decoration:none;}
+
+/* Misc Elements */
+p,ul,ol,dl,blockquote,address {font-size:1.2em; line-height:1.5em; 
+    margin-bottom:1.5em;}
+ul {}
+ol {}
+dl {}
+blockquote {}
+address {}
+
+/* == Wrap == */
+#wrap {width:882px; margin:0 auto;}
+
+/* == Header == */
+#header {}
+
+/* == Content == */
+#content {}
+
+    #primary {}
+    #secondary {}
+    #tertiary {}
+
+/* == Footer == */
+#footer {}
+</code></pre>
+
+<p>```</p>
+
+<p>As you can see, I start out with some things already filled in (typography--font sizes, line-heights, margins), but some things I leave blank and fill in as I go. This is a personal preference, and I change things around from project to project. But this gets me started.</p>
+
+<p>Using this starter kit, I build out HTML/CSS mockups based on the Photoshop mockups created in the last stage. I generally try to build the same pages that were presented to the project team, and strive to make the HTML version look and feel the same as the color mockups as much as possible. But, its important to remember than a design will never completely look the same in Photoshop and in the browser, and will rarely look the same across different browsers. Striving for pixel perfection to the color mockup across browsers, while sounding noble, ends up being a significant waste of time. The goal should be to make the HTML mockups look like the color mockups as much as possible, but also be usable and useful to the end-user. If one section of a site is bigger by one point on one browser, its probably not worth the time to figure out why.  If its using a completely different typeface, then maybe you have a problem.</p>
+
+<h2>2) Test Mockups in Browsers</h2>
+
+<p>The advantage to doing HTML mockups before diving straight into the entire project is that you can 1) do the prototypes quickly, and 2) test the design in browsers before doing all the work to apply the design to dynamic content. At CHNM, we test in the following browsers:</p>
+
+<p><strong>Windows</strong></p>
+
+<ul>
+<li>Firefox 3</li>
+<li>Internet Explorer 6</li>
+<li>Internet Explorer 7</li>
+<li>Opera</li>
+</ul>
+
+
+<p><strong>Macintosh</strong></p>
+
+<ul>
+<li>Firefox 3</li>
+<li>Opera</li>
+<li>Safari</li>
+</ul>
+
+
+<p>I try my best to test every single page, but I usually miss a few pages, so its good to have one or more people test your site on different browsers. When taking notes, I generally make a list that starts with the browse in quest, then a subheadings with the title and path of the page I'm looking at, and then specific issues for that page. For example:</p>
+
+<blockquote><h3>Internet Explorer 6</h3>
+
+<h4>Items Browse page - example.com/items/browse/</h4>
+
+<ul>
+<li>Items content extends past page boundary</li>
+<li>Individual item titles not showing up</li>
+<li>Layout for main column and sidebar is broken (aren't showing up side by side)</li>
+</ul>
+</blockquote>
+
+<p>This allows me to first focus on a particular browser, then focus on a particular page (and know what its URL is), and get those issues working for that browser. I've found that a lot of issues on one page are similar to other pages, so solving it once usually fixes it globally. But, I like to note each problem on each page, because there may be other issues at play.</p>
+
+<h2>3) Applying to Dynamic Content</h2>
+
+<p>After you've completed HTML mockups and tested them in various browser, its time to use them when working with dynamic content. If your project is just going to be static pages, simply keep building out HTML pages as you did for the HTML mockups. But if you'll be working with data in a database, now's the time to learn a little bit about the kind of code you'll be using to pull data into your HTML dynamically.</p>
+
+<p>One piece of advice I can give on back-end development is: avoid reinventing the wheel as much as possible. That is to say, look to see if there are solutions available to make your development process easier before deciding to write something from scratch. With <a href="http://omeka.org">Omeka</a>, the project team met early on and explored options for doing the kinds of things with wanted to do with other content management systems (<a href="http://drupal.org">Drupal</a>, <a href="http://wordpress.org">WordPress</a>), and determined that the problems we wanted to solve required that we write something new. But even then, we did completely start from scratch. We use a PHP framework, <a href="http://zend.com">Zend</a>, as the base for the application, which makes development much more rapid and stable than if we wrote our own framework from scratch.</p>
+
+<p>The data needs for a project can greatly impact the kinds of technology a project will need to use (or can't use). I recommend that the development person/team make a list of any available content management systems, frameworks, and libraries and rate their qualities based on what your project needs to accomplish. For example, at CHNM we've use Drupal, Omeka, and WordPress for different projects based on their needs. We build Omeka, and we think it rocks, but its not right for every site. Neither is Drupal or WordPress, or any other CMS out there.</p>
+
+<p>When I'm choosing a CMS or library or framework, I like to give myself some time to figure out how I would build the site with each one (if possible), determine which is most efficient and maintainable, and then go with the best choice. Some examples:</p>
+
+<p><strong>Content Management Systems</strong></p>
+
+<ul>
+<li><a href="http://drupal.org">Drupal</a></li>
+<li><a href="http://expressionengine.com">ExpressionEngine</a></li>
+<li><a href="http://joomla.org">Joomla</a></li>
+<li><a href="http://moodle.org">Moodle</a></li>
+<li><a href="http://omeka.org">Omeka</a></li>
+<li><a href="http://wordpress.org">WordPress</a></li>
+</ul>
+
+
+<p><strong>PHP Frameworks</strong></p>
+
+<ul>
+<li><a href="http://cakephp.org">CakePHP</a></li>
+<li><a href="http://codeigniter.com">CodeIgniter</a></li>
+<li><a href="http://symfony-project.org">Symfony</a></li>
+<li><a href="http://zend.com">Zend</a></li>
+</ul>
+
+
+<p><strong>JavaScript frameworks and libraries</strong></p>
+
+<ul>
+<li><a href="http://dojotoolkit.org">Dojo</a></li>
+<li><a href="http://jquery.com">jQuery</a></li>
+<li><a href="http://prototypejs.org">Prototype</a></li>
+<li><a href="http://mootools.net">MooTools</a></li>
+<li><a href="http://developer.yahoo.com/yui/">Yahoo UI</a></li>
+</ul>
+
+
+<p>Many of you will be developing projects that rely on some kind of content management system that employs a theme API to pull content from a database. WordPress and Omeka are two such systems that I've worked with very closely, but other such as Drupal, <a href="http://joomla.org">Joomla</a>, and <a href="http://expressionengine.com">ExpressionEngine</a> are others that you might be using. One of the final jobs of the front-end developer is take the static HTML mockups she/he has created, and apply the HTML structure to the template files used in one of those systems. In some cases your front-end and back-end developer (if they're two different people) will need to work together to make sure their individual contributions to the project can work together. A back-end developer, for example, may need to explain to a front-end developer about how certain theme API calls work and where to put them in the HTML template, while a front-end developer may need to explain to a back-end developer than the content a plugin generates needs to be in an unordered list with a specific <code>id</code> and <code>class</code> attribute. In short, there's a point where the two types of development merge, usually a few weeks before the site launches.</p>
+
+<p>This will also be a time when the front-end developer will have to account for specific kinds of content not covered in the HTML mockups. This will happen as content for the site gradually gets added to the database, and all the sections and pages for the site outlined in the site map emerge. You may have to add some specific styles for certain content. But the work you've already done will make this process much faster. Once you've done all of this, maybe run some more browser testing for anything new you've added since the HTML mockups, your site should be ready for launch!</p>
+
+<p>  <em>[XML]: Extensible Markup Language
+  </em>[API]: Application Programming Interface
+  <em>[URL]: Uniform Resource Locator
+  </em>[CHNM]: Center for History and New Media
+  <em>[HTML]: Hypertext Markup Language
+  </em>[PHP]: Hypertext Pre-Processor
+  *[CSS]: Cascading Style Sheets</p>
+
+
+  </div>
+
+  </article>
+
+  <nav id="post-navigation">
+  <ul>
+  
+  <li class="previous">
+    <p class="kicker">Previous Post</p>
+      <a href="/2008/06/04/part-three-design-process/" title="Previous Post:
+        Part Three: Design Process">Part Three: Design Process</a>
+    </li>
+  
+  
+  <li class="next">
+    <p class="kicker">Next Post</p>
+
+    <a href="/2008/12/16/maintenance-documentation-and-user-feedback/" title="next Post:
+      Part Five: Maintenance, Documentation, and User Feedback">Part Five: Maintenance, Documentation, and User Feedback</a>
+    </li>
+  
+  </ul>
+  </nav>
+
+  
+  </div>
+  
+  <footer role="contentinfo">
+  <div class="info">
+    <h2>Info</h2>
+    <p>ClioWeb is written and maintained by Jeremy Boggs, since 2004. Content
+  licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">CC-BY</a>.</p>
+  </div>
+  <div class="contact">
+  <h2>Contact</h2>
+    <ul>
+      <li><a href="mailto:jeremy@clioweb.org">Email</a></li>
+      <li><a href="aim:goim?screename=jboggs22">AIM</a></li>
+      <li><a href="gtalk:chat?jid=jeremy@clioweb.org">Google Chat</a></li>
+    </ul>
+  </div>
+  <div class="elsewhere">
+    <h2>Elsewhere</h2>
+    <ul> 
+      <li><a href="http://flickr.com/photos/clioweb" class="flickr">Flickr</a></li>
+      <li><a href="http://github.com/clioweb" class="github">Github</a></li>
+      <li><a href="http://twitter.com/clioweb" class="twitter">Twitter</a></li>
+      <li><a href="http://vimeo.com/clioweb" class="vimeo">Vimeo</a></li>
+      <li><a href="http://zotero.org/clioweb" class="zotero">Zotero</a></li>
+    </ul>
+  </div>
+
+  <div class="feeds">
+    <h2>Feeds</h2>
+    <ul>
+      <li><a href="/atom.xml" class="atom">Atom</a></li>
+      <li><a href="/rss.xml" class="atom">RSS</a></li>
+    </ul>
+  </div>
+  
+  </footer>
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/j/jquery.min.js"><\/script>')</script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-341377-1'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+</body>
+</html>
+

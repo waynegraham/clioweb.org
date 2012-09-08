@@ -1,0 +1,2 @@
+Useragent: *
+Sitemap: http://clioweb.org/sitemap.xml

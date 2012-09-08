@@ -1,0 +1,205 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Participating in the Bazaar: Sharing Code in the Digital Humanities · ClioWeb</title>    
+  
+  <meta name="author" content="Jeremy Boggs">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/i/icon.png">
+  <!-- OpenID -->
+  <link rel="openid.server" href="http://openid.clioweb.org/">
+  <link rel="openid.delegate" href="http://openid.clioweb.org/">
+
+  <!-- Feeds -->
+  <link rel="alternate" type="application/rss+xml" title="Atom" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="/c/styles.css" type="text/css">
+  
+
+  <!-- Typekit -->
+  <script src="http://use.typekit.com/fsi3pmz.js"></script>
+  <script>try {Typekit.load();}catch(e){}</script>
+
+  <!-- Modernizr -->
+  <script src="/j/modernizr.min.js"></script>
+  <script>
+    Modernizr.load([
+      {
+        test: Modernizr.mq(),
+        nope: ['/j/respond.min.js',
+        '/j/selectivizr.min.js']
+      }
+    ]);
+  </script>
+</head>
+
+<body class="archive post">
+  <header role="banner">
+
+  <h1><a href="/"><img src="/i/watermark.png">ClioWeb</a></h1>
+
+  <nav>
+  <ul>
+  <li class="nav-about"><a href="/about.html">About</a></li>
+  <li class="nav-designing"><a href="/blog.html">Blog</a></li>
+  <li class="nav-cv"><a href="/cv.html">CV</a></li>
+</ul>
+
+  </nav>
+  </header>
+
+  <div id="content" role="main">
+    
+    <article>
+
+  <header>
+    <p class="kicker">
+      <time datetime="2010-06-10">June 10, 2010</time>
+    </p>
+    <h1>Participating in the Bazaar: Sharing Code in the Digital Humanities</h1>
+
+  </header>
+
+  <div class="content">
+
+    <p>In <a href="http://catb.org/esr/writings/homesteading/cathedral-bazaar/">The Cathedral and the Bazaar</a>, Eric Raymond argues that open source software development works more like a bazaar  than a cathedral, where openness and community are prized over hierarchy and secrecy. I'd like to talk about how developing open source code has made me a better practitioner of digital humanities, and why more digital humanities (DH) scholars and projects should be participating on the open-source bazaar. I would argue that, right now, the digital humanities is getting really good at shopping/browsing at the bazaar, but not actually sharing. We seem to have no problem using open source tools and applications, but very rarely are we actually giving back, or making the development and sharing of open source code a central part of our work.</p>
+
+<p>My target audience for this probably doesn't include programmers; Most of the programmers and developers I know and have worked with have already drank the open source Kool-Aid. Perhaps this has skewed my opinion on the role open-source development should play in DH, but I'm OK with that. Really, my audience for this post are two groups: Lone, individual scholars who either never considered sharing their code or who may think the code they're writing isn't worth sharing, and digital humanities centers or groups who are building significant projects but are afraid/uncertain/indifferent to the idea of sharing the code for their projects. I want to address these groups by discussing a bit of my own experience sharing code.</p>
+
+<h2>My Experience Sharing Code</h2>
+
+<p>When I began working at CHNM in 2003, I barely knew HTML, and honestly didn't know much of anything else. (It may be a miracle I was even selected a GRA.) The first year I was there, I spent a lot of time just browsing the files on the CHNM server, opening up files I never knew existed on projects, and seeing how the code helped generate the content I saw in the browser. It was eye-opening to say the least, a bit nerve-wracking, but also empowering to see all the code that made these sites go. Of course, what I was looking at wasn't publicly available, but my point here is that just looking at the code, tinkering with it, copying/pasting into my own projects was an incredible learning experience. Making code like that more open makes it possible for anyone to learn from it.</p>
+
+<p>I've started sharing more of my code on my <a href="http://github.com/clioweb">GitHub  account</a>. Some of my projects include <a href="http://github.com/clioweb/phpZotero">phpZotero</a> (a PHP class for working with Zotero), <a href="http://github.com/clioweb/clioweb-theme">clioweb-theme</a> (the WordPress theme I use on my personal site), and <a href="http://github.com/clioweb/cw-authorbase">cw-authorbase</a> (WordPress plugin to let you change the base for author URLs). But I've also developed open-source code elsewhere. <a href="http://wordpress.org/extend/plugins/scholarpress-courseware">ScholarPress Courseware</a> is a plugin to do simple course management on a WordPress blog. I started it with <a href="http://epistemographer.com">Josh Greenberg</a> initially to scratch an itch I had about how to set up my own course website when I started teaching. We wrote it mainly to satisfy my needs at the time, but I shared it with others, who then suggested features, and found bugs that I (and others!) could fix. <a href="http://davelester.org">Dave Lester</a> added BibTeX import. <a href="http://zgordon.org/">Zac Gordon</a> updated the admin interface to work with a later version of WordPress. Now, <a href="http://sushkov.wordpress.com/">Stas Sushcov</a> is using Courseware as part of a Google Summer of Code project. After looking over phpZotero, <a href="http://www.liquidfoot.com/">Wayne Graham</a> wrote a <a href="http://github.com/waynegraham/rZotero">Ruby wrapper for the Zotero API</a>, and we did a bit of Zotero hacking at THATCamp in May based on that work. If I hadn't developed any of this as open source, and instead had hidden away the code, these kinds of collaborations and branches likely wouldn't have happened. There are plenty of other <a href="http://github.com/clioweb/following">digital humanities folks on GitHub</a>, all doing more or less the same thing. Following these people, and having them give me comments back on my code, has been so helpful.</p>
+
+<p>At CHNM, we've started to do this with more of our projects. Right now, both <a href="http://zotero.org">Zotero</a> and <a href="http://omeka.org">Omeka</a> are open source. Their code is freely available to download, either via handy zip file or through a Subversion repository. (For example, here is Omeka's <a href="https://omeka.org/svn/">SVN repository</a>, and <a href="https://omeka.org/trac/">ticketing/bug system</a>.) Anyone can view the source and the tickets, and can request an account to submit tickets or patches if interested. Similarly, Omeka's addons repository uses <a href="http://addons.omeka.org/svn/">SVN</a> and has a <a href="http://addons.omeka.org/trac/">ticketing system</a>. Anyone who wants to develop and Omeka plugin or theme can either request access to the addons repository, or set up their own.</p>
+
+<p>This week, I started a <a href="http://github.com/chnm">GitHub account for CHNM</a>, and started sharing some source code I've written for some of our projects, namely the WordPress themes for <a href="http://hackingtheacademy.org">Hacking the Academy</a> and <a href="http://oneweekonetool.org">One Week | One Tool</a>. We're planning to share more code from our individual projects, like any Omeka or WordPress themes, plugins, just about anything we develop that we can share. (Expect <a href="http://thatcamp.org/2010/thatcamp-in-a-box/">THATCamp-in-a-Box</a> to be up there in some form sometime this summer!) So if anyone wants to use the Hacking the Academy or One Week themes as  the basis for their own themes, they can just check out our code. If  they find a bug in there and want to tell us about it, we'd be very grateful! I'm not sure how much we'll put up there that we've already written for past projects. But we want to give code back whenever possible, so anyone can learn from and use our code, and so we might get feedback and improvements from the others, too.</p>
+
+<p><img src="/i/chnm-github.png" title="Dashboard for the CHNM GitHub account." ></p>
+
+<p>The "how" part for sharing code is fairly straight-forward, and there are any number of   ways to do it: Sign up for a <a href="http://github.com/">GitHub</a>, <a href="http://code.google.com/hosting/">Google Code</a>, or some other project hosting service, and   commit code there. Or install your own Git, Subversion, or other repository   system on your own server. You may have to learn some kind of versioning system; There's a great piece by <a href="http://www.academicsandbox.com/">Julie Meloni</a> that provides <a href="http://chronicle.com/blogPost/A-Gentle-Introduction-to/23064/">a gentle introduction to version control.</a> Or you could just make a zip file of your code   available on your project site. Add links to these on your project website and on your personal or institution website. Add a colophon or technical explanation of your site. Basically, whether you're a lone digital humanist coding stuff just for you, or a larger center or institution building grant-funded projects, get your code out there so others can see it! As an individual graduate student and digital humanities scholar, and as a project manager at CHNM, I've  had nothing but positive experiences with sharing code, and I hope others do, too.</p>
+
+<h2>Why Share Code?</h2>
+
+<p><strong>Encourage more thorough evaluation, and replication our work.</strong></p>
+
+<p>Most reviews of digital humanities projects are only of the "surface" of the project, and rarely ever deal with the code underneath. I don't think digital work can be thoroughly and critically evaluated if the evaluators have neither the technical knowledge nor the access to the source code for the digital work. And they both seem to go hand-in-hand. We should start asking projects that wish to be evaluated in any kind   of review process to make their code open for the same kind of review. We could go even further and demand that projects include a technical statement or colophon explaining design and development decisions on the project. But baby steps first...</p>
+
+<p>As for replication, think of it  this way: We ask for footnotes in articles and monographs  to prove we've  done the research, and that the reader can, at any time,  replicate that  research if so desired. Likewise, our digital  humanities projects  should be more replicable than they are. It doesn't seem too much of a stretch to be able to  build new digital  humanities projects based on work already done and  available from a previous project. Can you image how differently we would build DH projects if we knew the source code would be part of the evaluation, or that it could be possible to replicate some or all of the results of a DH project using the same source code? I know I would write better code!</p>
+
+<p><strong>Increase status and/or credit for code writing in DH. </strong></p>
+
+<p>The potential for more thorough evaluation and replication of work could certainly lead to an improvement in how we allocate reputation and credit for writing code. As it stands now,  much   of the work that goes into DH projects is  hidden. Sharing   code in the digital humanities would make the craft of creating  that   code much more important and prized in DH work, and would go a long way toward making that work could for things like tenure and promotion. But think of all the opportunities for collaboration on projects, and gaining reputation or credit for contributing bug fixes or features to projects. There is, of course, a whole different conversation to be had about how design and development of DH projects should count toward promotion or play into academic reputation and credit.</p>
+
+<p><strong>Encourages sustainability. </strong></p>
+
+<p>I occasionally hear questions about sustainability with regards to digital humanities projects. Writing code with the intent of sharing it makes knowledge transfer  much easier, which helps make sustainability even more possible. Eric Raymond points out that, with open source projects, there is an unwritten rule that if the developer of a project feels unable to continue for whatever reason, she/he should find a suitable replacement to keep the project going, and should relinquish control over the project once someone steps up to take on that role. I'm not sure how many orphaned DH projects are out there, but I know there are a lot. I don't know if there is anyone out there who could take over some of those projects, but I would hope there are a few. Regardless, we'll never know until we begin build projects as open-source, share them, and see if there are others able and willing to contribute to their sustainability. This is especially important if, as a <a href="http://digitalhumanities.org/dhq/vol/3/2/index.html">recent issue of Digital Humanities Quarterly addressed</a>, work on DH projects is rarely ever done.</p>
+
+<p><strong>Knowledge exchange.</strong></p>
+
+<p>As I already mentioned, I learned more from looking at the source code  for CHNM projects than I ever have from reading a programming book. I've  learn more from talking to developers directly about their code, about  specific projects they're working, than from working with a book  discussing abstract programming terms. Given how many conversations I've seen among folks in DH lamenting the lack of training opportunities or examples for developing DH projects, I'm amazed we don't share more code to help remedy these issues. Having more DH projects with open code  can help make others in digital humanities much more aware of, and  literate in, using that code. Imagine how much we could learn from having the code for <a href="http://valley.lib.virginia.edu/">Valley of the Shadow</a> or every project published by the <a href="http://www.vectorsjournal.org/">Vectors journal</a>. More to the point, imagine if our projects were written with the idea that we are contributing knowledge through our code, and that others would be looking at the code to gain some insight into our projects. Just like with peer review and evaluation, we might write better code, and think more about how we would explain it to others.</p>
+
+<p>There are, I know, plenty of unanswered questions. What would  support    models for shared code be like? What license should you release  code    under? Plenty of others. These are legitimate questions, and should be dealt with on institutional, personal, and/or   per-project bases. But we should have serious discussions about  how to   share code on digital humanities projects, and about how that sharing   should come into play in our broader professional work. Talk to your institution or employers about it. But I  think we should encourage others to reuse our work and build off of it. I'm concerned about digital humanities work becoming lost and/or irrelevant, especially since we increasingly seem to be living in a <a href="http://www.zotero.org/clioweb/items/101672455">era of black boxes</a>. We should fear our projects atrophying because their code is hidden. We should fear being irrelevant in broader discussions regarding technology and standards. We should fear not learning from all the wonderful projects we're all creating, because we're afraid of sharing our code for whatever reason.</p>
+
+<p>I don't think digital humanities cannot afford to leave the programming and developing to non-humanists. I totally agree with the fine folks at <a href="http://niche-canada.org/">NiCHE</a> that it <a href="http://niche-canada.org/programming-historian/1ed/need">leaves us at the mercy of the people who do code.</a> We should start actively write code with the intent to  share it, and share as much as possible, so we might become better developers together. We should write code with an  audience in mind, like digital humanities community, who may want to reuse our code. We should share our code so others can learn from us, and so we can learn from others. More than anything, though, we should share code because it's academic work, and I think  academic work should be shared openly, critiqued, and improved.</p>
+
+<p><strong>Update, 7:10PM:</strong> One thing I totally forgot to mention, and am terribly embarrassed for not doing so, was that phpZotero is based a lot on <a href="http://jimsafley.com/">Jim Safley's</a> work on a <a href="https://addons.omeka.org/svn/plugins/ZoteroImport/trunk/libraries/ZoteroApiClient/Service/Zotero.php">Zend client for using the Zotero API</a>, which is used in an upcoming Zotero Import plugin for Omeka.</p>
+
+
+  </div>
+
+  </article>
+
+  <nav id="post-navigation">
+  <ul>
+  
+  <li class="previous">
+    <p class="kicker">Previous Post</p>
+      <a href="/2010/05/28/hacking-our-conferences/" title="Previous Post:
+        Hacking our Conferences">Hacking our Conferences</a>
+    </li>
+  
+  
+  <li class="next">
+    <p class="kicker">Next Post</p>
+
+    <a href="/2010/08/17/scholar-in-residence/" title="next Post:
+      Scholar-in-Residence">Scholar-in-Residence</a>
+    </li>
+  
+  </ul>
+  </nav>
+
+  
+  </div>
+  
+  <footer role="contentinfo">
+  <div class="info">
+    <h2>Info</h2>
+    <p>ClioWeb is written and maintained by Jeremy Boggs, since 2004. Content
+  licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">CC-BY</a>.</p>
+  </div>
+  <div class="contact">
+  <h2>Contact</h2>
+    <ul>
+      <li><a href="mailto:jeremy@clioweb.org">Email</a></li>
+      <li><a href="aim:goim?screename=jboggs22">AIM</a></li>
+      <li><a href="gtalk:chat?jid=jeremy@clioweb.org">Google Chat</a></li>
+    </ul>
+  </div>
+  <div class="elsewhere">
+    <h2>Elsewhere</h2>
+    <ul> 
+      <li><a href="http://flickr.com/photos/clioweb" class="flickr">Flickr</a></li>
+      <li><a href="http://github.com/clioweb" class="github">Github</a></li>
+      <li><a href="http://twitter.com/clioweb" class="twitter">Twitter</a></li>
+      <li><a href="http://vimeo.com/clioweb" class="vimeo">Vimeo</a></li>
+      <li><a href="http://zotero.org/clioweb" class="zotero">Zotero</a></li>
+    </ul>
+  </div>
+
+  <div class="feeds">
+    <h2>Feeds</h2>
+    <ul>
+      <li><a href="/atom.xml" class="atom">Atom</a></li>
+      <li><a href="/rss.xml" class="atom">RSS</a></li>
+    </ul>
+  </div>
+  
+  </footer>
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/j/jquery.min.js"><\/script>')</script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-341377-1'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+</body>
+</html>
+

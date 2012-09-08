@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="wordpress/2.2.3" -->
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	>
+
+<channel>
+	<title>History 120: US History Survey</title>
+	<link>/courses/history120/fall07</link>
+	<description></description>
+	<pubDate>Fri, 07 Dec 2007 00:28:37 +0000</pubDate>
+	<generator>http://wordpress.org/?v=2.2.3</generator>
+	<language>en</language>
+			<item>
+		<title>Bonus Idea: Mason Film Festival</title>
+		<link>/courses/history120/fall07/bonus-idea-mason-film-festival.html</link>
+		<comments>/courses/history120/fall07/bonus-idea-mason-film-festival.html#comments</comments>
+		<pubDate>Tue, 16 Oct 2007 15:24:48 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		
+		<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">/courses/history120/fall07/bonus-idea-mason-film-festival/</guid>
+		<description><![CDATA[October 19&#8211;21, GMU is having its first Mason Film Festival. All of the films are documentaries, and cover topics such as poverty, environment, war, community, and history. Check out the film festival&#8217;s website for a full list of movies and show times.
+For a bonus post, watch one of the movies and and write a 2-page [...]]]></description>
+			<content:encoded><![CDATA[<p>October 19&ndash;21, GMU is having its first Mason Film Festival. All of the films are documentaries, and cover topics such as poverty, environment, war, community, and history. Check out the <a href="http://www.masonfilm.org/">film festival&#8217;s website</a> for a full list of movies and show times.</p>
+<p>For a bonus post, watch one of the movies and and write a 2-page critique. Two movies deal history, and might be good choices for a post: <em>Friendship Heights</em>, and <em>Sonds of Virginia</em>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/courses/history120/fall07/bonus-idea-mason-film-festival.html/feed</wfw:commentRss>
+		</item>
+		<item>
+		<title>Bonus Blog Post: H-Bot</title>
+		<link>/courses/history120/fall07/bonus-blog-post-h-bot.html</link>
+		<comments>/courses/history120/fall07/bonus-blog-post-h-bot.html#comments</comments>
+		<pubDate>Tue, 18 Sep 2007 14:06:46 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		
+		<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">/courses/history120/fall07/bonus-blog-post-h-bot/</guid>
+		<description><![CDATA[HBot is &#8220;an automated historical fact finder&#8221; that pulls the answers from all the internet pages archived in Google and Yahoo!, so its accuracy shows the reliability of internet history and what kinds of facts tend to be included on the Web.
+With your instant messaging client, connect to chnmhbot, or go to H-Bot&#8217;s homepage. Ask [...]]]></description>
+			<content:encoded><![CDATA[<p><a href="http://chnm.gmu.edu/tools/h-bot/">HBot </a>is &#8220;an automated historical fact finder&#8221; that pulls the answers from all the internet pages archived in Google and Yahoo!, so its accuracy shows the reliability of internet history and what kinds of facts tend to be included on the Web.</p>
+<p>With your instant messaging client, connect to chnmhbot, or go to <a href="http://chnm.gmu.edu/tools/h-bot/">H-Bot&#8217;s homepage</a>. Ask H-Bot at least ten questions about important dates and people in American History. HBot may be wrong or not have an answer at all&mdash;try to force H-Bot to make mistakes. (Hint: use notes from class, a textbook, or Wikipedia to come up with questions.) Try using the entire web, then only Google, then only Yahoo! and try comparing results. What kinds of questions get results? Which ones don&#8217;t? Why do you think this is?</p>
+<p>For example:</p>
+<p><strong>Question: Who was Thomas Jefferson?</strong></p>
+<p>Answer: &#8220;3rd President of the United States; chief drafter of the Declaration of Independence; made the Louisiana Purchase in 1803 and sent out the Lewis and Clark Expedition to explore it (1743-1826).&#8221;</p>
+<p><strong>Question: Who was Harriet Jacobs?</strong></p>
+<p>Answer: &#8220;I&#8217;m sorry. I cannot provide any information on that. Please check your spelling or rephrase your query and try again.&#8221;</p>
+<p>Write a blog post speculating why H-Bot has correct answers for certain people and dates and not for others. More broadly, reflect on what kinds of historical information is more readily available on the Web, and why. (For example, why he knows about Thomas Jefferson but not about Harriet Jacobs?). Use your own H-Bot queries in answering this question. Link back to this post in your own blog post, so your post will show up in the trackbacks.</p>
+]]></content:encoded>
+			<wfw:commentRss>/courses/history120/fall07/bonus-blog-post-h-bot.html/feed</wfw:commentRss>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,104 @@
+yes/*  
+Theme Name: Busy Street
+Version: 0.1
+Author: Jeremy Boggs
+Author URI: http://clioweb.org
+
+*/
+
+
+
+/* Generic Stuff
+------------------------------- */
+* {margin:0; padding:0;}
+body {font: 62.5% Verdana, Arial, Helvetica, sans-serif; background: #281413;color: #666; width: 780px; margin:0 auto; padding: 20px 0;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+h1 {font-size: 1em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.6em; color:  #9f3e35;}
+h4 {font-size: 1.3em;}
+h5 {font-size:  1.1em;font-weight: bold;}
+p, ol, ul, dl {font-size: 1.1em; line-height: 2em;}
+
+dl dd {margin-left: 1.25em;margin-bottom: 0.75em;}
+dl dt {border-left: 1em solid #ccc; padding-left: 0.25em; line-height: 1em;}
+a:link, a:visited {color: #9e300b;}
+a:hover, a:active {color: #6c2713;}
+
+ul,ol {line-height: 1.5em;}
+
+h2 a {text-decoration: none;}
+
+abbr {text-decoration: none; border: none; font-style: normal;}
+blockquote {font-size: 1em; line-height: 1.65em; margin-left: 1em; margin-right:1em;}
+
+.hide {text-indent: -1000em; width:0; height:0; display:block; overflow:hidden;}
+
+/* Microformats
+---------------------------------*/
+
+div.vcard {line-height: 1.4em;}
+div.vcard div {font-size: 1.1em;}
+div.vcard div.street-address {display: inline;}
+
+/* hCitation */
+div.citation {font-size: 1.1em; display: block;text-indent: -1em; margin-left: 1em; line-height: 1.75em; margin-bottom: 1em;}
+.title {font-style:italic;}
+
+div.date {font-size:  1.1em; font-weight: normal; margin-bottom: 6px;}
+div.summary {font-size: 1.6em; margin-bottom: 10px;}
+
+div.vevent {padding: 10px 0 0 0; border-top: 1px solid #ccc;}
+
+div.assignment-title {font-weight: bold; font-size: 1.1em; margin-bottom: 10px;}
+
+
+/* Page
+----------*/
+#page {display:block; float:left; background: #fff url(images/tile.gif) top left repeat-y;}
+
+
+/* Header
+-----------*/
+#header {background: #fff;border-top: 10px solid #9f3e35;padding-top: 10px;}
+
+#header #title {margin-left: 20px;background: #fff;display:block;float:left; width: 240px;padding-bottom: 20px;}
+#header h1 {font-size: 4em; font-family: "Century Gothic", Futura, Gill Sans, Verdana, sans-serif;}
+#header h1 a {text-decoration:none;}
+#header h2 {font: 1.75em "Century Gothic",Futura,Gill Sans, Verdana, sans-serif;}
+#header h1, #header h2 {margin: 0; padding: 0;}
+#coursemeta {display: block; float: right; width: 420px;}
+#courseinfo, #instructorinfo {display: block; float: right; width: 180px; padding: 10px;text-align: right;}
+
+#courseinfo ul {line-height: 1.4em; list-style: none; margin-top: 0;}
+#header-img {display:block; padding-top: 10px;clear:both;width: 780px; margin-top: 10px;height: 220px;background: #fff url("images/street2.jpg") bottom left no-repeat;}
+/* Content and Sidebar 
+-------------------------*/
+#content {display:block; float:right; width: 480px;padding:  10px 20px;}
+#sidebar {display:block; float:left; width: 220px;padding: 10px 20px;}
+#primary {display:block; }
+#secondary {display:block;}
+
+#home #secondary {background:  #fff09e; padding: 10px; margin-bottom: 10px;}
+
+#content h1 {padding: 8px 2px; color: #555; font-size: 1.4em;}
+
+#sidebar h2 {font-size: 1.4em;}
+
+ul#nav {display:block; text-align:right; font-size:  1.4em; list-style: none;}
+ul#nav a {text-decoration:none;}
+ul#nav li {display:block;}
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content ol, #content ul, #content p {margin-bottom:  10px;}
+#content ul {margin-left: 10px; padding-left: 10px;}
+#content ol {list-style: decimal;margin-left: 10px; padding-left: 10px;}
+
+/* Comment form 
+--------------------------*/
+#comment, .textinput {border: 1px solid #ccc; background:  #f6f6f6;}
+#comment:focus, .textinput:focus {background: #fff;}
+
+/* Footer
+--------------------------*/
+#footer {clear:both; background: #9f3e35; color:  #fff;padding: 10px; text-align: right;}
+#footer a {color:  #fff;}

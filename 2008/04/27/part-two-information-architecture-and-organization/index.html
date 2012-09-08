@@ -1,0 +1,303 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Part Two: Information Architecture and Organization · ClioWeb</title>    
+  
+  <meta name="author" content="Jeremy Boggs">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/i/icon.png">
+  <!-- OpenID -->
+  <link rel="openid.server" href="http://openid.clioweb.org/">
+  <link rel="openid.delegate" href="http://openid.clioweb.org/">
+
+  <!-- Feeds -->
+  <link rel="alternate" type="application/rss+xml" title="Atom" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="/c/styles.css" type="text/css">
+  
+
+  <!-- Typekit -->
+  <script src="http://use.typekit.com/fsi3pmz.js"></script>
+  <script>try {Typekit.load();}catch(e){}</script>
+
+  <!-- Modernizr -->
+  <script src="/j/modernizr.min.js"></script>
+  <script>
+    Modernizr.load([
+      {
+        test: Modernizr.mq(),
+        nope: ['/j/respond.min.js',
+        '/j/selectivizr.min.js']
+      }
+    ]);
+  </script>
+</head>
+
+<body class="archive post">
+  <header role="banner">
+
+  <h1><a href="/"><img src="/i/watermark.png">ClioWeb</a></h1>
+
+  <nav>
+  <ul>
+  <li class="nav-about"><a href="/about.html">About</a></li>
+  <li class="nav-designing"><a href="/blog.html">Blog</a></li>
+  <li class="nav-cv"><a href="/cv.html">CV</a></li>
+</ul>
+
+  </nav>
+  </header>
+
+  <div id="content" role="main">
+    
+    <article>
+
+  <header>
+    <p class="kicker">
+      <time datetime="2008-04-27">April 27, 2008</time>
+    </p>
+    <h1>Part Two: Information Architecture and Organization</h1>
+
+  </header>
+
+  <div class="content">
+
+    <p>Before you even write a line of code or color a pixel, the project team should define the information architecture of a site. A lot of people fail to realize that the organization of content greatly affects the design and development of a site. Adding a new section of content months after the design has been finalized can throw a wrench in the design, and developers need some idea as to what content will be used by site visitors before coding. I don't think this content has to exist in its entirety at this stage, but it useful to have a solid sense of what you plan to create. Of course, things come up, and new content may have to be added or the information architecture needs to be changed. This is fine, so long as everyone understands that this adds time to the completing of a project, may require designers and developers on the project to revisit their work, and may require reworking the site architecture.</p>
+
+<h2>Initial Steps</h2>
+
+<ol>
+<li>Determine genre</li>
+<li>Content inventory/audit</li>
+<li>Site Maps</li>
+<li>Page wireframes</li>
+</ol>
+
+
+<h2>Genres</h2>
+
+<h3>Collecting Sites/Online Archives</h3>
+
+<p>Online archives and online collecting sites provide an interesting challenge to defining site architecture. On one hand, they are challenging because the much of the content itself is continuously updated, and never finished. On the other, it can be easier to narrow down the scope of the <em>kinds</em> of content you want to collect and archive. Thus, collecting sites and online archives need to blend</p>
+
+<p>An example of this kind of project is the <a href="http://hurricanearchive.org">Hurricane Digital Memory Bank</a>. The goal of the project team when organizing HDMB was to feature the contributions from the public, and account for as many different kinds of contributions as possible: audio, video, images, and text. The site architecture of HDMB reflects a blend of hierarchical guidance and fluid exploration by the user, and is flexible enough to account for constantly-updated content, provided by the public.</p>
+
+<h3>Online Exhibits</h3>
+
+<p>The goal of online exhibits is to provide a structured, guided presentation of content to the user. Ideally, online exhibits combine an overarching narrative interspersed with relevant exhibit items or objects showcased from the exhibit archive.</p>
+
+<p>In some cases, online exhibits organize content in very hierarchical, guided ways. <a href="http://objectofhistory.org">Object of History</a>, for instance, organizes its content around six featured objects, and asks visitors to explore each of those objects separately, associating additional items, interviews, and text along the way. The structure of each object's exhibit is the same, which helps build comfort and allows users to anticipate how the other exhibits will be presented.</p>
+
+<p>A more complicated exhibit, like <a href="http://americanhistory.si.edu/onthemove/">America on the Move</a>, offers a variety of ways for users to explore the content. A structured "Exhibit" gives users a chronologically-organized presentation of the content. The "Collection" is a typical archive of items that users can browse by keyword, search. The "Themes" section allows users to explore the content across time, thematically. Multiple options, multiple ways of "reading" the site, allows for more independence on the part of the user to explore how she/he feels.</p>
+
+<p>Both approaches, however, depend on <em>how</em> the project team wants to present the content to the user, and where they want users to focus. Object of History has very specific goals: introduce uses to how historians can use material culture, provide narrative and related items to six key objects, and provide a place for users to try their hand at doing their own exhibits. America on the Move has more general goals: present and document the impact that movement and transportation has had on US history, and provide ways for users to explore that topic as they wish. Both approaches are valid and useful, but both are also reflected in the information architecture of the site.</p>
+
+<h3>Teaching Resources</h3>
+
+<p>With sites focused on teaching and learning we have a set target audience: teachers and students first, then the general public. As a result, the IA of the site reflects the needs of the primary audience. While some of the kinds of content may be similar, the manner in which site visitors go to access that content is different. <a href="http://chnm.gmu.edu/wwh/">Women and World History</a> is an educational site that structures its site to emphasize the teaching resources it offers. Sections like "Teaching Case Studies," "Primary Sources," "Analyzing Evidence," and "Modules" highlight how the site can help teachers to present the history women throughout the world in their classrooms. The titles of sections, the presentation of various content elements, all cater to the audience and the goals of the site.</p>
+
+<h2>Auditing and Displaying Information Architecture</h2>
+
+<h3>Site Architecture Visualizations: Site Maps</h3>
+
+<p>I generally start thinking about site architecture with site maps, first sketched on paper or a whiteboard, then developed more formally with software like Omnigraffle or Illustrator. Dan Brown, in his book <em>Communicating Design</em>, rightly points out that site maps alone can simplify a web site too much, hiding the "spaghetti-like structure that's really there." Brown points out that site maps are a hold-over from a much simply time of web site development, when sites were simply static pages with little dynamic or database-driven interaction. (Brown) Still, I think site maps provide a useful method for visualization relationships among web pages on your site, and provide you with a map for potential avenues through which users can access your content.</p>
+
+<p><img src="/i/site-map1.png" title="Example site map" ></p>
+
+<p>Example site map using Garrett IA stencils in Omnigraffle.</p>
+
+<p>When creating a site map you should strive to:</p>
+
+<ul>
+<li>Represent the virtual structure of a site with some simplicity.</li>
+<li>Represent <em>relationships</em> among sections/pages of a site</li>
+<li>Begin conversation for naming pages and sections (not concrete at this point)</li>
+<li>Explain <em>why</em> you think those relationships work for the site and for your audience</li>
+</ul>
+
+
+<p>I use a tool called <a href="http://www.omnigroup.com/applications/OmniGraffle/">Omnigraffle</a> to develop site maps and user interaction flowcharts. Omnigraffle comes preinstalled with the Garrett IA stencils--which I used in the example site map--and other stencil packages are available for download elsewhere.</p>
+
+<h3>Content Inventory: Spreadsheet</h3>
+
+<p>After getting a broader, general sense of the site architecture, its good to start a content inventory for each section and page of your site. This not only help to make the abstract site map  more concrete, it also provides a communication tool between content managers and designers when building web pages. These are very helpful, for instance, for organizing and publishing complicated online exhibits that require lots of outside resources and displaying multiple files on a page.</p>
+
+<p>Spreadsheets can be a quick and easy way to list information architecture. Using a spreadsheet can feel more like creating an "inventory" or "audit" of site content, but it can be useful for hierarchically organizing web pages, their descriptions, and a brief listing of their content. Content inventories are great because it gets you thinking about what content you want to display on each page, divorced from design.</p>
+
+<p><img src="/i/content-inventory.png" title="Example content inventory" ></p>
+
+<p>Example of a content inventory from the online exhibit of <a href="http://gulaghistory.org/nps/">Gulag: Soviet Forced Labor Camps and the Struggle for Freedom</a>.</p>
+
+<p>I used a content inventory when creating the <a href="http://gulaghistory.org/nps/">NPS exhibit for Gulag</a> a few years ago. With that project, our goal was to recreate an physical exhibit on the web. Thus, the physical exhibit already had set content and organization. The task, then, was to translate the display panels from the physical exhibit into distinct web pages, and make sure that the information displayed on each panel corresponded to the each respective web page. I typically use five main headings:</p>
+
+<ol>
+<li>Section - The section title</li>
+<li>Page - the title of the page</li>
+<li>Location - The URL of the page</li>
+<li>Description - A brief description of the page, how it fits with the section.</li>
+<li>Contents - Number of paragraphs, word count, figures, images, video, audio, with specific file names to make finding easier.</li>
+</ol>
+
+
+<h3>Page Content Visualizations: Wireframes</h3>
+
+<p>A content inventory is very helpful when beginning the third part of site architecture: page wireframes. Page wireframes belong in the IA stage because they're much less about design (layout, typography, color) and more about the importance of content pieces relative to each other. Additionally, they function as blueprint for what specific content areas should be on each page. It is <em>extremely</em> difficult to design a web page, or code a web page, if you do not know what the site architecture is as a whole <em>and</em> what content will go on the page. Creating and discussing wireframes in the IA stage not only help anticipate specific content pieces for each page, they also help you evaluate how your site organization is represented on individual pages.</p>
+
+<blockquote><p>Remember, the goal for wireframes is to discuss <em>relative importance</em> of content on a page--<em>what</em> should be important, not <em>how</em> to make it important.</p></blockquote>
+
+<p>When discussing wireframes, try to steer the conversation away from the design aesthetics of the wireframe and more towards the content delivery of the wireframe. What content does it emphasize? What content does it reduce in importance? Should one piece of content appear more important than others? Is all the content represented on the page? Avoid conversations like "The navigation needs to be on the right," or "The font should be Georgia" in favor of observations like "I think the callouts should be emphasized more than the secondary navigation," or "The item's title should be equally important to the items subheadings," Remember, the goal for wireframes is to discuss <em>relative importance</em> of content on a page--<em>what</em> should be important, not <em>how</em> to make it important. There's plenty of time for <em>how</em> conversations in the design phase. Discussing what goes on the page, and how each page component related to the others, will give the designers good ideas to do their jobs: <em>design</em>.</p>
+
+<p>I recommend creating three levels of wireframes: homepage, browse page, show page. Your mileage may vary, depending on your content and type of site, but its good to think about how content is presented differently at different levels of your site. I also use Omnigraffle to draw page wireframes, using <a href="http://urlgreyhot.com/personal/resources/omnigraffle_wireframe_palette">a stencil package by Michael Angeles</a>, but I've also done wireframes on whiteboards, and with pencil and paper. In fact, I would encourage you to start with pencil and paper before creating a more formal wireframe in Omnigraffle.</p>
+
+<h2>Content Delivery</h2>
+
+<p>All the planning for information architecture will pretty much go to waste if that content isn't delivered in a timely fashion. Luke Wroblewski suggests visualizing a "content delivery schedule" to keep the development and delivery of content on time. Using a simple calendar or table, you could construct a list of specific pages or sections of content that needs to be delivered, when it's due, and who's responsible for delivering it. An simple example using a table:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>URL</th>
+            <th>Due Date</th>
+            <th>Provider</th>
+            <th>Received?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Homepage</td>
+            <td>example.com</td>
+            <td>05.04.08</td>
+            <td>John Hawking, jhawking@example.com</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>About</td>
+            <td>example.com/about/</td>
+            <td>05.12.08</td>
+            <td>Mary Bailey, mbailey@example.com</td>
+        </tr>
+        <tr>
+            <td>Exhibit One</td>
+            <td>example.com/exhibit1/</td>
+            <td>05.22.08</td>
+            <td>Larry Stevens, lstevens@example.com</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p>You could just as easily use a spreadsheet, Google Calendar, milestones in Basecamp, or a wiki page, but the end goals are the same: have deadlines for content delivery and know who should be delivering content.</p>
+
+<h2>Importance of Information Architecture</h2>
+
+<p>Here are a few concluding points/summaries about why content management and information architecture are vital:</p>
+
+<ul>
+<li>Thinking about content organization gets you thinking more about what kind of site you want to build, who you want to use this site, and how you can best cater to that audience</li>
+<li>Genres of sites impact information architecture.</li>
+<li>Scope creep with content--involving both <em>removing</em> content and <em>adding</em> new content--affects decisions in future design/development phases.</li>
+<li>Begin thinking more abstractly about site architecture (site maps) and end with more concrete thoughts (page wireframes)</li>
+<li>Be sure that all the steps you take in developing site architecture coincide with the project requirements you set at the very beginning. All work in this phase must ensure the requirements are met.</li>
+</ul>
+
+
+<p>Once the team has agreed upon the architecture and organization of a site's content, designers can begin working on, you guessed it, design! In the next post I'll discuss the process for coming up with a design for your project!</p>
+
+
+  </div>
+
+  </article>
+
+  <nav id="post-navigation">
+  <ul>
+  
+  <li class="previous">
+    <p class="kicker">Previous Post</p>
+      <a href="/2008/04/18/part-one-figure-out-what-youre-building/" title="Previous Post:
+        Part One: Figure Out What You're Building">Part One: Figure Out What You're Building</a>
+    </li>
+  
+  
+  <li class="next">
+    <p class="kicker">Next Post</p>
+
+    <a href="/2008/06/04/part-three-design-process/" title="next Post:
+      Part Three: Design Process">Part Three: Design Process</a>
+    </li>
+  
+  </ul>
+  </nav>
+
+  
+  </div>
+  
+  <footer role="contentinfo">
+  <div class="info">
+    <h2>Info</h2>
+    <p>ClioWeb is written and maintained by Jeremy Boggs, since 2004. Content
+  licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">CC-BY</a>.</p>
+  </div>
+  <div class="contact">
+  <h2>Contact</h2>
+    <ul>
+      <li><a href="mailto:jeremy@clioweb.org">Email</a></li>
+      <li><a href="aim:goim?screename=jboggs22">AIM</a></li>
+      <li><a href="gtalk:chat?jid=jeremy@clioweb.org">Google Chat</a></li>
+    </ul>
+  </div>
+  <div class="elsewhere">
+    <h2>Elsewhere</h2>
+    <ul> 
+      <li><a href="http://flickr.com/photos/clioweb" class="flickr">Flickr</a></li>
+      <li><a href="http://github.com/clioweb" class="github">Github</a></li>
+      <li><a href="http://twitter.com/clioweb" class="twitter">Twitter</a></li>
+      <li><a href="http://vimeo.com/clioweb" class="vimeo">Vimeo</a></li>
+      <li><a href="http://zotero.org/clioweb" class="zotero">Zotero</a></li>
+    </ul>
+  </div>
+
+  <div class="feeds">
+    <h2>Feeds</h2>
+    <ul>
+      <li><a href="/atom.xml" class="atom">Atom</a></li>
+      <li><a href="/rss.xml" class="atom">RSS</a></li>
+    </ul>
+  </div>
+  
+  </footer>
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/j/jquery.min.js"><\/script>')</script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-341377-1'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+</body>
+</html>
+
