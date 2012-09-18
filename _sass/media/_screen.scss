@@ -74,6 +74,12 @@ img {
   height: auto;
 }
 
+ul, ol {
+  ul, ol {
+    margin:0;
+  }
+}
+
 .kicker {
   @include kicker;
 }
