@@ -36,16 +36,21 @@ task :publish, :filename do |t, args|
 end
 
 desc "Deploy it"
-task :deploy => :build do
-  sh 'rsync -rtzh --progress _site/ clioweb@clioweb.org:/home/clioweb/clioweb.org/'
+task :deploy, [:msg] => :build do |t, args|
+  msg = args[:msg] || 'Updates site.'
+  sh 'git clone -b gh-pages git@github.com:clioweb/clioweb.org.git ~/tmp/clioweb-gh-pages'
+  sh 'cp -r ~/tmp/clioweb-gh-pages/.git _site/.git'
+  sh "cd _site/ && git add . && git commit -am '#{msg}' && git push origin gh-pages"
+  cleanup
 end
 
 def cleanup
   sh 'rm -rf _site'
+  sh 'rm -rf ~/tmp/clioweb-gh-pages'
 end
 
 def jekyll(opts = '')
-  sh 'jekyll ' + opts
+  sh 'bundle exec jekyll ' + opts
 end
 
 def compass(opts = '')
