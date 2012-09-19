@@ -4,7 +4,7 @@
   <!--  Homepage -->
   <url>
     <loc>http://clioweb.org</loc>
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     <changefreq>daily</changefreq>
 		<priority>1.0</priority>
   </url>
@@ -3655,7 +3655,7 @@
   <url>
     <loc>http://clioweb.org/about.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -3664,7 +3664,7 @@
   <url>
     <loc>http://clioweb.org/blog.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -3673,7 +3673,7 @@
   <url>
     <loc>http://clioweb.org/courses/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -3682,7 +3682,7 @@
   <url>
     <loc>http://clioweb.org/cv.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -3691,916 +3691,16 @@
   <url>
     <loc>http://clioweb.org/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
   </url>
   
   <url>
-    <loc>http://clioweb.org/wiki/2009_resolutions.html</loc>
+    <loc>http://clioweb.org/notes/web-design.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/about.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/aha_2010.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/altac_essay.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/amys_coleslaw.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/amys_dressing.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/apple_orchard_cupcakes.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/asian_chicken_lettuce_wraps.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/assacom.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/barbecue_chicken.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/basic_pizza_sauce.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/basic_tomato_sauce.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/blog_post_ideas.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/brand_new.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/buffalo_chicken_dip.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/carne_asada.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/cars.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/cashew_chicken.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/charlenes_chili.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/chicken_enchiladas.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/chicken_noodle_soup.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/chnm_the_movie.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/chocolate_cake_with_coffee.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/chocolate_chip_cookies.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/chocolate_pie.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/chocolate_sandwich_cookies.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/cinnamon_roll_cookies.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/clio_wired_2_syllabus.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/clioweb.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/code_archive.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/coffee_punch.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/cold_noodles_with_sesame_sauce.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/computer_setup.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/corn_dogs.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/cornbread.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/courses_to_develop.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/daily_routine.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/digital_methods_for_academic_publishing.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/dill_pickles.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/drop_biscuits.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/eileens_chili.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/elsewhere.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/ezoteryka_ebook.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/french_toast_casserole.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/fresh_tomato_soup.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/fried_chicken_bites.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/getting_started_with_social_media.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/gingered_chinese_noodles_with_beef.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/history_697_syllabus.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/history_in_the_digital_age.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/honey_chipotle_chicken.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/honey_corn_bread.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/humanities_design_patterns.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/hush_puppies.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/jahc_electronic_resources.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/jerjerjerky.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/kung_pao_chicken.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/lasagna.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/leopard_developer_environment.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/leopard_development_environment.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/lists.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/macaroni__cheese.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/main_page.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/mango_habanero_sauce.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/mango_hot_sauce.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/meditations.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/my_new_project.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/napa_cabbage_salad.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/next_actions.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/pan_roasted_steak.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/pasta_sauce.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/peanut_butter_eggs.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/peppery_white_cheddar_biscuits.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/pie_crust.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/podcasting.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/poppyseed_chicken_casserole.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/productivity_improvement.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/projects.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/recipes.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/resolutions_2009.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/scrambled_eggs.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/sesame_noodles.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/sesame_pasta_salad.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/soft_ginger_cookies.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/software_development_best_practices.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/software_development_practices.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/somedaymaybe.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/sour_bread_and_starter.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/speaking_schedule.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/sugar_cookies.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/sweet_and_tangy_salad_dressing.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/teaching_portfolio_research.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/teriyaki_armageddon_beef_jerky.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/thatcamphtmlcssworkshop.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/things_on_twitter.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/uva_laptop_setup.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/vegetable_summer_rolls.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/website_improvements.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/website_rationale.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/wordcamp_ed_presentation.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://clioweb.org/wiki/wordcamp_nyc_presentation.html</loc>
-    
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4609,7 +3709,7 @@
   <url>
     <loc>http://clioweb.org2011/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4618,7 +3718,7 @@
   <url>
     <loc>http://clioweb.org2011/03/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4627,7 +3727,7 @@
   <url>
     <loc>http://clioweb.org2010/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4636,7 +3736,7 @@
   <url>
     <loc>http://clioweb.org2010/10/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4645,7 +3745,7 @@
   <url>
     <loc>http://clioweb.org2010/08/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4654,7 +3754,7 @@
   <url>
     <loc>http://clioweb.org2010/06/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4663,7 +3763,7 @@
   <url>
     <loc>http://clioweb.org2010/05/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4672,7 +3772,7 @@
   <url>
     <loc>http://clioweb.org2009/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4681,7 +3781,7 @@
   <url>
     <loc>http://clioweb.org2009/06/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4690,7 +3790,7 @@
   <url>
     <loc>http://clioweb.org2009/04/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4699,7 +3799,7 @@
   <url>
     <loc>http://clioweb.org2009/03/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4708,7 +3808,7 @@
   <url>
     <loc>http://clioweb.org2009/02/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4717,7 +3817,7 @@
   <url>
     <loc>http://clioweb.org2009/01/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4726,7 +3826,7 @@
   <url>
     <loc>http://clioweb.org2008/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4735,7 +3835,7 @@
   <url>
     <loc>http://clioweb.org2008/12/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4744,7 +3844,7 @@
   <url>
     <loc>http://clioweb.org2008/10/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4753,7 +3853,7 @@
   <url>
     <loc>http://clioweb.org2008/06/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4762,7 +3862,7 @@
   <url>
     <loc>http://clioweb.org2008/04/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4771,7 +3871,7 @@
   <url>
     <loc>http://clioweb.org2008/03/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4780,7 +3880,7 @@
   <url>
     <loc>http://clioweb.org2008/02/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4789,7 +3889,7 @@
   <url>
     <loc>http://clioweb.org2008/01/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4798,7 +3898,7 @@
   <url>
     <loc>http://clioweb.org2007/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4807,7 +3907,7 @@
   <url>
     <loc>http://clioweb.org2007/11/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4816,7 +3916,7 @@
   <url>
     <loc>http://clioweb.org2007/09/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4825,7 +3925,7 @@
   <url>
     <loc>http://clioweb.org2007/05/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4834,7 +3934,7 @@
   <url>
     <loc>http://clioweb.org2007/04/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4843,7 +3943,7 @@
   <url>
     <loc>http://clioweb.org2007/03/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4852,7 +3952,7 @@
   <url>
     <loc>http://clioweb.org2007/02/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4861,7 +3961,7 @@
   <url>
     <loc>http://clioweb.org2007/01/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4870,7 +3970,7 @@
   <url>
     <loc>http://clioweb.org2006/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4879,7 +3979,7 @@
   <url>
     <loc>http://clioweb.org2006/12/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4888,7 +3988,7 @@
   <url>
     <loc>http://clioweb.org2006/11/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4897,7 +3997,7 @@
   <url>
     <loc>http://clioweb.org2006/10/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4906,7 +4006,7 @@
   <url>
     <loc>http://clioweb.org2006/09/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4915,7 +4015,7 @@
   <url>
     <loc>http://clioweb.org2006/08/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4924,7 +4024,7 @@
   <url>
     <loc>http://clioweb.org2006/06/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4933,7 +4033,7 @@
   <url>
     <loc>http://clioweb.org2006/05/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4942,7 +4042,7 @@
   <url>
     <loc>http://clioweb.org2006/04/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4951,7 +4051,7 @@
   <url>
     <loc>http://clioweb.org2006/03/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4960,7 +4060,7 @@
   <url>
     <loc>http://clioweb.org2006/02/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4969,7 +4069,7 @@
   <url>
     <loc>http://clioweb.org2006/01/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4978,7 +4078,7 @@
   <url>
     <loc>http://clioweb.org2005/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4987,7 +4087,7 @@
   <url>
     <loc>http://clioweb.org2005/12/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -4996,7 +4096,7 @@
   <url>
     <loc>http://clioweb.org2005/11/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5005,7 +4105,7 @@
   <url>
     <loc>http://clioweb.org2005/10/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5014,7 +4114,7 @@
   <url>
     <loc>http://clioweb.org2005/09/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5023,7 +4123,7 @@
   <url>
     <loc>http://clioweb.org2005/08/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5032,7 +4132,7 @@
   <url>
     <loc>http://clioweb.org2005/07/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5041,7 +4141,7 @@
   <url>
     <loc>http://clioweb.org2005/06/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5050,7 +4150,7 @@
   <url>
     <loc>http://clioweb.org2005/05/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5059,7 +4159,7 @@
   <url>
     <loc>http://clioweb.org2005/04/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5068,7 +4168,7 @@
   <url>
     <loc>http://clioweb.org2005/03/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5077,7 +4177,7 @@
   <url>
     <loc>http://clioweb.org2005/02/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5086,7 +4186,7 @@
   <url>
     <loc>http://clioweb.org2005/01/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5095,7 +4195,7 @@
   <url>
     <loc>http://clioweb.org2004/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5104,7 +4204,7 @@
   <url>
     <loc>http://clioweb.org2004/12/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5113,7 +4213,7 @@
   <url>
     <loc>http://clioweb.org2004/11/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5122,7 +4222,7 @@
   <url>
     <loc>http://clioweb.org2004/10/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5131,7 +4231,7 @@
   <url>
     <loc>http://clioweb.org2004/09/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
@@ -5140,7 +4240,7 @@
   <url>
     <loc>http://clioweb.org2004/08/index.html</loc>
     
-    <lastmod>2012-09-08</lastmod>
+    <lastmod>2012-09-19</lastmod>
     
     
     
