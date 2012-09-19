@@ -9,7 +9,7 @@ end
 
 desc "Build site with Jekyll"
 task :build => :clean do
-  compass
+  compass '', false
   jekyll
 end
 
@@ -53,8 +53,10 @@ def jekyll(opts = '')
   sh 'bundle exec jekyll ' + opts
 end
 
-def compass(opts = '')
-  sh 'compass compile -c config.rb --force ' + opts + ' && compass watch &'
+def compass(opts = '', watch=true)
+  cmd = 'compass compile -c config.rb --force ' + opts
+  cmd += ' && compass watch &' if watch
+  sh cmd
 end
 
 def draft(title)
