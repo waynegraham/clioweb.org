@@ -18,10 +18,10 @@ bodyclass: cv
 ### Design Architect, Scholars' Lab, University of Virginia Library
 June 2011–present
 
-### Associate Director of Research, Center for History and New Media
+### Associate Director of Research, Center for History and New Media, George Mason University
 October 2010–June 2011
 
-### Creative Lead, Center for History and New Media
+### Creative Lead, Center for History and New Media, George Mason University
 August 2006–October 2010
 
 ### Adjunct Lecturer, Department of History, American University
@@ -30,7 +30,7 @@ May 2009–June 2010
 ### Graduate Lecturer, Department of History and Art History, George Mason University
 August 2006–May 2009
 
-### Web Developer, Center for History and New Media
+### Web Developer, Center for History and New Media, George Mason University
 December 2005–August 2006
 
 ## Publications
