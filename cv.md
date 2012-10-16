@@ -33,14 +33,14 @@ August 2006–May 2009
 ### Web Developer, Center for History and New Media, George Mason University
 December 2005–August 2006
 
-## Publications
-    
+## Publications 
+
 ### Book Chapters
     
 * “Gilded Age and Progressive Era” and “Electronic Journals,” in _The History Highway: A 21st Century Guide to Internet Resources_. Dennis Trinkle and Scott Merriman, eds. Armonk, New York: M.E. Sharpe, 2006.
 
 ### Articles
-        
+
 * [“What? Wikipedia in History Class?”](http://www.iste.org/learn/publications/learning-and-leading/issues/Learning_Connections_What_Wikipedia_in_History_Class.aspx) _Learning and Leading with Technology_. December/January 2010.
 
 ### Book Reviews
@@ -57,6 +57,8 @@ December 2005–August 2006
 
 ### Conference Sessions and Papers
 
+* “Geo-temporal Interpretation of Archival Collections Using Neatline,”  Digital Humanities 2012, July 16–20, 2012, Hamburg,
+Germany (with Bethany Nowviskie, David McClure, Wayne Graham, and Eric Rochester).
 * “Public History in the Digital Age: Theory and Praxis,” Annual Meeting of the National Council for Public History, March 10–14, 2010, Portland, OR. (Session chair)
 * Panelist, “Humanities in the Digital Age” Roundtable. Annual Meeting of the American Historical Association, January 7–10, 2010.
 * “Teaching, History, and Digital Technology,” Annual Meeting of the American Association for History and Computing, April 3–4, 2009, Fairfax, VA.
@@ -66,18 +68,22 @@ December 2005–August 2006
 
 ### Poster Sessions
 
+* “Realigning Digital Humanities Training: The Praxis Program at the Scholars’ Lab,” Digital Humanities 2012, July 16–20, 2012, Hamburg, Germany (with Bethany Nowviskie, et. al.).
 * “Weblogs and Wikis.” Annual Meeting of the History of Education Society, October 22–25, 2009, Philadelphia, PA.
 * “Free Digital Tools to Inspire Student Learning.” National Education Computing Conference, June 28–July 1, 2009, Washington, DC.        
 * “Material Cultures of Filth and Cleanliness: The American Bathroom at the Turn of the Last Century.” Annual Meeting of American History Association, January 5–9, 2007, Atlanta, GA.
 
 ### Workshops, Seminars, and Colloquia
 
-* “Getting Started with Social Media,” Teaching and Technology seminar,     
+* “Geotemporal Storytelling with Neatline,” National Institute for Technology in Liberal Education, October 2012 (with David McClure).
+* “Omeka + Neatline,” October 2011 Toronto Mini-CWRCshop, October 27, 2012, Toronto, Canada.
+* “Open Digital Humanities,” Scholars’ Lab Speaker Series. March 18, 2011, Charlottesville, Virginia.
 * “Using WordPress to Share Research.” WordCamp New York City, November 14–15, 2009, New York, NY.
 * “Four Roles for Digital Scholars, and the Skills They Need.” Future of Digital Scholarship Colloquium, Emory University, April 17–18, 2009, Atlanta, GA.
 
 ## Professional Service
-     
+
+* Webmaster, Association for Computers and the Humanities, 2012–present.
 * Co-organizer, THATCamp: The Humanities and Technology Camp, May 2008–present        
 * Member, Executive Council, American Association for History and Computing (2007-2010)
 * Technical Editor and Electronic Resources Editor, _Journal of the Association for History and Computing_ (2006–2009)
