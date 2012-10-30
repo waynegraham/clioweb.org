@@ -13,4 +13,4 @@ Jonathan Dresner has composed a great History carnival this time around. [Go che
 
 
 
-A draft of THE PAPER is due this Thursday. Dr. Zagarri liked my introduction, so that's boosted my confidence in the project. Once I finish the project I plan to put the paper somewhere on the site, perhaps in an effort to [practice](http://www.clioweb.org/archives/2004/11/10/nature-of-peer-review-in-academia-and-the-future-of-digital-scholarship/) what I [preach](http://www.clioweb.org/archives/2005/04/07/blogs-as-scholarship-part-2/). We'll see how that goes.
+A draft of THE PAPER is due this Thursday. Dr. Zagarri liked my introduction, so that's boosted my confidence in the project. Once I finish the project I plan to put the paper somewhere on the site, perhaps in an effort to [practice](/2004/11/10/nature-of-peer-review-in-academia-and-the-future-of-digital-scholarship/) what I [preach](/2005/04/07/blogs-as-scholarship-part-2/). We'll see how that goes.

@@ -8,7 +8,7 @@ wordpress_id: '18'
 
 ---
 
-[James Halabuk](http://www.jameshalabuk.net) is the first person to [post a comment](http://www.clioweb.org/archives/2004/09/07/writing-the-prospectus/#comment-4) on my weblog. Because of this, James will receive $50,000 in cash and will now be the proud owner of a fully-loaded [Lexus](http://www.lexus.com).
+[James Halabuk](http://www.jameshalabuk.net) is the first person to [post a comment](/2004/09/07/writing-the-prospectus/#comment-4) on my weblog. Because of this, James will receive $50,000 in cash and will now be the proud owner of a fully-loaded [Lexus](http://www.lexus.com).
 
 
 

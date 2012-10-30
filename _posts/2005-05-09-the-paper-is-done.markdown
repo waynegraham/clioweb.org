@@ -7,7 +7,7 @@ title: The PAPER is Done
 wordpress_id: '93'
 ---
 
-I turned my doctoral research seminar paper in today. As I've [expressed previously](http://www.clioweb.org/archives/2005/04/27/dissertation-topics/), I don't plan to pursue the topic for my dissertation. But I think it's a good paper, and I plan to work on it a little more and either publish in here on my site or send it to a journal. The paper, entitled "In Close Proximity: Race, Naturalism, and Law in Virginia, 1900s-1920s," explores the inherent contradictions seeing white supremacy as a fact of nature and having to codify and enforce that superiority through law.
+I turned my doctoral research seminar paper in today. As I've [expressed previously](/2005/04/27/dissertation-topics/), I don't plan to pursue the topic for my dissertation. But I think it's a good paper, and I plan to work on it a little more and either publish in here on my site or send it to a journal. The paper, entitled "In Close Proximity: Race, Naturalism, and Law in Virginia, 1900s-1920s," explores the inherent contradictions seeing white supremacy as a fact of nature and having to codify and enforce that superiority through law.
 
 
 

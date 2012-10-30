@@ -9,7 +9,7 @@ tags:
 - Research
 ---
 
-Paula has a nice critical write-up on the "[unbearable uselessness of timelines](http://historytalk.typepad.com/basic/2007/02/the_unbearable_.html)," particularly those used in history textbooks. I've been working a bit on [timeline applications](http://clioweb.org/archive/2006/05/04/css-based-timelines/), so Paula's post made me think seriously about the role of timelines for scholarship and pedagogy. While I agree with Paula's assessment of past and current uses of timelines, I think timelines can be useful if designed and implemented in deliberately thoughtful ways.
+Paula has a nice critical write-up on the "[unbearable uselessness of timelines](http://historytalk.typepad.com/basic/2007/02/the_unbearable_.html)," particularly those used in history textbooks. I've been working a bit on [timeline applications](/2006/05/04/css-based-timelines/), so Paula's post made me think seriously about the role of timelines for scholarship and pedagogy. While I agree with Paula's assessment of past and current uses of timelines, I think timelines can be useful if designed and implemented in deliberately thoughtful ways.
 
 
 

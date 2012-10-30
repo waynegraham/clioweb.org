@@ -19,7 +19,7 @@ One of the things I'm interested in is the way that post-publication peer review
 
 
 
-Currently, the debate in history and other humanities fields focuses solely on the technology itself (especially its vices) instead of seeing the value of the ideas published in online scholarship. Most [recent debates](http://www.clioweb.org/archives/2004/09/10/blogs-as-scholarship/) about the uses of blogs as a mode for scholarly publication have focused only on the technology, not the ideas and arguments published. Of course, I agree that most if not all of the blogs currently available lack the organization and coherence that we attribute to traditional scholarship, but this is not because the technology makes it impossible; It's because we choose not to write in that manner.
+Currently, the debate in history and other humanities fields focuses solely on the technology itself (especially its vices) instead of seeing the value of the ideas published in online scholarship. Most [recent debates](/2004/09/10/blogs-as-scholarship/) about the uses of blogs as a mode for scholarly publication have focused only on the technology, not the ideas and arguments published. Of course, I agree that most if not all of the blogs currently available lack the organization and coherence that we attribute to traditional scholarship, but this is not because the technology makes it impossible; It's because we choose not to write in that manner.
 
 
 

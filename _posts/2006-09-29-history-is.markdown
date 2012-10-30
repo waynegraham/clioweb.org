@@ -9,7 +9,7 @@ tags:
 - Projects
 ---
 
-For the past few weeks, a ["Design is..."](http://flickr.com/groups/designerwallpaper/pool/) meme has exploded, where designers have been creating desktops promoting what they think "design" is. In a similar spirit, I thought it would be cool to think about what "History is..." and make a desktop for it. The first thing that came to mind is "History is a Perpetual Beta." I've argued [previously on ClioWeb](http://clioweb.org/archive/2006/01/11/historians-and-web-20/), and on an [AAHC conference panel](http://past-forward.org), that history, like many Web 2.0 applications, is in a perpetual "beta," or in a constant state of testing, revision, and improvement. So, to spice up your computer's desktop:
+For the past few weeks, a ["Design is..."](http://flickr.com/groups/designerwallpaper/pool/) meme has exploded, where designers have been creating desktops promoting what they think "design" is. In a similar spirit, I thought it would be cool to think about what "History is..." and make a desktop for it. The first thing that came to mind is "History is a Perpetual Beta." I've argued [previously on ClioWeb](/2006/01/11/historians-and-web-20/), and on an [AAHC conference panel](http://past-forward.org), that history, like many Web 2.0 applications, is in a perpetual "beta," or in a constant state of testing, revision, and improvement. So, to spice up your computer's desktop:
 
 
 {% img /i/historybeta/historybeta-crop.gif History is a Perpetual Beta %}
