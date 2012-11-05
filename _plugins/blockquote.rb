@@ -35,7 +35,7 @@ module Jekyll
         @by = $1
         @source = $2 + $3
       elsif markup =~ Author
-        if $1 =~ /([^,]+),([^,]+)/
+        if $1 =~ /([^|]+)\|([^|]+)/
           @by = $1
           @title = $2.titlecase
         else
