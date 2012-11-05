@@ -46,7 +46,25 @@ blockquote {
   color: $light-grey;
   font-size: 1.25em;
   @include sans-serif;
-  border-left: 1em solid $highlight;
+  
+  footer {
+    font-size:0.75em;
+    text-align:right;
+
+    strong {
+      font-weight:normal;
+
+      & + cite:before {
+        content: "· ";
+        color: $light-grey;
+      }
+
+    }
+
+    a {
+      text-decoration:none;
+    }
+  }
 }
 
 table {
