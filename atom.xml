@@ -4,13 +4,120 @@
  <title>ClioWeb</title>
  <link href="http://clioweb.org/atom.xml" rel="self"/>
  <link href="http://clioweb.org/"/>
- <updated>2012-10-18T15:44:01-04:00</updated>
+ <updated>2012-11-05T13:35:45-05:00</updated>
  <id>http://clioweb.org</id>
  <author>
    <name>Jeremy Boggs</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Dialects</title>
+   <link href="http://clioweb.org/2012/11/05/dialects/"/>
+   <updated>2012-11-05T00:00:00-05:00</updated>
+   <id>http://clioweb.org/2012/11/05/dialects</id>
+   <content type="html">&lt;blockquote&gt;&lt;p&gt;The first, as an author, don’t be afraid to stray from any
+given dialect, even if it means more work for you. But do so only
+insofar as you want to shelter your project from engineers
+&lt;em&gt;unwilling&lt;/em&gt; to
+invest in core modes of thinking that you deem necessary to grasp in
+contributing to the ideas of your project.&lt;/p&gt;
+
+&lt;p&gt;The second, as a potential contributor, it’s perfectly ok to be opposed
+to the ideas of a project, but don’t allow yourself to write something
+off at the level of dialect.&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;fat&lt;/strong&gt; &lt;cite&gt;&lt;a href='http://byfat.xxx/chomsky'&gt;Chomsky Can’t Be Bothered to Learn C&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+
+
+&lt;p&gt;Emphasis mine.&lt;/p&gt;
+
+&lt;p&gt;Fat's observations about Chomsky's dismissal of postmodernism are great
+points to consider for any academic, but I'd say expecially important
+for any academic in the Digital Humanities, given the wealth of problems
+regarding to which theories to employ, which programming languages to
+learn, which tools to use, and so on. Choices we make about all these
+things invariably shelter our work from others unfamiliar with those
+dialects, and/or unwilling to engage them. Every citation increases the
+workload for others reading our work, as does every line of code. Making
+something open source or open access doesn't, in and of itself, help
+here. It simply helps people more quickly see what they have to know to
+participate. We shouldn't be afraid of these things, apologize for them, or stop doing
+them necessarily. But we should be aware of their implications when we create and
+share our work.&lt;/p&gt;
+
+&lt;p&gt;I should be more aware of this as an author. I find the balance between
+streamlining my workflows and enabling/encouraging the shared use of and
+contribution to my projects quite difficult. For example, I've started
+using &lt;a href=&quot;http://sass-lang.com&quot;&gt;Sass&lt;/a&gt;, &lt;a href=&quot;http://compass-style.com&quot;&gt;Compass&lt;/a&gt;, and &lt;a href=&quot;http://susy.oddbird.net&quot;&gt;Susy&lt;/a&gt; for most of my
+CSS development. They're terrific tools, and I think using them is
+worthwhile, because they makes so many things easier (for me) for
+progressively-enhanced, cross-browser development. But it also sets the
+bar higher for others who wish to contribute that work. It is by no
+means insurmountable, but it does require a willingness to invest in it.
+It also requires a willingness on my part, the part of the author, to
+make more clear why I've added those tools to my dialect.&lt;/p&gt;
+
+&lt;p&gt;I should also do more as a contributor to not so easily dismiss work simply
+because I am not familiar with its dialect. More importantly, though, I
+shouldn't simply scoff at the presence of an unfamiliar dialect. I should be
+willing to invest in learning any dialect when I think the ideas are worth
+engaging. That's good academic citizenship.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Dialects</title>
+   <link href="http://clioweb.org/2012/11/04/dialects/"/>
+   <updated>2012-11-04T00:00:00-04:00</updated>
+   <id>http://clioweb.org/2012/11/04/dialects</id>
+   <content type="html">&lt;blockquote&gt;&lt;p&gt;The first, as an author, don’t be afraid to stray from any
+given dialect, even if it means more work for you. But do so only
+insofar as you want to shelter your project from engineers
+unwilling to
+invest in core modes of thinking that you deem necessary to grasp in
+contributing to the ideas of your project.&lt;/p&gt;
+
+&lt;p&gt;The second, as a potential contributor, it’s perfectly ok to be opposed
+to the ideas of a project, but don’t allow yourself to write something
+off at the level of dialect.&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;fat&lt;/strong&gt; &lt;cite&gt;&lt;a href='http://byfat.xxx/chomsky'&gt;Chomsky Can’t Be Bothered to Learn C&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+
+
+&lt;p&gt;Fat's observations about Chomsky's dismissal of postmodernism are great
+points to consider for any academic, but I'd say expecially important
+for any academic in the Digital Humanities, given the wealth of problems
+related to which theories to employ, which programming languages to
+learn, which tools to use, and so on. Choices we make about all these
+things invariably shelter our work from others unfamiliar with those
+dialects, and/or unwilling to engage them. Every citation increases the
+workload for others reading our work, as does every library included in code. Making
+something open source or open access doesn't, in and of itself, help
+here. It simply helps people more quickly see what they have to know to
+participate. We shouldn't be afraid of these things, apologize for them, or stop doing
+them necessarily. &lt;em&gt;Choices have implications.&lt;/em&gt; We should be aware of these implications when we create and share our work.&lt;/p&gt;
+
+&lt;p&gt;I should be more aware of this as an author. I find the balance between
+streamlining my workflows and enabling/encouraging the shared use of and
+contribution to my projects quite difficult. For example, I've started
+using &lt;a href=&quot;http://sass-lang.com&quot;&gt;Sass&lt;/a&gt;, &lt;a href=&quot;http://compass-style.com&quot;&gt;Compass&lt;/a&gt;, and &lt;a href=&quot;http://susy.oddbird.net&quot;&gt;Susy&lt;/a&gt; for most of my
+CSS development. They're terrific tools, and I think using them is
+worthwhile, because they makes so many things easier (for me) for
+progressively-enhanced, cross-browser development. But it also sets the
+bar higher for others who wish to contribute to that work. It is by no
+means insurmountable, but it does require a willingness from others to
+learn that dialect.
+It also requires a willingness on my part, the part of the author, to
+make more clear why I've added those tools to my dialect, and help
+others understand it if I value their contributions.&lt;/p&gt;
+
+&lt;p&gt;I should also do more as a contributor to not so easily dismiss work simply
+because I am not familiar with its dialect. More importantly, I
+shouldn't simply scoff at the presence of an unfamiliar dialect. I should be
+willing to invest in learning any dialect when I think the ideas are worth
+engaging. That's good academic citizenship.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Joining Scholars' Lab</title>
@@ -1852,7 +1959,7 @@ Screenshot of &lt;a href=&quot;http://gulaghistory.org&quot;&gt;Gulag: Many Days
    <link href="http://clioweb.org/2007/02/26/in-defense-of-timelines/"/>
    <updated>2007-02-26T00:27:38-05:00</updated>
    <id>http://clioweb.org/2007/02/26/in-defense-of-timelines</id>
-   <content type="html">&lt;p&gt;Paula has a nice critical write-up on the &quot;&lt;a href=&quot;http://historytalk.typepad.com/basic/2007/02/the_unbearable_.html&quot;&gt;unbearable uselessness of timelines&lt;/a&gt;,&quot; particularly those used in history textbooks. I've been working a bit on &lt;a href=&quot;http://clioweb.org/archive/2006/05/04/css-based-timelines/&quot;&gt;timeline applications&lt;/a&gt;, so Paula's post made me think seriously about the role of timelines for scholarship and pedagogy. While I agree with Paula's assessment of past and current uses of timelines, I think timelines can be useful if designed and implemented in deliberately thoughtful ways.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Paula has a nice critical write-up on the &quot;&lt;a href=&quot;http://historytalk.typepad.com/basic/2007/02/the_unbearable_.html&quot;&gt;unbearable uselessness of timelines&lt;/a&gt;,&quot; particularly those used in history textbooks. I've been working a bit on &lt;a href=&quot;/2006/05/04/css-based-timelines/&quot;&gt;timeline applications&lt;/a&gt;, so Paula's post made me think seriously about the role of timelines for scholarship and pedagogy. While I agree with Paula's assessment of past and current uses of timelines, I think timelines can be useful if designed and implemented in deliberately thoughtful ways.&lt;/p&gt;
 
 &lt;h3&gt;Uselessness (In Most Cases)&lt;/h3&gt;
 
@@ -2993,7 +3100,7 @@ Iraq's Most Wanted: Terror at the Border,&quot; &quot;Okinawa: The Last Battle o
    <link href="http://clioweb.org/2006/09/29/history-is/"/>
    <updated>2006-09-29T11:13:03-04:00</updated>
    <id>http://clioweb.org/2006/09/29/history-is</id>
-   <content type="html">&lt;p&gt;For the past few weeks, a &lt;a href=&quot;http://flickr.com/groups/designerwallpaper/pool/&quot;&gt;&quot;Design is...&quot;&lt;/a&gt; meme has exploded, where designers have been creating desktops promoting what they think &quot;design&quot; is. In a similar spirit, I thought it would be cool to think about what &quot;History is...&quot; and make a desktop for it. The first thing that came to mind is &quot;History is a Perpetual Beta.&quot; I've argued &lt;a href=&quot;http://clioweb.org/archive/2006/01/11/historians-and-web-20/&quot;&gt;previously on ClioWeb&lt;/a&gt;, and on an &lt;a href=&quot;http://past-forward.org&quot;&gt;AAHC conference panel&lt;/a&gt;, that history, like many Web 2.0 applications, is in a perpetual &quot;beta,&quot; or in a constant state of testing, revision, and improvement. So, to spice up your computer's desktop:&lt;/p&gt;
+   <content type="html">&lt;p&gt;For the past few weeks, a &lt;a href=&quot;http://flickr.com/groups/designerwallpaper/pool/&quot;&gt;&quot;Design is...&quot;&lt;/a&gt; meme has exploded, where designers have been creating desktops promoting what they think &quot;design&quot; is. In a similar spirit, I thought it would be cool to think about what &quot;History is...&quot; and make a desktop for it. The first thing that came to mind is &quot;History is a Perpetual Beta.&quot; I've argued &lt;a href=&quot;/2006/01/11/historians-and-web-20/&quot;&gt;previously on ClioWeb&lt;/a&gt;, and on an &lt;a href=&quot;http://past-forward.org&quot;&gt;AAHC conference panel&lt;/a&gt;, that history, like many Web 2.0 applications, is in a perpetual &quot;beta,&quot; or in a constant state of testing, revision, and improvement. So, to spice up your computer's desktop:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/i/historybeta/historybeta-crop.gif&quot; title=&quot;History is a Perpetual Beta&quot; &gt;&lt;/p&gt;
 
@@ -5141,7 +5248,7 @@ release cycles.&lt;/p&gt;&lt;/li&gt;
    <link href="http://clioweb.org/2005/10/04/top-three-google-search-strings/"/>
    <updated>2005-10-04T15:46:08-04:00</updated>
    <id>http://clioweb.org/2005/10/04/top-three-google-search-strings</id>
-   <content type="html">&lt;p&gt;&quot;&lt;a href=&quot;http://www.google.com/search?q=google+anniversary&amp;amp;sourceid=mozilla-search&amp;amp;start=0&amp;amp;start=0&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;client=firefox-a&amp;amp;rls=org.mozilla:en-US:official&quot;&gt;Google Anniversary&lt;/a&gt;&quot;, &quot;&lt;a href=&quot;http://www.google.com/search?q=how+to+hack+a+website&amp;amp;sourceid=mozilla-search&amp;amp;start=0&amp;amp;start=0&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;client=firefox-a&amp;amp;rls=org.mozilla:en-US:official&quot;&gt;how to hack a website&lt;/a&gt;&quot; and &quot;&lt;a href=&quot;http://www.google.com/search?q=hack+website&amp;amp;sourceid=mozilla-search&amp;amp;start=0&amp;amp;start=0&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;client=firefox-a&amp;amp;rls=org.mozilla:en-US:official&quot;&gt;hack website&lt;/a&gt;&quot;. While the &quot;google anniversary&quot; search lists &lt;a href=&quot;http://www.clioweb.org/archive/2005/09/11/911-anniversary-google-map/&quot;&gt;my post on Dan's 9/11 Anniversary Google map&lt;/a&gt; (first, by the way), the last two list &lt;a href=&quot;http://www.clioweb.org/archive/2004/10/26/hack-website/&quot;&gt;my post on the HACK website&lt;/a&gt; I created (that's Society for History and Computer Knowledge). The people trying to figure out how to hack a website must surely be disappointed when they read my post. I just hope they don't hack my website.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&quot;&lt;a href=&quot;http://www.google.com/search?q=google+anniversary&amp;amp;sourceid=mozilla-search&amp;amp;start=0&amp;amp;start=0&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;client=firefox-a&amp;amp;rls=org.mozilla:en-US:official&quot;&gt;Google Anniversary&lt;/a&gt;&quot;, &quot;&lt;a href=&quot;http://www.google.com/search?q=how+to+hack+a+website&amp;amp;sourceid=mozilla-search&amp;amp;start=0&amp;amp;start=0&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;client=firefox-a&amp;amp;rls=org.mozilla:en-US:official&quot;&gt;how to hack a website&lt;/a&gt;&quot; and &quot;&lt;a href=&quot;http://www.google.com/search?q=hack+website&amp;amp;sourceid=mozilla-search&amp;amp;start=0&amp;amp;start=0&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;client=firefox-a&amp;amp;rls=org.mozilla:en-US:official&quot;&gt;hack website&lt;/a&gt;&quot;. While the &quot;google anniversary&quot; search lists &lt;a href=&quot;/2005/09/11/911-anniversary-google-map/&quot;&gt;my post on Dan's 9/11 Anniversary Google map&lt;/a&gt; (first, by the way), the last two list &lt;a href=&quot;/2004/10/26/hack-website/&quot;&gt;my post on the HACK website&lt;/a&gt; I created (that's Society for History and Computer Knowledge). The people trying to figure out how to hack a website must surely be disappointed when they read my post. I just hope they don't hack my website.&lt;/p&gt;
 </content>
  </entry>
  
@@ -5594,7 +5701,7 @@ release cycles.&lt;/p&gt;&lt;/li&gt;
    <link href="http://clioweb.org/2005/08/25/one-year/"/>
    <updated>2005-08-25T21:55:53-04:00</updated>
    <id>http://clioweb.org/2005/08/25/one-year</id>
-   <content type="html">&lt;p&gt;I've been a little busy lately, so I forgot that ClioWeb turned a year old on August 17.  It all started with this &lt;a href=&quot;http://www.clioweb.org/archive/2004/08/17/new-design/&quot;&gt;inspiring post&lt;/a&gt;.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I've been a little busy lately, so I forgot that ClioWeb turned a year old on August 17.  It all started with this &lt;a href=&quot;/2004/08/17/new-design/&quot;&gt;inspiring post&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Don't forget: ClioWeb is hosting the 15th History Carnival, so keep sending in your submissions.&lt;/p&gt;
 </content>
@@ -6117,7 +6224,7 @@ font-weight: 1em;
    <link href="http://clioweb.org/2005/06/04/new-spam-fighting-plugin/"/>
    <updated>2005-06-04T08:24:11-04:00</updated>
    <id>http://clioweb.org/2005/06/04/new-spam-fighting-plugin</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://unknowngenius.com/blog/wordpress/spam-karma/dev/&quot;&gt;Spam Karma 2.0&lt;/a&gt; looks like a good replacement for Kitty's Spaminator. I've been having a little trouble with Kitty's plugin, even though Sharon was kind enough to send me the latest version. &lt;a href=&quot;http://mason.gmu.edu/~wcarpent/&quot;&gt;Bill C.&lt;/a&gt;'s comment on my &lt;a href=&quot;http://www.clioweb.org/archives/2005/06/02/memorial-day-weekend/&quot;&gt;Memorial Day&lt;/a&gt; post was marked as spam, and Bill was subsequentially blacklisted by the Spaminator. Since I love Bill's comments, I had to act quickly.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://unknowngenius.com/blog/wordpress/spam-karma/dev/&quot;&gt;Spam Karma 2.0&lt;/a&gt; looks like a good replacement for Kitty's Spaminator. I've been having a little trouble with Kitty's plugin, even though Sharon was kind enough to send me the latest version. &lt;a href=&quot;http://mason.gmu.edu/~wcarpent/&quot;&gt;Bill C.&lt;/a&gt;'s comment on my &lt;a href=&quot;/2005/06/02/memorial-day-weekend/&quot;&gt;Memorial Day&lt;/a&gt; post was marked as spam, and Bill was subsequentially blacklisted by the Spaminator. Since I love Bill's comments, I had to act quickly.&lt;/p&gt;
 
 &lt;p&gt;The Spam Karma 2.0 admin page seems pretty sweet, though I'm not sure what half of it does yet. Hopefully it will do a better job of sorting spam from valid comments. Not that Kitty's Spaminator was bad at this. The only problem I had with it was taking someone off the blacklist, like I had to do in Bill's case.&lt;/p&gt;
 </content>
@@ -6393,7 +6500,7 @@ font-weight: 1em;
    <link href="http://clioweb.org/2005/05/09/the-paper-is-done/"/>
    <updated>2005-05-09T15:29:53-04:00</updated>
    <id>http://clioweb.org/2005/05/09/the-paper-is-done</id>
-   <content type="html">&lt;p&gt;I turned my doctoral research seminar paper in today. As I've &lt;a href=&quot;http://www.clioweb.org/archives/2005/04/27/dissertation-topics/&quot;&gt;expressed previously&lt;/a&gt;, I don't plan to pursue the topic for my dissertation. But I think it's a good paper, and I plan to work on it a little more and either publish in here on my site or send it to a journal. The paper, entitled &quot;In Close Proximity: Race, Naturalism, and Law in Virginia, 1900s-1920s,&quot; explores the inherent contradictions seeing white supremacy as a fact of nature and having to codify and enforce that superiority through law.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I turned my doctoral research seminar paper in today. As I've &lt;a href=&quot;/2005/04/27/dissertation-topics/&quot;&gt;expressed previously&lt;/a&gt;, I don't plan to pursue the topic for my dissertation. But I think it's a good paper, and I plan to work on it a little more and either publish in here on my site or send it to a journal. The paper, entitled &quot;In Close Proximity: Race, Naturalism, and Law in Virginia, 1900s-1920s,&quot; explores the inherent contradictions seeing white supremacy as a fact of nature and having to codify and enforce that superiority through law.&lt;/p&gt;
 
 &lt;p&gt;In the meantime, I'm working on a review of the electronic journal &lt;a href=&quot;http://www.digitalmedievalist.org/journal.cfm&quot;&gt;DigitalMedievalist.org&lt;/a&gt; (not to be confused with &lt;a href=&quot;http://www.digitalmedievalist.com/news/index.html&quot;&gt;Digital Medievalist: Scela&lt;/a&gt;), which appears to have some good things going on. Other potential reviews of websites, books, movies, and articles are in the works. Hopefully I'll have the DigitalMedievalist review up by tomorrow.&lt;/p&gt;
 </content>
@@ -6481,7 +6588,7 @@ font-weight: 1em;
    <id>http://clioweb.org/2005/04/16/great-carnival-and-other-news</id>
    <content type="html">&lt;p&gt;Jonathan Dresner has composed a great History carnival this time around. &lt;a href=&quot;http://hnn.us/blogs/entries/11362.html&quot;&gt;Go check it out&lt;/a&gt;. Putting the submissions into conference panels is especially nice.&lt;/p&gt;
 
-&lt;p&gt;A draft of THE PAPER is due this Thursday. Dr. Zagarri liked my introduction, so that's boosted my confidence in the project. Once I finish the project I plan to put the paper somewhere on the site, perhaps in an effort to &lt;a href=&quot;http://www.clioweb.org/archives/2004/11/10/nature-of-peer-review-in-academia-and-the-future-of-digital-scholarship/&quot;&gt;practice&lt;/a&gt; what I &lt;a href=&quot;http://www.clioweb.org/archives/2005/04/07/blogs-as-scholarship-part-2/&quot;&gt;preach&lt;/a&gt;. We'll see how that goes.&lt;/p&gt;
+&lt;p&gt;A draft of THE PAPER is due this Thursday. Dr. Zagarri liked my introduction, so that's boosted my confidence in the project. Once I finish the project I plan to put the paper somewhere on the site, perhaps in an effort to &lt;a href=&quot;/2004/11/10/nature-of-peer-review-in-academia-and-the-future-of-digital-scholarship/&quot;&gt;practice&lt;/a&gt; what I &lt;a href=&quot;/2005/04/07/blogs-as-scholarship-part-2/&quot;&gt;preach&lt;/a&gt;. We'll see how that goes.&lt;/p&gt;
 </content>
  </entry>
  
@@ -7249,7 +7356,7 @@ the panel blog about the examples. The blog can be found here:&lt;/p&gt;&lt;/blo
 
 &lt;p&gt;One of the things I'm interested in is the way that post-publication peer review processes, especially those in electronic media, provide different ways for reviewing (and, in turn, legitimizing or de-legitimizing) works of scholarship. Especially in history, pre-publication peer review is seen as a filter, a reassurance for the reader that the work they are reading is at some level &quot;legitimate.&quot; While this notion has its values, past examples, most notably the Bellesiles controversy, have shows that the pre-publication peer-review process is not without problems. Interestingly, the post-publication peer review processes were the ones that shed light on the errors in Bellesiles's work.&lt;/p&gt;
 
-&lt;p&gt;Currently, the debate in history and other humanities fields focuses solely on the technology itself (especially its vices) instead of seeing the value of the ideas published in online scholarship. Most &lt;a href=&quot;http://www.clioweb.org/archives/2004/09/10/blogs-as-scholarship/&quot;&gt;recent debates&lt;/a&gt; about the uses of blogs as a mode for scholarly publication have focused only on the technology, not the ideas and arguments published. Of course, I agree that most if not all of the blogs currently available lack the organization and coherence that we attribute to traditional scholarship, but this is not because the technology makes it impossible; It's because we choose not to write in that manner.&lt;/p&gt;
+&lt;p&gt;Currently, the debate in history and other humanities fields focuses solely on the technology itself (especially its vices) instead of seeing the value of the ideas published in online scholarship. Most &lt;a href=&quot;/2004/09/10/blogs-as-scholarship/&quot;&gt;recent debates&lt;/a&gt; about the uses of blogs as a mode for scholarly publication have focused only on the technology, not the ideas and arguments published. Of course, I agree that most if not all of the blogs currently available lack the organization and coherence that we attribute to traditional scholarship, but this is not because the technology makes it impossible; It's because we choose not to write in that manner.&lt;/p&gt;
 
 &lt;p&gt;It seems reasonable to think that once we see post-publication peer review as an effective and appropriate &quot;filter&quot; that we can better utilize digital media for publishing scholarship, and perhaps further explore the useful but modestly-used digital medium.&lt;/p&gt;
 
@@ -7485,7 +7592,7 @@ the panel blog about the examples. The blog can be found here:&lt;/p&gt;&lt;/blo
    <link href="http://clioweb.org/2004/09/15/my-first-commentor/"/>
    <updated>2004-09-15T15:31:32-04:00</updated>
    <id>http://clioweb.org/2004/09/15/my-first-commentor</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.jameshalabuk.net&quot;&gt;James Halabuk&lt;/a&gt; is the first person to &lt;a href=&quot;http://www.clioweb.org/archives/2004/09/07/writing-the-prospectus/#comment-4&quot;&gt;post a comment&lt;/a&gt; on my weblog. Because of this, James will receive $50,000 in cash and will now be the proud owner of a fully-loaded &lt;a href=&quot;http://www.lexus.com&quot;&gt;Lexus&lt;/a&gt;.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.jameshalabuk.net&quot;&gt;James Halabuk&lt;/a&gt; is the first person to &lt;a href=&quot;/2004/09/07/writing-the-prospectus/#comment-4&quot;&gt;post a comment&lt;/a&gt; on my weblog. Because of this, James will receive $50,000 in cash and will now be the proud owner of a fully-loaded &lt;a href=&quot;http://www.lexus.com&quot;&gt;Lexus&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; James really isn't the winner of a new Lexus or $50,000, as mentioned above. I'm just happy to know that someone, other than my Mom, has looked at my site.&lt;/p&gt;
 

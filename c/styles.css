@@ -395,7 +395,20 @@ td {
     font-family: "freight-sans-pro-n6", "freight-sans-pro-1","freight-sans-pro-2", sans-serif;
     font-weight: normal;
     font-style: normal;
-    border-left: 1em solid #e66400;
+  }
+  blockquote footer {
+    font-size: 0.75em;
+    text-align: right;
+  }
+  blockquote footer strong {
+    font-weight: normal;
+  }
+  blockquote footer strong + cite:before {
+    content: "· ";
+    color: rgba(0, 0, 0, 0.5);
+  }
+  blockquote footer a {
+    text-decoration: none;
   }
 
   table thead {
