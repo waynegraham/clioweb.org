@@ -15,6 +15,7 @@
 #   </blockquote>
 #
 require './_plugins/titlecase.rb'
+require 'jekyll/filters'
 
 module Jekyll
 
@@ -22,6 +23,8 @@ module Jekyll
     FullCiteWithTitle = /(\S.*)\s+(https?:\/\/)(\S+)\s+(.+)/i
     FullCite = /(\S.*)\s+(https?:\/\/)(\S+)/i
     Author =  /(.+)/
+
+    include Jekyll::Filters
 
     def initialize(tag_name, markup, tokens)
       @by = nil
@@ -46,7 +49,8 @@ module Jekyll
     end
 
     def render(context)
-      quote = paragraphize(super)
+      @context = context    # Should probably remove this attribute later.
+      quote = markdownify(super)
       author = "<strong>#{@by.strip}</strong>" if @by
       if @source
         url = @source.match(/https?:\/\/(.+)/)[1].split('/')
