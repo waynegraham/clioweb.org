@@ -1,4 +1,0 @@
-AuthName "Use password for username and password" 
-AuthType Basic 
-AuthUserFile /websites/programming/htpasswd/clioweb_hist120_spring08_htpasswd 
-require valid-user
