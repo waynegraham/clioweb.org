@@ -1,0 +1,91 @@
+@import "base";
+
+@media screen {
+
+  html {
+    background: #fff;
+    color: #444;
+    border-top: 10px solid #33424e;
+  }
+
+  body {
+    font-family:Georgia, serif;
+  }
+
+  a {
+    &:link {
+      color: #33424e;
+    }
+    &:visited {
+      color: #87a1b3;
+    }
+    &:hover,
+    &:focus {
+      color: #5e707d;
+    }
+
+    &:active {
+      color: #33424e;
+    }
+  }
+
+  header[role=banner] {
+    @include pad(1,1);
+    padding-top:rhythm(1);
+    padding-bottom:rhythm(1);
+
+    h1 {
+      margin-top:0;
+    }
+  }
+
+  div[role=main] section {
+    @include pad(1,1);
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+
+}
+
+
+@media screen and (min-width: 700px) {
+  html {
+    background-image:url('/i/amst2500/farmland.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: #fff;
+    background-attachment:fixed;
+  }
+
+  header[role=banner] {
+    padding-top: rhythm(5);
+    padding-bottom: rhythm(10);
+    background: rgba(0,0,0,0.5);
+    color: #fafafa;
+    @include text-shadow(0 0 2px rgba(0,0,0,0.1));
+  }
+
+  div[role=main] section {
+    background-color: #fff;
+    padding-top: rhythm(1);
+    padding-bottom: rhythm(1);
+    border:10px solid rgba(0,0,0,0.25);
+    border-width: 10px 0;
+
+    & + section {
+      margin-top: 300px;
+      border-width:10px 0 0;
+    }
+
+    h1 {
+      @include adjust-font-size-to(30px);
+    }
+  }
+}
+
+
+@media print {
+  @import "media/print";
+}
