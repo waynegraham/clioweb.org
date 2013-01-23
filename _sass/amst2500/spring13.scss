@@ -65,6 +65,18 @@
     background: rgba(0,0,0,0.5);
     color: #fafafa;
     @include text-shadow(0 0 2px rgba(0,0,0,0.1));
+
+    a {
+      &:link,
+      &:visited{
+        color: #eee;
+      }
+      &:focus,
+      &:hover,
+      &:active {
+        color: #fff;
+      }
+    }
   }
 
   div[role=main] section {
