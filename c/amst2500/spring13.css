@@ -383,6 +383,12 @@ td {
     color: #fafafa;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
   }
+  header[role=banner] a:link, header[role=banner] a:visited {
+    color: #eee;
+  }
+  header[role=banner] a:focus, header[role=banner] a:hover, header[role=banner] a:active {
+    color: #fff;
+  }
 
   div[role=main] section {
     background-color: #fff;
