@@ -152,11 +152,15 @@
 
   /* Black prints faster: h5bp.com/s */
   a, a:visited {
-    text-decoration: underline;
+    text-decoration: none;
+    font-style:normal;
   }
 
   a[href]:after {
-    content: " (" attr(href) ")";
+    content: " <" attr(href) ">";
+    font-family: monospace;
+    color: #777;
+    font-size: 90%;
   }
 
   abbr[title]:after {
