@@ -1,0 +1,140 @@
+@import "base";
+
+@media screen {
+
+  html {
+    color: #444;
+    border-top: 10px solid #fafafa;
+    background-image: url('/i/history697/linotype.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: #fafafa;
+    background-attachment:fixed;
+    background-position: 50% 0;
+  }
+
+  body {
+    font-family:Cabin, Verdana, sans-serif;
+  }
+
+  a {
+    &:link {
+      color: #33424e;
+    }
+    &:visited {
+      color: #87a1b3;
+    }
+    &:hover,
+    &:focus {
+      color: #5e707d;
+    }
+
+    &:active {
+      color: #33424e;
+    }
+  }
+
+  ul {
+    list-style:square;
+  }
+
+  h1,h2 {
+    font-family: "Crimson Text", "Adobe Garamond Pro", Garamond, serif;
+  }
+
+  h2 {
+    color: #999;
+    padding-left: 0.5em;
+    line-height:1em;
+    border-left: 1em solid #f0f0f0;
+    margin: rhythm(1) 0 0;
+  }
+
+  header[role=banner] {
+    @include pad(1,1);
+    padding-top:rhythm(1);
+    padding-bottom:rhythm(1);
+    border-top: 1px dotted rgba(0,0,0,0.2);
+    h1 {
+      margin-top:0;
+      @include adjust-font-size-to(40px);
+    }
+
+    .class-details {
+      list-style:none;
+      margin-left:0;
+      padding-left:0;
+      color: #999;
+
+      li {
+        display:inline;
+
+        & + li:before {
+          content: " · ";
+          color: #ccc;
+        }
+      }
+    }
+  }
+
+  div[role=main] > section {
+    @include pad(1,1);
+  }
+
+  #schedule > ul {
+    list-style:none;
+    padding-left:0;
+
+    li {
+      font-weight:bold;
+      margin-bottom: rhythm(1);
+      p,li {
+        font-weight:normal;
+      }
+
+      li {
+        margin-bottom:0;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 400px) {
+
+  header[role=banner] {
+    padding-top: rhythm(5);
+    padding-bottom: rhythm(5);
+
+    .introduction {
+      padding-top: rhythm(1);
+    }
+  }
+
+  div[role=main] > section {
+    background-color: #fafafa;
+    padding-top: rhythm(1);
+    padding-bottom: rhythm(1);
+    border:1px dotted rgba(0,0,0,0.2);
+    border-width: 1px 0;
+
+    & + section {
+      margin-top: 300px;
+    }
+
+    h1 {
+      @include adjust-font-size-to(30px);
+    }
+
+  }
+}
+
+@media screen and (min-width: 700px) {
+  header[role=banner] h1 {
+    @include adjust-font-size-to(60px);
+  }
+}
+
+@media print {
+  @import "media/print";
+}
