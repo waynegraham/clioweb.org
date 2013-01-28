@@ -6,11 +6,11 @@
     color: #444;
     border-top: 10px solid #fafafa;
     background-image: url('/i/history697/linotype.jpg');
-    background-size:cover;
     background-repeat:no-repeat;
     background-color: #fafafa;
     background-attachment:fixed;
     background-position: 50% 0;
+    background-size:cover;
   }
 
   body {
@@ -38,6 +38,10 @@
     list-style:square;
   }
 
+  h1 {
+    @include adjust-font-size-to(24px);
+  }
+
   h1,h2 {
     font-family: "Crimson Text", "Adobe Garamond Pro", Garamond, serif;
   }
@@ -57,7 +61,8 @@
     border-top: 1px dotted rgba(0,0,0,0.2);
     h1 {
       margin-top:0;
-      @include adjust-font-size-to(40px);
+      @include adjust-font-size-to(30px);
+      @include adjust-leading-to(0.5);
     }
 
     .class-details {
@@ -75,6 +80,11 @@
         }
       }
     }
+
+    .introduction {
+      padding-top: rhythm(1);
+    }
+
   }
 
   div[role=main] > section {
@@ -102,15 +112,6 @@
 
 @media screen and (min-width: 400px) {
 
-  header[role=banner] {
-    padding-top: rhythm(5);
-    padding-bottom: rhythm(5);
-
-    .introduction {
-      padding-top: rhythm(1);
-    }
-  }
-
   div[role=main] > section {
     background-color: #fafafa;
     padding-top: rhythm(1);
@@ -122,17 +123,20 @@
       margin-top: 300px;
     }
 
-    h1 {
-      @include adjust-font-size-to(30px);
-    }
-
   }
 }
 
 @media screen and (min-width: 700px) {
-  header[role=banner] h1 {
-    @include adjust-font-size-to(60px);
+  header[role=banner] {
+    padding-top: rhythm(5);
+    padding-bottom: rhythm(5);
+
+    h1 {
+      @include adjust-font-size-to(60px);
+    }
+
   }
+
 }
 
 @media print {
