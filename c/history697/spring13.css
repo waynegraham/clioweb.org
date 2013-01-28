@@ -393,7 +393,7 @@ td {
     margin-top: 0;
     font-size: 1.875em;
     line-height: 1.86667em;
-    line-height: 0.875em;
+    line-height: 1.3125em;
   }
   header[role=banner] .class-details {
     list-style: none;
