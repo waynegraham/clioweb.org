@@ -460,6 +460,11 @@ td {
     -ms-filter: none !important;
   }
 
+  body {
+    font-family: "Times New Roman", serif;
+    color: black;
+  }
+
   /* Black prints faster: h5bp.com/s */
   a, a:visited {
     text-decoration: underline;
@@ -473,7 +478,7 @@ td {
     content: " (" attr(title) ")";
   }
 
-  a[href^="javascript:"]:after, a[href^="#"]:after {
+  a[href^="javascript:"]:after, a[href^="#"]:after, a[href^="mailto:"]:after {
     content: "";
   }
 
@@ -497,7 +502,7 @@ td {
   }
 
   @page {
-    margin: 0.5cm;
+    margin: 1cm;
 }
 
   p, h2, h3 {
