@@ -472,7 +472,6 @@ td {
   /* Black prints faster: h5bp.com/s */
   a, a:visited {
     text-decoration: none;
-    font-style: normal;
   }
 
   a[href]:after {
@@ -480,6 +479,7 @@ td {
     font-family: monospace;
     color: grey;
     font-size: 90%;
+    font-style: normal;
   }
 
   abbr[title]:after {
