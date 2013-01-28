@@ -334,11 +334,11 @@ td {
     color: #444;
     border-top: 10px solid #fafafa;
     background-image: url("/i/history697/linotype.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
     background-color: #fafafa;
     background-attachment: fixed;
     background-position: 50% 0;
+    background-size: cover;
   }
 
   body {
@@ -362,6 +362,11 @@ td {
     list-style: square;
   }
 
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.16667em;
+  }
+
   h1, h2 {
     font-family: "Crimson Text", "Adobe Garamond Pro", Garamond, serif;
   }
@@ -383,8 +388,9 @@ td {
   }
   header[role=banner] h1 {
     margin-top: 0;
-    font-size: 2.5em;
-    line-height: 1.4em;
+    font-size: 1.875em;
+    line-height: 1.86667em;
+    line-height: 0.875em;
   }
   header[role=banner] .class-details {
     list-style: none;
@@ -398,6 +404,9 @@ td {
   header[role=banner] .class-details li + li:before {
     content: " · ";
     color: #ccc;
+  }
+  header[role=banner] .introduction {
+    padding-top: 1.75em;
   }
 
   div[role=main] > section {
@@ -421,14 +430,6 @@ td {
   }
 }
 @media screen and (min-width: 400px) {
-  header[role=banner] {
-    padding-top: 8.75em;
-    padding-bottom: 8.75em;
-  }
-  header[role=banner] .introduction {
-    padding-top: 1.75em;
-  }
-
   div[role=main] > section {
     background-color: #fafafa;
     padding-top: 1.75em;
@@ -439,12 +440,12 @@ td {
   div[role=main] > section + section {
     margin-top: 300px;
   }
-  div[role=main] > section h1 {
-    font-size: 1.875em;
-    line-height: 1.86667em;
-  }
 }
 @media screen and (min-width: 700px) {
+  header[role=banner] {
+    padding-top: 8.75em;
+    padding-bottom: 8.75em;
+  }
   header[role=banner] h1 {
     font-size: 3.75em;
     line-height: 1.4em;
