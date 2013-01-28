@@ -62,7 +62,7 @@
     h1 {
       margin-top:0;
       @include adjust-font-size-to(30px);
-      @include adjust-leading-to(0.5);
+      @include adjust-leading-to(0.75);
     }
 
     .class-details {
