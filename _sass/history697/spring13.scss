@@ -10,7 +10,7 @@
     background-color: #fafafa;
     background-attachment:fixed;
     background-position: 50% 0;
-    background-size:cover;
+    @include background-size(cover);
   }
 
   body {
