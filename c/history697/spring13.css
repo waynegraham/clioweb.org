@@ -338,6 +338,9 @@ td {
     background-color: #fafafa;
     background-attachment: fixed;
     background-position: 50% 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
 
