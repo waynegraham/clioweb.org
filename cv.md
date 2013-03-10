@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Curriculum Vita
+title: Curriculum Vitae
 bodyclass: cv
 ---
 
-# Curriculum Vita
+# Curriculum Vitae
 
 ## Education
 
