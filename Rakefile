@@ -1,4 +1,5 @@
 require 'yaml'
+require 'pdfkit'
 
 task :default => :server
 
@@ -42,6 +43,13 @@ task :deploy, [:msg] => :build do |t, args|
   sh 'cp -r ~/tmp/clioweb-gh-pages/.git _site/.git'
   sh "cd _site/ && git add . && git commit -am '#{msg}' && git push origin gh-pages"
   cleanup
+end
+
+desc "Create PDF version of the cv"
+task :generate_pdf do
+  puts "Converting the CV at http://clioweb.org/cv.html...this will take a bit"
+  kit = PDFKit.new('http://clioweb.org/cv.html', :page_size => 'Letter')
+  kit.to_file('./cv.pdf')
 end
 
 def cleanup
